@@ -9,7 +9,7 @@ from datetime import datetime
 import logging
 import matplotlib.pyplot as plt
 import json
-import io  # <--- LIBRERÍA AÑADIDA para leer datos en memoria
+import io  # Para leer datos en memoria
 
 # --- Configuración de Logging ---
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -36,9 +36,8 @@ HOLIDAYS_SHEET_NAME = "Holidays"
 TEMP_SHEET_NAME = "TempHistorico"
 PROMO_SHEET_NAME = "Promociones"
 
-# --- CAMBIO REALIZADO: Configuración de Google Drive para Ventas ---
+# --- Google Drive para Ventas ---
 # Reemplaza 'TU_ID_DE_CARPETA_AQUI' con el ID real de tu carpeta de Google Drive.
-# En la guía de texto te explico cómo obtenerlo.
 ID_CARPETA_VENTAS_DRIVE = "1Ydeg3dDQ_LtoxR_bcUXIvp7p5JxpotTG"
 
 # --- Parámetros del Modelo y Fechas ---
@@ -83,27 +82,42 @@ def cargar_y_procesar_ventas(client, folder_id):
     """Carga y procesa todos los archivos CSV desde una carpeta de Google Drive."""
     logging.info(f"Buscando archivos de ventas en la carpeta de Google Drive ID: {folder_id}")
     try:
-        # Usar la API de Drive v3 a través del cliente gspread para listar archivos
-        drive_files = client.drive.list_spreadsheet_files(q=f"'{folder_id}' in parents and mimeType='text/csv'")
+        # --- CORRECCIÓN REALIZADA: Usar la sesión autenticada para llamar a la API de Drive v3 ---
+        drive_api_url = "https://www.googleapis.com/drive/v3/files"
 
-        if not drive_files:
+        # Query para buscar archivos CSV dentro de la carpeta, que no estén en la papelera
+        query = f"'{folder_id}' in parents and mimeType='text/csv' and trashed=false"
+        params = {'q': query, 'fields': 'files(id, name)'}
+
+        response = client.session.get(drive_api_url, params=params)
+        response.raise_for_status()  # Lanza un error si la respuesta no es 200
+
+        files = response.json().get('files', [])
+
+        if not files:
             logging.error(
                 f"No se encontraron archivos .csv en la carpeta de Google Drive. Verifica el ID y los permisos.")
             return pd.DataFrame(), pd.DataFrame()
 
         all_dfs = []
-        logging.info(f"Se encontraron {len(drive_files)} archivos CSV. Procesando...")
+        logging.info(f"Se encontraron {len(files)} archivos CSV. Procesando...")
 
-        for file in drive_files:
+        for file in files:
+            file_id = file.get('id')
+            file_name = file.get('name')
             try:
-                # Descargar el contenido del archivo en memoria
-                content = client.drive.get_media(file['id'])
-                # Usar io.StringIO para que pandas pueda leer el contenido como si fuera un archivo
-                df_temp = pd.read_csv(io.StringIO(content.decode('utf-8')), on_bad_lines='skip')
+                # Descargar el contenido del archivo usando el endpoint de media de la API de Drive
+                download_url = f"https://www.googleapis.com/drive/v3/files/{file_id}?alt=media"
+                download_response = client.session.get(download_url)
+                download_response.raise_for_status()
+
+                content = download_response.content.decode('utf-8')
+
+                df_temp = pd.read_csv(io.StringIO(content), on_bad_lines='skip')
                 all_dfs.append(df_temp)
-                logging.info(f"  > Archivo '{file['name']}' procesado.")
+                logging.info(f"  > Archivo '{file_name}' procesado.")
             except Exception as e:
-                logging.warning(f"  ⚠️ No se pudo procesar el archivo '{file.get('name', 'ID: ' + file['id'])}': {e}")
+                logging.warning(f"  ⚠️ No se pudo procesar el archivo '{file_name}': {e}")
 
         if not all_dfs:
             logging.error("No se pudo leer ningún archivo CSV de los encontrados.")
@@ -112,7 +126,7 @@ def cargar_y_procesar_ventas(client, folder_id):
         df = pd.concat(all_dfs, ignore_index=True)
 
     except Exception as e:
-        logging.error(f"Error al acceder a la carpeta de Google Drive: {e}")
+        logging.error(f"Error al acceder a la carpeta de Google Drive: {e}", exc_info=True)
         return pd.DataFrame(), pd.DataFrame()
 
     df['Business Date'] = pd.to_datetime(df['Business Date'], errors='coerce')
@@ -378,7 +392,6 @@ def main():
     client = autorizar_gsheets()
     spreadsheet = client.open(SPREADSHEET_NAME)
 
-    # Se pasa el cliente 'gspread' para poder acceder a Drive
     df_location_family_daily, df_location_item_daily = cargar_y_procesar_ventas(client, ID_CARPETA_VENTAS_DRIVE)
     df_regressors, regressor_cols = cargar_regresores_externos(spreadsheet)
 
