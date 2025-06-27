@@ -81,13 +81,16 @@ def cargar_y_procesar_ventas(client, folder_id):
     """Carga y procesa todos los archivos CSV desde una carpeta de Google Drive."""
     logging.info(f"Buscando archivos de ventas en la carpeta de Google Drive ID: {folder_id}")
     try:
-        # --- VERSIÓN CORREGIDA Y ROBUSTA ---
+        # --- VERSIÓN CORREGIDA Y DEFINITIVA ---
+        # El objeto 'client' de gspread tiene un atributo 'session' que es una sesión autenticada de 'requests'.
+        # Usamos esta sesión para hacer llamadas directas y seguras a la API de Google Drive.
+        session = client.session
         drive_api_url = "https://www.googleapis.com/drive/v3/files"
+
         query = f"'{folder_id}' in parents and mimeType='text/csv' and trashed=false"
         params = {'q': query, 'fields': 'files(id, name)'}
 
-        # Se utiliza el método 'request' del cliente, que es más fundamental y estable.
-        response = client.request('get', drive_api_url, params=params)
+        response = session.get(drive_api_url, params=params)
         response.raise_for_status()
 
         files = response.json().get('files', [])
@@ -105,11 +108,9 @@ def cargar_y_procesar_ventas(client, folder_id):
             file_name = file.get('name')
             try:
                 download_url = f"https://www.googleapis.com/drive/v3/files/{file_id}?alt=media"
-                # También se usa 'request' para la descarga del archivo.
-                download_response = client.request('get', download_url)
+                download_response = session.get(download_url)
                 download_response.raise_for_status()
 
-                # El contenido se encuentra en el atributo '.content' de la respuesta.
                 content = download_response.content.decode('utf-8')
 
                 df_temp = pd.read_csv(io.StringIO(content), on_bad_lines='skip')
