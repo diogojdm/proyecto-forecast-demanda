@@ -36,7 +36,9 @@ TEMP_SHEET_NAME = "TempHistorico"
 PROMO_SHEET_NAME = "Promociones" 
 
 # --- Archivos de Ventas ---
-CARPETA_VENTAS = r"G:\Mi unidad\Proyecto_Data\4. Data_base\1. Ventas"
+# --- CAMBIO REALIZADO: Se usa una ruta relativa para que funcione en la nube ---
+# Ahora buscará una carpeta 'data' en la raíz del proyecto.
+CARPETA_VENTAS = "data"
 
 # --- Parámetros del Modelo y Fechas ---
 FORECAST_PERIOD_DAYS = 14
@@ -81,7 +83,7 @@ def autorizar_gsheets():
         
 def cargar_y_procesar_ventas(carpeta_ventas):
     """Carga, concatena y preprocesa los archivos de ventas a nivel diario."""
-    logging.info(f"Cargando archivos de ventas desde: {carpeta_ventas}")
+    logging.info(f"Cargando archivos de ventas desde la carpeta: '{carpeta_ventas}'")
     try:
         files = [os.path.join(carpeta_ventas, f) for f in os.listdir(carpeta_ventas) if f.endswith('.csv')]
         if not files:
@@ -89,6 +91,9 @@ def cargar_y_procesar_ventas(carpeta_ventas):
             return pd.DataFrame(), pd.DataFrame()
 
         df = pd.concat((pd.read_csv(f, on_bad_lines='skip') for f in files), ignore_index=True)
+    except FileNotFoundError:
+        logging.error(f"❌ No se encontró la carpeta de datos '{carpeta_ventas}'. Asegúrate de que exista en la raíz del proyecto.")
+        return pd.DataFrame(), pd.DataFrame()
     except Exception as e:
         logging.error(f"Error al leer los archivos CSV: {e}")
         return pd.DataFrame(), pd.DataFrame()
@@ -250,7 +255,6 @@ def entrenar_y_pronosticar(df_model, df_regressors, regressor_cols):
 
                 forecast = model.predict(future)
                 
-                # --- CORRECCIÓN DE LÓGICA ---
                 # Se eliminó la lógica condicional de aquí. Ahora solo se calculan los 3 escenarios.
                 df_out = forecast[['ds', 'yhat', 'yhat_lower', 'yhat_upper']].rename(columns={'ds': 'Fecha'})
                 
@@ -264,7 +268,7 @@ def entrenar_y_pronosticar(df_model, df_regressors, regressor_cols):
                     fig = model.plot_components(forecast)
                     safe_location = "".join(c for c in location if c.isalnum() or c in (' ', '_')).rstrip()
                     safe_family = "".join(c for c in family_group if c.isalnum() or c in (' ', '_')).rstrip()
-                    plot_filename = os.path.join('plots', f"componentes_{safe_location}_{safe_family}.png".replace(" ", "_"))
+                    plot_filename = os.path.join(plots_dir, f"componentes_{safe_location}_{safe_family}.png".replace(" ", "_"))
                     fig.savefig(plot_filename)
                     plt.close(fig)
                     logging.info(f"📈 Gráfico de componentes guardado en: {plot_filename}")
@@ -301,7 +305,7 @@ def exportar_resultados(df_forecast_family, df_item_hist, spreadsheet):
     df_exploded['Escenario Promedio'] = (df_exploded['Escenario Promedio'] * df_exploded['Representatividad_%'] / 100).round()
     df_exploded['Mejor Escenario'] = (df_exploded['Mejor Escenario'] * df_exploded['Representatividad_%'] / 100).round()
 
-    # --- CORRECCIÓN DE LÓGICA: Aplicar la lógica condicional al final, sobre los datos desglosados ---
+    # Aplicar la lógica condicional al final, sobre los datos desglosados
     df_exploded['Demanda'] = np.where(
         df_exploded['Fecha'].dt.weekday <= 3, # Lunes (0) a Jueves (3)
         df_exploded['Escenario Promedio'],
