@@ -36,8 +36,9 @@ HOLIDAYS_SHEET_NAME = "Holidays"
 TEMP_SHEET_NAME = "TempHistorico"
 PROMO_SHEET_NAME = "Promociones"
 
-# --- Google Drive para Ventas ---
-ID_CARPETA_VENTAS_DRIVE = "1Ydeg3dDQ_LtoxR_bcUXIvp7p5JxpotTG"
+# --- Archivos de Ventas ---
+# --- CAMBIO REALIZADO: Se revierte a una ruta relativa para que funcione en GitHub Actions ---
+CARPETA_VENTAS = "data"
 
 # --- Parámetros del Modelo y Fechas ---
 FORECAST_PERIOD_DAYS = 14
@@ -77,56 +78,23 @@ def autorizar_gsheets():
         raise
 
 
-def cargar_y_procesar_ventas(client, folder_id):
-    """Carga y procesa todos los archivos CSV desde una carpeta de Google Drive."""
-    logging.info(f"Buscando archivos de ventas en la carpeta de Google Drive ID: {folder_id}")
+def cargar_y_procesar_ventas(carpeta_ventas):
+    """Carga y procesa todos los archivos CSV desde una carpeta local."""
+    logging.info(f"Cargando archivos de ventas desde la carpeta local: '{carpeta_ventas}'")
     try:
-        # --- VERSIÓN CORREGIDA Y DEFINITIVA ---
-        # El objeto 'client' de gspread tiene un atributo 'session' que es una sesión autenticada de 'requests'.
-        # Usamos esta sesión para hacer llamadas directas y seguras a la API de Google Drive.
-        session = client.session
-        drive_api_url = "https://www.googleapis.com/drive/v3/files"
-
-        query = f"'{folder_id}' in parents and mimeType='text/csv' and trashed=false"
-        params = {'q': query, 'fields': 'files(id, name)'}
-
-        response = session.get(drive_api_url, params=params)
-        response.raise_for_status()
-
-        files = response.json().get('files', [])
-
+        files = [os.path.join(carpeta_ventas, f) for f in os.listdir(carpeta_ventas) if f.endswith('.csv')]
         if not files:
-            logging.error(
-                f"No se encontraron archivos .csv en la carpeta de Google Drive. Verifica el ID y los permisos.")
+            logging.error("No se encontraron archivos .csv en la carpeta especificada.")
             return pd.DataFrame(), pd.DataFrame()
 
-        all_dfs = []
-        logging.info(f"Se encontraron {len(files)} archivos CSV. Procesando...")
+        df = pd.concat((pd.read_csv(f, on_bad_lines='skip') for f in files), ignore_index=True)
 
-        for file in files:
-            file_id = file.get('id')
-            file_name = file.get('name')
-            try:
-                download_url = f"https://www.googleapis.com/drive/v3/files/{file_id}?alt=media"
-                download_response = session.get(download_url)
-                download_response.raise_for_status()
-
-                content = download_response.content.decode('utf-8')
-
-                df_temp = pd.read_csv(io.StringIO(content), on_bad_lines='skip')
-                all_dfs.append(df_temp)
-                logging.info(f"  > Archivo '{file_name}' procesado.")
-            except Exception as e:
-                logging.warning(f"  ⚠️ No se pudo procesar el archivo '{file_name}': {e}")
-
-        if not all_dfs:
-            logging.error("No se pudo leer ningún archivo CSV de los encontrados.")
-            return pd.DataFrame(), pd.DataFrame()
-
-        df = pd.concat(all_dfs, ignore_index=True)
-
+    except FileNotFoundError:
+        logging.error(
+            f"❌ No se encontró la carpeta de datos '{carpeta_ventas}'. Asegúrate de que exista en la raíz del proyecto.")
+        return pd.DataFrame(), pd.DataFrame()
     except Exception as e:
-        logging.error(f"Error al acceder a la carpeta de Google Drive: {e}", exc_info=True)
+        logging.error(f"Error al leer los archivos CSV: {e}")
         return pd.DataFrame(), pd.DataFrame()
 
     df['Business Date'] = pd.to_datetime(df['Business Date'], errors='coerce')
@@ -163,6 +131,7 @@ def cargar_regresores_externos(spreadsheet):
 
     df_regressors_list = []
 
+    # Cargar Feriados, Días de Pago y Vacaciones
     try:
         holidays_ws = spreadsheet.worksheet(HOLIDAYS_SHEET_NAME)
         df_holidays = pd.DataFrame(holidays_ws.get_all_records())
@@ -171,6 +140,7 @@ def cargar_regresores_externos(spreadsheet):
     except Exception as e:
         logging.error(f"❌ No se pudo cargar la hoja '{HOLIDAYS_SHEET_NAME}': {e}")
 
+    # Cargar Clima
     try:
         temp_ws = spreadsheet.worksheet(TEMP_SHEET_NAME)
         df_weather = pd.DataFrame(temp_ws.get_all_records())
@@ -179,6 +149,7 @@ def cargar_regresores_externos(spreadsheet):
     except Exception as e:
         logging.error(f"❌ No se pudo cargar la hoja '{TEMP_SHEET_NAME}': {e}")
 
+    # Cargar Promociones
     try:
         promo_ws = spreadsheet.worksheet(PROMO_SHEET_NAME)
         df_promos = pd.DataFrame(promo_ws.get_all_records())
@@ -194,6 +165,7 @@ def cargar_regresores_externos(spreadsheet):
     from functools import reduce
     df_regressors = reduce(lambda left, right: pd.merge(left, right, on='ds', how='outer'), df_regressors_list)
 
+    # Excluir columnas que no son regresores directos del modelo
     cols_to_exclude = ['ds', 'temperatura_max_c']
     regressor_cols = [col for col in df_regressors.columns if col not in cols_to_exclude]
     logging.info(f"✅ Regresores externos cargados: {regressor_cols}")
@@ -388,7 +360,8 @@ def main():
     client = autorizar_gsheets()
     spreadsheet = client.open(SPREADSHEET_NAME)
 
-    df_location_family_daily, df_location_item_daily = cargar_y_procesar_ventas(client, ID_CARPETA_VENTAS_DRIVE)
+    # --- CAMBIO REALIZADO: Se revierte la llamada a la función para que use la carpeta local ---
+    df_location_family_daily, df_location_item_daily = cargar_y_procesar_ventas(CARPETA_VENTAS)
     df_regressors, regressor_cols = cargar_regresores_externos(spreadsheet)
 
     if df_location_family_daily.empty:
