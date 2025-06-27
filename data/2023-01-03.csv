@@ -1,0 +1,338 @@
+"Business Date","Location Name","Order Type Name","Major Group Name","Family Group Name","Menu Item Number","Menu Item Name","Sales Count","Sales Total","Discounts Amount","Gross Sales after Discount","Cost of Goods Sold"
+2023-01-03 00:00:00.0,"Los Militares","Local","Pastel Trozo","Cheesecake Trozo",101004,"Trozo Ch White Maracuya",1,3101.00,0.00,3101.00,993.885
+2023-01-03 00:00:00.0,"Los Militares","Local","Pastel Mediano","Torta Mediana",202003,"Mediana Tor Dark Cake",2,31092.00,0.00,31092.00,9838.928
+2023-01-03 00:00:00.0,"Los Militares","Local","Pastel Trozo","Torta Trozo",102001,"Trozo Tor Brownie Man y Framb",3,9807.00,0.00,9807.00,2790.227
+2023-01-03 00:00:00.0,"Los Militares","Local","Pastel Trozo","Cheesecake Trozo",101002,"Trozo Ch NY Maracuya",4,12404.00,0.00,12404.00,3975.866
+2023-01-03 00:00:00.0,"Los Militares","Local","Pastel Trozo","Torta Trozo",102004,"Trozo Tor Carrot Cake",5,15505.00,0.00,15505.00,4268.895
+2023-01-03 00:00:00.0,"Los Militares","Uber","Pastel Trozo","Pie Trozo",103003,"Trozo Apple Pie",3,10563.00,0.00,10563.00,2324.99
+2023-01-03 00:00:00.0,"Tabancura","Uber","Pastel Trozo","Pie Trozo",103003,"Trozo Apple Pie",4,14084.00,0.00,14084.00,2993.60
+2023-01-03 00:00:00.0,"Tabancura","Justo","Liquidos y Café","Café Grande",602004,"Café Mokaccino Grande",1,0.00,0.00,0.00,359.601
+2023-01-03 00:00:00.0,"Tabancura","Justo","Liquidos y Café","Café Grande",602002,"Café Cortado Grande",1,0.00,0.00,0.00,364.50
+2023-01-03 00:00:00.0,"Tabancura","Uber","Retail","Desayuno",604001,"Bagel Pavo Cheddar",1,0.00,0.00,0.00,1608.11
+2023-01-03 00:00:00.0,"Tabancura","Rappi","Retail","Velas",501001,"Paquete Velas Doradas",1,1672.00,0.00,1672.00,733.144
+2023-01-03 00:00:00.0,"Tabancura","Local","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",7,10528.00,0.00,10528.00,2538.399
+2023-01-03 00:00:00.0,"Tabancura","Local","Pastel Trozo","Torta Trozo",102004,"Trozo Tor Carrot Cake",3,9303.00,0.00,9303.00,2563.663
+2023-01-03 00:00:00.0,"La Reina","Local","Pastel Trozo","Cheesecake Trozo",101001,"Trozo Ch NY Berries",5,15505.00,0.00,15505.00,4836.868
+2023-01-03 00:00:00.0,"La Reina","Uber","Pastel Mediano","Cheesecake Mediano",201006,"Mediano Ch Oreo",0,0.00,0.00,0.00,0.00
+2023-01-03 00:00:00.0,"La Reina","Local","Retail","Helado",505003,"Ferrero Ice Cream 355mL",1,4613.00,0.00,4613.00,2539.959
+2023-01-03 00:00:00.0,"La Reina","Uber","Delicias","Brownies",402001,"Brownie con Dulce Leche",1,1807.00,0.00,1807.00,377.841
+2023-01-03 00:00:00.0,"La Reina","Rappi","Retail","Frappe",504001,"Hersheys Chocolate",1,2092.00,0.00,2092.00,642.253
+2023-01-03 00:00:00.0,"La Reina","Local","Pastel Trozo","Torta Trozo",102003,"Trozo Tor Dark Cake",2,6202.00,0.00,6202.00,1547.33
+2023-01-03 00:00:00.0,"La Reina","Uber","Pastel Trozo","Cheesecake Trozo",101006,"Trozo Ch Oreo",2,3773.00,0.00,3773.00,1918.476
+2023-01-03 00:00:00.0,"La Reina","Local","Pastel Mediano","Torta Mediana",202004,"Mediana Tor Carrot Cake",2,31092.00,0.00,31092.00,11099.404
+2023-01-03 00:00:00.0,"La Reina","Rappi","Pastel Trozo","Torta Trozo",102003,"Trozo Tor Dark Cake",1,3521.00,0.00,3521.00,773.665
+2023-01-03 00:00:00.0,"Pocuro","Uber","Retail","Velas",501001,"Paquete Velas Doradas",2,3344.00,0.00,3344.00,1381.058
+2023-01-03 00:00:00.0,"Pocuro","Rappi","Pastel Mediano","Cheesecake Mediano",201009,"Mediano Ch S/A NY Berries",0,0.00,0.00,0.00,0.00
+2023-01-03 00:00:00.0,"Pocuro","Justo","Pastel Mediano","Cheesecake Mediano",201006,"Mediano Ch Oreo",1,17639.00,0.00,17639.00,6071.287
+2023-01-03 00:00:00.0,"Pocuro","Rappi","Pastel Mediano","Torta Mediana",202001,"Mediana Tor Brownie Man y Framb",2,35278.00,0.00,35278.00,11348.99
+2023-01-03 00:00:00.0,"Pocuro","Local","Pastel Grande","Cheesecake Grande",301006,"Grande Ch Oreo",1,23950.00,0.00,23950.00,10093.068
+2023-01-03 00:00:00.0,"Pocuro","Uber","Pastel Mediano","Torta Mediana",202003,"Mediana Tor Dark Cake",1,16798.00,0.00,16798.00,4917.044
+2023-01-03 00:00:00.0,"Pocuro","Uber","Delicias","Gift Box",405009,"Gift Box Chocolover",1,11336.00,0.00,11336.00,2861.405
+2023-01-03 00:00:00.0,"Pocuro","Local","Liquidos y Café","Café Grande",602001,"Café Americano Grande",2,4874.00,0.00,4874.00,606.377
+2023-01-03 00:00:00.0,"Pocuro","Rappi","Pastel Trozo","Cheesecake Trozo",101006,"Trozo Ch Oreo",3,7546.00,0.00,7546.00,2878.293
+2023-01-03 00:00:00.0,"Pocuro","Local","Pastel Mediano","Torta Mediana",202001,"Mediana Tor Brownie Man y Framb",2,32774.00,0.00,32774.00,11348.99
+2023-01-03 00:00:00.0,"Pocuro","Local","Pastel Grande","Torta Grande",302005,"Grande Tor Red Velvet",1,22269.00,0.00,22269.00,8093.992
+2023-01-03 00:00:00.0,"Pocuro","Rappi","Delicias","Gift Box",405009,"Gift Box Chocolover",1,11336.00,0.00,11336.00,2861.405
+2023-01-03 00:00:00.0,"Pocuro","Uber","Delicias","Galletones",401002,"Cookie Chocolate Chip Walnut",1,2563.00,0.00,2563.00,614.121
+2023-01-03 00:00:00.0,"Pocuro","Uber","Delicias","Galletones",401001,"Cookie Triple Chocolate",1,2563.00,0.00,2563.00,652.685
+2023-01-03 00:00:00.0,"Pocuro","Justo","Pastel Mediano","Torta Mediana",202004,"Mediana Tor Carrot Cake",1,16798.00,0.00,16798.00,5550.222
+2023-01-03 00:00:00.0,"Nunoa","Uber","Pastel Mediano","Cheesecake Mediano",201009,"Mediano Ch S/A NY Berries",1,17639.00,0.00,17639.00,7281.361
+2023-01-03 00:00:00.0,"Nunoa","Local","Pastel Trozo","Torta Trozo",102003,"Trozo Tor Dark Cake",8,24808.00,0.00,24808.00,6191.844
+2023-01-03 00:00:00.0,"Nunoa","Local","Retail","Velas",501001,"Paquete Velas Doradas",1,1345.00,0.00,1345.00,675.00
+2023-01-03 00:00:00.0,"Nunoa","Uber","Pastel Trozo","Torta Trozo",102004,"Trozo Tor Carrot Cake",2,7042.00,0.00,7042.00,1702.993
+2023-01-03 00:00:00.0,"Nunoa","CornerShop","Retail","Desayuno",605016,"Desayuno Full X1",1,10916.00,0.00,10916.00,1611.00
+2023-01-03 00:00:00.0,"Nunoa","Local","Pastel Mediano","Cheesecake Mediano",201009,"Mediano Ch S/A NY Berries",2,32774.00,0.00,32774.00,14562.722
+2023-01-03 00:00:00.0,"Nunoa","Local","Pastel Trozo","Cheesecake Trozo",101012,"Trozo Ch NY Naranja",2,6538.00,0.00,6538.00,2331.158
+2023-01-03 00:00:00.0,"Nunoa","Local","Pastel Trozo","Pie Trozo",103003,"Trozo Apple Pie",5,15505.00,0.00,15505.00,3852.074
+2023-01-03 00:00:00.0,"Nunoa","PedidosYa","Liquidos y Café","Café Grande",602004,"Café Mokaccino Grande",1,0.00,0.00,0.00,475.774
+2023-01-03 00:00:00.0,"Los Militares","Uber","Pastel Trozo","Pie Trozo",103001,"Trozo Lemon Pie",3,10563.00,0.00,10563.00,2351.197
+2023-01-03 00:00:00.0,"Los Militares","Local","Pastel Grande","Cheesecake Grande",301006,"Grande Ch Oreo",1,23950.00,0.00,23950.00,10101.174
+2023-01-03 00:00:00.0,"Los Militares","Rappi","Delicias","Brownies",402001,"Brownie con Dulce Leche",1,1807.00,0.00,1807.00,381.342
+2023-01-03 00:00:00.0,"Los Militares","Rappi","Pastel Trozo","Cheesecake Trozo",101001,"Trozo Ch NY Berries",1,3521.00,0.00,3521.00,969.327
+2023-01-03 00:00:00.0,"Los Militares","Rappi","Retail","Desayuno",604001,"Bagel Pavo Cheddar",1,0.00,0.00,0.00,1610.183
+2023-01-03 00:00:00.0,"Los Militares","Local","Liquidos y Café","Aguas y Bebidas",603002,"Coca Zero Lata",1,1345.00,0.00,1345.00,603.207
+2023-01-03 00:00:00.0,"Los Militares","Local","Liquidos y Café","Café Mediano",601003,"Café Latte Mediano",1,2101.00,0.00,2101.00,310.228
+2023-01-03 00:00:00.0,"Los Militares","Local","Pastel Trozo","Torta Trozo",102003,"Trozo Tor Dark Cake",6,18606.00,0.00,18606.00,4639.036
+2023-01-03 00:00:00.0,"Los Militares","Local","Pastel Trozo","Pie Trozo",103001,"Trozo Lemon Pie",5,15505.00,0.00,15505.00,3918.662
+2023-01-03 00:00:00.0,"Los Militares","Local","Pastel Grande","Cheesecake Grande",301001,"Grande Ch NY Berries",1,22269.00,0.00,22269.00,10197.499
+2023-01-03 00:00:00.0,"Los Militares","Rappi","Pastel Mediano","Cheesecake Mediano",201001,"Mediano Ch NY Berries",1,16798.00,0.00,16798.00,6518.694
+2023-01-03 00:00:00.0,"Los Militares","Uber","Pastel Trozo","Torta Trozo",102001,"Trozo Tor Brownie Man y Framb",1,3773.00,0.00,3773.00,930.076
+2023-01-03 00:00:00.0,"Los Militares","Uber","Retail","Helado",505001,"Vanilla Ice Cream 355ml",1,5454.00,0.00,5454.00,2539.959
+2023-01-03 00:00:00.0,"Tabancura","Uber","Pastel Trozo","Pie Trozo",103001,"Trozo Lemon Pie",2,7042.00,0.00,7042.00,1500.827
+2023-01-03 00:00:00.0,"Tabancura","Uber","Delicias","Queques",403002,"Troz Queque Chocolate",3,4184.00,0.00,4184.00,996.37
+2023-01-03 00:00:00.0,"Tabancura","Local","Pastel Trozo","Pie Trozo",103001,"Trozo Lemon Pie",5,15505.00,0.00,15505.00,3752.069
+2023-01-03 00:00:00.0,"Tabancura","Uber","Pastel Mediano","Cheesecake Mediano",201006,"Mediano Ch Oreo",2,35278.00,0.00,35278.00,12144.529
+2023-01-03 00:00:00.0,"Tabancura","Local","Pastel Trozo","Cheesecake Trozo",101001,"Trozo Ch NY Berries",3,9303.00,0.00,9303.00,2914.226
+2023-01-03 00:00:00.0,"Tabancura","Uber","Pastel Trozo","Cheesecake Trozo",101005,"Trozo Ch Choc y Dulce de Leche",3,10563.00,0.00,10563.00,3174.191
+2023-01-03 00:00:00.0,"Tabancura","CornerShop","Delicias","Galletones",401003,"Cookie Avena Cranberry",1,2647.00,0.00,2647.00,557.288
+2023-01-03 00:00:00.0,"Tabancura","CornerShop","Retail","Helado",505001,"Vanilla Ice Cream 355ml",1,5874.00,0.00,5874.00,2539.96
+2023-01-03 00:00:00.0,"Tabancura","Local","Delicias","Brownies",402001,"Brownie con Dulce Leche",5,7520.00,0.00,7520.00,1895.96
+2023-01-03 00:00:00.0,"Tabancura","Rappi","Delicias","Brownies",402001,"Brownie con Dulce Leche",1,0.00,0.00,0.00,379.192
+2023-01-03 00:00:00.0,"Tabancura","CornerShop","Pastel Mediano","Cheesecake Mediano",201001,"Mediano Ch NY Berries",1,17639.00,0.00,17639.00,6521.911
+2023-01-03 00:00:00.0,"Tabancura","Uber","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",3,5421.00,0.00,5421.00,1087.885
+2023-01-03 00:00:00.0,"Tabancura","Local","Pastel Grande","Torta Grande",302004,"Grande Tor Carrot Cake",1,22269.00,0.00,22269.00,9005.72
+2023-01-03 00:00:00.0,"Tabancura","Local","Delicias","Queques",403007,"Troz Queque S/A Zanahoria ",1,1765.00,0.00,1765.00,536.553
+2023-01-03 00:00:00.0,"Tabancura","Local","Delicias","Galletones",401002,"Cookie Chocolate Chip Walnut",1,2261.00,0.00,2261.00,609.561
+2023-01-03 00:00:00.0,"Tabancura","Good Meal","Pastel Trozo","Cheesecake Trozo",101002,"Trozo Ch NY Maracuya",2,0.00,0.00,0.00,1992.097
+2023-01-03 00:00:00.0,"La Reina","Uber","Retail","Velas",501001,"Paquete Velas Doradas",0,0.00,0.00,0.00,0.00
+2023-01-03 00:00:00.0,"La Reina","Uber","Pastel Trozo","Torta Trozo",102003,"Trozo Tor Dark Cake",1,3521.00,0.00,3521.00,773.665
+2023-01-03 00:00:00.0,"La Reina","Rappi","Pastel Mediano","Cheesecake Mediano",201009,"Mediano Ch S/A NY Berries",1,17639.00,0.00,17639.00,7281.606
+2023-01-03 00:00:00.0,"La Reina","Local","Pastel Grande","Torta Grande",302006,"Grande Tor Bon o Bon",1,23950.00,0.00,23950.00,10162.023
+2023-01-03 00:00:00.0,"La Reina","Rappi","Pastel Trozo","Cheesecake Trozo",101009,"Trozo Ch S/A NY Berries",2,7546.00,0.00,7546.00,2187.814
+2023-01-03 00:00:00.0,"La Reina","Local","Pastel Mediano","Torta Mediana",202003,"Mediana Tor Dark Cake",1,15546.00,0.00,15546.00,4923.471
+2023-01-03 00:00:00.0,"La Reina","Uber","Liquidos y Café","Café Grande",602001,"Café Americano Grande",1,0.00,0.00,0.00,303.428
+2023-01-03 00:00:00.0,"Pocuro","Local","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",1,1504.00,0.00,1504.00,364.51
+2023-01-03 00:00:00.0,"Pocuro","Local","Pastel Grande","Pie Grande",303003,"Grande Pie Apple Crumble",1,16723.00,0.00,16723.00,6581.618
+2023-01-03 00:00:00.0,"Pocuro","Uber","Delicias","Queques",403007,"Troz Queque S/A Zanahoria ",1,2092.00,0.00,2092.00,483.824
+2023-01-03 00:00:00.0,"Pocuro","Uber","Pastel Mediano","Torta Mediana",202004,"Mediana Tor Carrot Cake",2,33596.00,0.00,33596.00,11100.444
+2023-01-03 00:00:00.0,"Pocuro","Local","Pastel Trozo","Torta Trozo",102004,"Trozo Tor Carrot Cake",4,12404.00,0.00,12404.00,3408.836
+2023-01-03 00:00:00.0,"Nunoa","Local","Pastel Trozo","Torta Trozo",102001,"Trozo Tor Brownie Man y Framb",3,9807.00,0.00,9807.00,2789.066
+2023-01-03 00:00:00.0,"Nunoa","PedidosYa","Pastel Trozo","Cheesecake Trozo",101006,"Trozo Ch Oreo",1,3773.00,0.00,3773.00,959.462
+2023-01-03 00:00:00.0,"Los Militares","Local","Pastel Mediano","Cheesecake Mediano",201006,"Mediano Ch Oreo",4,65548.00,0.00,65548.00,24282.062
+2023-01-03 00:00:00.0,"Los Militares","Local","Pastel Mediano","Torta Mediana",202006,"Mediana Tor Bon o Bon",2,32774.00,0.00,32774.00,11911.897
+2023-01-03 00:00:00.0,"Los Militares","Local","Pastel Mediano","Torta Mediana",202001,"Mediana Tor Brownie Man y Framb",2,32774.00,0.00,32774.00,11329.959
+2023-01-03 00:00:00.0,"Los Militares","Uber","Retail","Velas",501002,"Paquete Velas Plateadas",1,1672.00,0.00,1672.00,750.001
+2023-01-03 00:00:00.0,"Los Militares","Rappi Turbo","Pastel Trozo","Torta Trozo",102001,"Trozo Tor Brownie Man y Framb",1,3773.00,0.00,3773.00,930.076
+2023-01-03 00:00:00.0,"Los Militares","Local","Pastel Mediano","Cheesecake Mediano",201003,"Mediano Ch White Berries",1,15546.00,0.00,15546.00,6373.182
+2023-01-03 00:00:00.0,"Los Militares","Local","Pastel Trozo","Cheesecake Trozo",101009,"Trozo Ch S/A NY Berries",2,6538.00,0.00,6538.00,2187.83
+2023-01-03 00:00:00.0,"Los Militares","Local","Liquidos y Café","Aguas y Bebidas",603005,"Agua Botella Sin Gas",1,1345.00,0.00,1345.00,441.147
+2023-01-03 00:00:00.0,"Los Militares","PedidosYa","Pastel Trozo","Pie Trozo",103003,"Trozo Apple Pie",1,3521.00,0.00,3521.00,774.997
+2023-01-03 00:00:00.0,"Los Militares","Local","Delicias","Brownies",402001,"Brownie con Dulce Leche",29,43616.00,0.00,43616.00,11058.92
+2023-01-03 00:00:00.0,"Los Militares","Local","Pastel Trozo","Cheesecake Trozo",101012,"Trozo Ch NY Naranja",1,3269.00,0.00,3269.00,1157.183
+2023-01-03 00:00:00.0,"Los Militares","Rappi","Pastel Trozo","Torta Trozo",102004,"Trozo Tor Carrot Cake",2,7042.00,0.00,7042.00,1707.558
+2023-01-03 00:00:00.0,"Tabancura","CornerShop","Pastel Mediano","Torta Mediana",202003,"Mediana Tor Dark Cake",1,18479.00,0.00,18479.00,4931.442
+2023-01-03 00:00:00.0,"Tabancura","Local","Pastel Trozo","Torta Trozo",102005,"Trozo Tor Red Velvet",3,9303.00,-930.00,8373.00,2282.642
+2023-01-03 00:00:00.0,"Tabancura","CornerShop","Pastel Trozo","Pie Trozo",103003,"Trozo Apple Pie",1,3605.00,0.00,3605.00,748.40
+2023-01-03 00:00:00.0,"Tabancura","Good Meal","Pastel Trozo","Cheesecake Trozo",101001,"Trozo Ch NY Berries",4,0.00,0.00,0.00,3885.635
+2023-01-03 00:00:00.0,"Tabancura","PedidosYa","Delicias","Queques",403004,"Ent Queque Chocolate",1,12176.00,0.00,12176.00,2587.171
+2023-01-03 00:00:00.0,"Tabancura","Uber","Pastel Trozo","Torta Trozo",102003,"Trozo Tor Dark Cake",1,3521.00,0.00,3521.00,775.206
+2023-01-03 00:00:00.0,"Tabancura","Rappi Turbo","Pastel Trozo","Cheesecake Trozo",101005,"Trozo Ch Choc y Dulce de Leche",1,3521.00,0.00,3521.00,1058.064
+2023-01-03 00:00:00.0,"Tabancura","Good Meal","Pastel Trozo","Cheesecake Trozo",101003,"Trozo Ch White Berries",2,0.00,0.00,0.00,1941.914
+2023-01-03 00:00:00.0,"Tabancura","Good Meal","Pastel Trozo","Cheesecake Trozo",101009,"Trozo Ch S/A NY Berries",1,0.00,0.00,0.00,1095.999
+2023-01-03 00:00:00.0,"Tabancura","Justo","Pastel Mediano","Torta Mediana",202005,"Mediana Tor Red Velvet",1,16798.00,0.00,16798.00,4761.609
+2023-01-03 00:00:00.0,"Tabancura","Local","Liquidos y Café","Aguas y Bebidas",603007,"Jugo Maracuya Manzana Piña Bless",4,6688.00,0.00,6688.00,4400.00
+2023-01-03 00:00:00.0,"La Reina","Uber","Pastel Trozo","Cheesecake Trozo",101012,"Trozo Ch NY Naranja",1,3773.00,0.00,3773.00,1164.095
+2023-01-03 00:00:00.0,"La Reina","Local","Liquidos y Café","Café Mediano",601005,"Café Caramelo Mediano",1,2101.00,0.00,2101.00,378.36
+2023-01-03 00:00:00.0,"La Reina","Local","Pastel Trozo","Torta Trozo",102005,"Trozo Tor Red Velvet",1,3101.00,0.00,3101.00,763.433
+2023-01-03 00:00:00.0,"La Reina","Local","Pastel Trozo","Cheesecake Trozo",101006,"Trozo Ch Oreo",3,9807.00,0.00,9807.00,2877.713
+2023-01-03 00:00:00.0,"La Reina","Local","Delicias","Queques",403002,"Troz Queque Chocolate",1,1765.00,0.00,1765.00,331.551
+2023-01-03 00:00:00.0,"Pocuro","Rappi","Delicias","Queques",403008,"Ent Queque S/A Zanahoria ",1,12176.00,0.00,12176.00,3415.055
+2023-01-03 00:00:00.0,"Pocuro","Rappi","Pastel Mediano","Torta Mediana",202004,"Mediana Tor Carrot Cake",1,16798.00,0.00,16798.00,5550.222
+2023-01-03 00:00:00.0,"Pocuro","Uber","Retail","Frappe",504002,"Jolly Rancher Cherry",0,0.00,0.00,0.00,0.00
+2023-01-03 00:00:00.0,"Pocuro","Local","Pastel Mediano","Torta Mediana",202004,"Mediana Tor Carrot Cake",3,46638.00,0.00,46638.00,16650.667
+2023-01-03 00:00:00.0,"Pocuro","Rappi","Liquidos y Café","Aguas y Bebidas",603007,"Jugo Maracuya Manzana Piña Bless",1,0.00,0.00,0.00,1100.00
+2023-01-03 00:00:00.0,"Pocuro","Rappi","Liquidos y Café","Café Grande",602003,"Café Latte Grande",1,0.00,0.00,0.00,351.577
+2023-01-03 00:00:00.0,"Nunoa","Justo","Pastel Mediano","Cheesecake Mediano",201001,"Mediano Ch NY Berries",1,16798.00,0.00,16798.00,6516.819
+2023-01-03 00:00:00.0,"Nunoa","PedidosYa","Pastel Trozo","Pie Trozo",103003,"Trozo Apple Pie",1,3521.00,0.00,3521.00,770.415
+2023-01-03 00:00:00.0,"Nunoa","Good Meal","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",9,0.00,0.00,0.00,3288.819
+2023-01-03 00:00:00.0,"Nunoa","Local","Pastel Trozo","Cheesecake Trozo",101002,"Trozo Ch NY Maracuya",5,15505.00,0.00,15505.00,4968.863
+2023-01-03 00:00:00.0,"Nunoa","CornerShop","Delicias","Queques",403001,"Troz Queque Zanahoria",1,0.00,0.00,0.00,382.881
+2023-01-03 00:00:00.0,"Nunoa","Uber","Liquidos y Café","Café Grande",602005,"Café Caramelo Grande",2,0.00,0.00,0.00,1156.575
+2023-01-03 00:00:00.0,"Nunoa","Uber","Pastel Trozo","Cheesecake Trozo",101012,"Trozo Ch NY Naranja",1,3773.00,0.00,3773.00,1165.579
+2023-01-03 00:00:00.0,"Los Militares","Local","Pastel Trozo","Torta Trozo",102006,"Trozo Tor Bon o Bon",2,6538.00,0.00,6538.00,1975.542
+2023-01-03 00:00:00.0,"Los Militares","Rappi","Delicias","Barras",404002,"Peanut Butter Bar",1,1807.00,0.00,1807.00,501.627
+2023-01-03 00:00:00.0,"Los Militares","Rappi","Pastel Trozo","Cheesecake Trozo",101006,"Trozo Ch Oreo",2,7546.00,0.00,7546.00,1917.85
+2023-01-03 00:00:00.0,"Los Militares","Rappi","Liquidos y Café","Café Grande",602004,"Café Mokaccino Grande",1,0.00,0.00,0.00,359.649
+2023-01-03 00:00:00.0,"Los Militares","Justo","Pastel Mediano","Torta Mediana",202004,"Mediana Tor Carrot Cake",1,16798.00,0.00,16798.00,5549.68
+2023-01-03 00:00:00.0,"Los Militares","Uber","Delicias","Queques",403001,"Troz Queque Zanahoria",2,4184.00,0.00,4184.00,766.143
+2023-01-03 00:00:00.0,"Los Militares","Local","Retail","Helado",505002,"Manjar Chips Ice Cream 355mL",1,4613.00,0.00,4613.00,2539.959
+2023-01-03 00:00:00.0,"Los Militares","Local","Retail","Helado",505003,"Ferrero Ice Cream 355mL",1,4613.00,0.00,4613.00,2539.96
+2023-01-03 00:00:00.0,"Los Militares","Rappi","Pastel Trozo","Pie Trozo",103003,"Trozo Apple Pie",1,3521.00,0.00,3521.00,774.997
+2023-01-03 00:00:00.0,"Los Militares","Uber","Pastel Trozo","Cheesecake Trozo",101001,"Trozo Ch NY Berries",1,3521.00,0.00,3521.00,969.327
+2023-01-03 00:00:00.0,"Tabancura","Local","Pastel Mediano","Cheesecake Mediano",201006,"Mediano Ch Oreo",2,32774.00,0.00,32774.00,12144.529
+2023-01-03 00:00:00.0,"Tabancura","CornerShop","Pastel Mediano","Cheesecake Mediano",201002,"Mediano Ch NY Maracuya",1,17639.00,0.00,17639.00,6645.11
+2023-01-03 00:00:00.0,"Tabancura","Good Meal","Pastel Trozo","Torta Trozo",102004,"Trozo Tor Carrot Cake",3,0.00,0.00,0.00,2563.663
+2023-01-03 00:00:00.0,"Tabancura","Good Meal","Pastel Trozo","Cheesecake Trozo",101012,"Trozo Ch NY Naranja",3,0.00,0.00,0.00,3503.627
+2023-01-03 00:00:00.0,"Tabancura","Uber","Pastel Trozo","Cheesecake Trozo",101006,"Trozo Ch Oreo",6,22638.00,0.00,22638.00,5768.875
+2023-01-03 00:00:00.0,"Tabancura","Uber","Pastel Trozo","Torta Trozo",102005,"Trozo Tor Red Velvet",2,7042.00,0.00,7042.00,1521.761
+2023-01-03 00:00:00.0,"Tabancura","Local","Pastel Mediano","Torta Mediana",202004,"Mediana Tor Carrot Cake",1,15546.00,0.00,15546.00,5551.299
+2023-01-03 00:00:00.0,"Tabancura","Uber","Pastel Trozo","Torta Trozo",102004,"Trozo Tor Carrot Cake",9,31689.00,0.00,31689.00,7690.988
+2023-01-03 00:00:00.0,"Tabancura","Local","Pastel Trozo","Cheesecake Trozo",101012,"Trozo Ch NY Naranja",1,3269.00,0.00,3269.00,1167.876
+2023-01-03 00:00:00.0,"Tabancura","Local","Pastel Trozo","Cheesecake Trozo",101003,"Trozo Ch White Berries",2,6202.00,0.00,6202.00,1941.914
+2023-01-03 00:00:00.0,"Tabancura","Uber","Delicias","Queques",403007,"Troz Queque S/A Zanahoria ",1,2092.00,0.00,2092.00,536.553
+2023-01-03 00:00:00.0,"Tabancura","Local","Pastel Trozo","Cheesecake Trozo",101009,"Trozo Ch S/A NY Berries",2,6538.00,0.00,6538.00,2191.997
+2023-01-03 00:00:00.0,"Tabancura","CornerShop","Pastel Grande","Pie Grande",303003,"Grande Pie Apple Crumble",1,18059.00,0.00,18059.00,6564.22
+2023-01-03 00:00:00.0,"La Reina","Uber","Liquidos y Café","Café Mediano",601003,"Café Latte Mediano",0,0.00,0.00,0.00,0.00
+2023-01-03 00:00:00.0,"La Reina","Uber","Pastel Trozo","Torta Trozo",102004,"Trozo Tor Carrot Cake",0,0.00,0.00,0.00,0.00
+2023-01-03 00:00:00.0,"La Reina","Uber","Pastel Trozo","Torta Trozo",102009,"Trozo Tor Lemon Blueberry Cake",1,3773.00,0.00,3773.00,914.084
+2023-01-03 00:00:00.0,"La Reina","Uber","Retail","Desayuno",604001,"Bagel Pavo Cheddar",1,0.00,0.00,0.00,1609.549
+2023-01-03 00:00:00.0,"La Reina","Uber","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",1,0.00,0.00,0.00,363.673
+2023-01-03 00:00:00.0,"La Reina","Local","Pastel Trozo","Cheesecake Trozo",101009,"Trozo Ch S/A NY Berries",2,6538.00,0.00,6538.00,2187.814
+2023-01-03 00:00:00.0,"Pocuro","Uber","Pastel Mediano","Torta Mediana",202001,"Mediana Tor Brownie Man y Framb",3,52917.00,0.00,52917.00,17023.484
+2023-01-03 00:00:00.0,"Pocuro","Local","Pastel Trozo","Pie Trozo",103003,"Trozo Apple Pie",2,6202.00,0.00,6202.00,1550.947
+2023-01-03 00:00:00.0,"Pocuro","Rappi","Pastel Trozo","Cheesecake Trozo",101002,"Trozo Ch NY Maracuya",1,3521.00,0.00,3521.00,993.901
+2023-01-03 00:00:00.0,"Pocuro","Rappi","Retail","Desayuno",605016,"Desayuno Full X1",1,10916.00,0.00,10916.00,1610.09
+2023-01-03 00:00:00.0,"Pocuro","Uber","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",6,10842.00,0.00,10842.00,2187.058
+2023-01-03 00:00:00.0,"Pocuro","Rappi","Delicias","Brownies",402001,"Brownie con Dulce Leche",1,1807.00,0.00,1807.00,381.071
+2023-01-03 00:00:00.0,"Nunoa","Good Meal","Pastel Mediano","Torta Mediana",202004,"Mediana Tor Carrot Cake",1,0.00,0.00,0.00,5549.445
+2023-01-03 00:00:00.0,"Nunoa","CornerShop","Liquidos y Café","Aguas y Bebidas",603006,"Jugo Naranja Bless",1,0.00,0.00,0.00,1100.00
+2023-01-03 00:00:00.0,"Nunoa","Uber","Liquidos y Café","Aguas y Bebidas",603007,"Jugo Maracuya Manzana Piña Bless",1,0.00,0.00,0.00,1100.00
+2023-01-03 00:00:00.0,"Nunoa","Uber","Delicias","Queques",403001,"Troz Queque Zanahoria",1,0.00,0.00,0.00,382.881
+2023-01-03 00:00:00.0,"Nunoa","Uber","Pastel Trozo","Pie Trozo",103003,"Trozo Apple Pie",2,3521.00,0.00,3521.00,1540.829
+2023-01-03 00:00:00.0,"Nunoa","Local","Pastel Mediano","Torta Mediana",202003,"Mediana Tor Dark Cake",2,31092.00,0.00,31092.00,9831.582
+2023-01-03 00:00:00.0,"Nunoa","Local","Pastel Trozo","Cheesecake Trozo",101001,"Trozo Ch NY Berries",6,18606.00,0.00,18606.00,5803.004
+2023-01-03 00:00:00.0,"Nunoa","Uber","Pastel Mediano","Cheesecake Mediano",201004,"Mediano Ch White Maracuya",1,16798.00,0.00,16798.00,6248.511
+2023-01-03 00:00:00.0,"Nunoa","PedidosYa","Retail","Desayuno",604001,"Bagel Pavo Cheddar",1,0.00,0.00,0.00,1611.00
+2023-01-03 00:00:00.0,"Los Militares","Local","Pastel Trozo","Pie Trozo",103003,"Trozo Apple Pie",4,12404.00,0.00,12404.00,3099.987
+2023-01-03 00:00:00.0,"Los Militares","CornerShop","Pastel Trozo","Torta Trozo",102001,"Trozo Tor Brownie Man y Framb",1,3857.00,0.00,3857.00,930.076
+2023-01-03 00:00:00.0,"Los Militares","Local","Pastel Trozo","Cheesecake Trozo",101003,"Trozo Ch White Berries",1,3101.00,0.00,3101.00,969.246
+2023-01-03 00:00:00.0,"Los Militares","Local","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",12,18048.00,0.00,18048.00,4374.828
+2023-01-03 00:00:00.0,"Los Militares","PedidosYa","Pastel Mediano","Cheesecake Mediano",201006,"Mediano Ch Oreo",3,52917.00,0.00,52917.00,18211.546
+2023-01-03 00:00:00.0,"Los Militares","Uber","Delicias","Brownies",402001,"Brownie con Dulce Leche",3,5421.00,0.00,5421.00,1144.026
+2023-01-03 00:00:00.0,"Los Militares","Uber","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",3,5421.00,0.00,5421.00,1093.707
+2023-01-03 00:00:00.0,"Los Militares","Local","Pastel Mediano","Torta Mediana",202004,"Mediana Tor Carrot Cake",2,31092.00,0.00,31092.00,11099.359
+2023-01-03 00:00:00.0,"Los Militares","Local","Delicias","Gift Box",405001,"Gift Box 4 Brownies",2,11076.00,0.00,11076.00,3274.89
+2023-01-03 00:00:00.0,"Los Militares","Rappi","Pastel Mediano","Torta Mediana",202004,"Mediana Tor Carrot Cake",2,33596.00,0.00,33596.00,11099.359
+2023-01-03 00:00:00.0,"Los Militares","Local","Delicias","Queques",403001,"Troz Queque Zanahoria",1,1765.00,0.00,1765.00,383.072
+2023-01-03 00:00:00.0,"Los Militares","PedidosYa","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",1,1807.00,0.00,1807.00,364.569
+2023-01-03 00:00:00.0,"Los Militares","CornerShop","Pastel Mediano","Cheesecake Mediano",201003,"Mediano Ch White Berries",1,17639.00,0.00,17639.00,6373.182
+2023-01-03 00:00:00.0,"Los Militares","Local","Delicias","Queques",403007,"Troz Queque S/A Zanahoria ",1,1765.00,0.00,1765.00,475.982
+2023-01-03 00:00:00.0,"Tabancura","Justo","Delicias","Queques",403001,"Troz Queque Zanahoria",1,0.00,0.00,0.00,384.076
+2023-01-03 00:00:00.0,"Tabancura","Uber","Delicias","Galletones",401001,"Cookie Triple Chocolate",0,0.00,0.00,0.00,0.00
+2023-01-03 00:00:00.0,"Tabancura","Uber","Delicias","Barras",404002,"Peanut Butter Bar",0,0.00,0.00,0.00,0.00
+2023-01-03 00:00:00.0,"Tabancura","Uber","Pastel Trozo","Cheesecake Trozo",101001,"Trozo Ch NY Berries",1,3521.00,0.00,3521.00,971.409
+2023-01-03 00:00:00.0,"Tabancura","Uber","Delicias","Brownies",402001,"Brownie con Dulce Leche",2,3614.00,0.00,3614.00,758.384
+2023-01-03 00:00:00.0,"Tabancura","Local","Pastel Mediano","Cheesecake Mediano",201011,"Mediano Ch S/A NY Maracuya",1,16387.00,0.00,16387.00,7500.217
+2023-01-03 00:00:00.0,"Tabancura","Good Meal","Good Meal","Good Meal",407001,"Good Meal",5,24790.00,0.00,24790.00,0.00
+2023-01-03 00:00:00.0,"Tabancura","Uber","Pastel Trozo","Cheesecake Trozo",101002,"Trozo Ch NY Maracuya",2,7042.00,0.00,7042.00,1992.097
+2023-01-03 00:00:00.0,"Tabancura","CornerShop","Pastel Mediano","Torta Mediana",202001,"Mediana Tor Brownie Man y Framb",1,18479.00,0.00,18479.00,5667.789
+2023-01-03 00:00:00.0,"Tabancura","Rappi","Pastel Mediano","Torta Mediana",202003,"Mediana Tor Dark Cake",1,16798.00,0.00,16798.00,4931.442
+2023-01-03 00:00:00.0,"Tabancura","Uber","Pastel Grande","Pie Grande",303003,"Grande Pie Apple Crumble",1,17639.00,0.00,17639.00,6564.22
+2023-01-03 00:00:00.0,"Tabancura","Rappi","Retail","Desayuno",604001,"Bagel Pavo Cheddar",5,13412.00,0.00,13412.00,8040.548
+2023-01-03 00:00:00.0,"Tabancura","Rappi","Liquidos y Café","Café Grande",602006,"Chocolate Caliente Grande",1,0.00,0.00,0.00,437.554
+2023-01-03 00:00:00.0,"Tabancura","Local","Pastel Trozo","Torta Trozo",102003,"Trozo Tor Dark Cake",1,3101.00,0.00,3101.00,775.206
+2023-01-03 00:00:00.0,"Tabancura","Uber","Delicias","Gift Box",405005,"Gift Box 8 Brownies",1,12933.00,0.00,12933.00,3014.92
+2023-01-03 00:00:00.0,"Tabancura","Local","Pastel Mediano","Torta Mediana",202003,"Mediana Tor Dark Cake",3,46638.00,0.00,46638.00,14794.326
+2023-01-03 00:00:00.0,"La Reina","Local","Liquidos y Café","Café Grande",602003,"Café Latte Grande",1,2437.00,0.00,2437.00,347.10
+2023-01-03 00:00:00.0,"La Reina","Local","Pastel Mediano","Cheesecake Mediano",201004,"Mediano Ch White Maracuya",1,15546.00,0.00,15546.00,6153.673
+2023-01-03 00:00:00.0,"La Reina","Local","Pastel Trozo","Cheesecake Trozo",101012,"Trozo Ch NY Naranja",1,3269.00,0.00,3269.00,1164.095
+2023-01-03 00:00:00.0,"La Reina","Uber","Pastel Mediano","Torta Mediana",202007,"Mediana Tor S/A Carrot Cake",1,17639.00,0.00,17639.00,4267.188
+2023-01-03 00:00:00.0,"Pocuro","Local","Pastel Trozo","Cheesecake Trozo",101002,"Trozo Ch NY Maracuya",2,6202.00,0.00,6202.00,1987.801
+2023-01-03 00:00:00.0,"Pocuro","CornerShop","Pastel Mediano","Torta Mediana",202003,"Mediana Tor Dark Cake",1,18479.00,0.00,18479.00,4917.044
+2023-01-03 00:00:00.0,"Pocuro","Uber","Pastel Trozo","Torta Trozo",102001,"Trozo Tor Brownie Man y Framb",1,3773.00,0.00,3773.00,929.849
+2023-01-03 00:00:00.0,"Pocuro","Local","Delicias","Galletones",401002,"Cookie Chocolate Chip Walnut",4,9044.00,-678.00,8366.00,2456.483
+2023-01-03 00:00:00.0,"Pocuro","Uber","Pastel Trozo","Cheesecake Trozo",101006,"Trozo Ch Oreo",3,11319.00,0.00,11319.00,2878.293
+2023-01-03 00:00:00.0,"Pocuro","Uber","Delicias","Brownies",402001,"Brownie con Dulce Leche",1,1807.00,0.00,1807.00,381.071
+2023-01-03 00:00:00.0,"Pocuro","Uber","Liquidos y Café","Café Mediano",601003,"Café Latte Mediano",1,2395.00,0.00,2395.00,307.077
+2023-01-03 00:00:00.0,"Pocuro","Uber","Pastel Trozo","Cheesecake Trozo",101002,"Trozo Ch NY Maracuya",2,7042.00,0.00,7042.00,1987.801
+2023-01-03 00:00:00.0,"Pocuro","Rappi","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",3,3614.00,0.00,3614.00,1093.529
+2023-01-03 00:00:00.0,"Pocuro","Local","Retail","Velas",501002,"Paquete Velas Plateadas",1,1345.00,0.00,1345.00,686.38
+2023-01-03 00:00:00.0,"Nunoa","Good Meal","Delicias","Queques",403002,"Troz Queque Chocolate",1,0.00,0.00,0.00,330.62
+2023-01-03 00:00:00.0,"Nunoa","Local","Pastel Trozo","Cheesecake Trozo",101006,"Trozo Ch Oreo",10,32690.00,0.00,32690.00,9594.618
+2023-01-03 00:00:00.0,"Los Militares","Local","Retail","Velas",501001,"Paquete Velas Doradas",3,4035.00,0.00,4035.00,2108.515
+2023-01-03 00:00:00.0,"Los Militares","Rappi","Retail","Velas",501002,"Paquete Velas Plateadas",1,1672.00,0.00,1672.00,750.001
+2023-01-03 00:00:00.0,"Los Militares","Rappi","Pastel Trozo","Pie Trozo",103001,"Trozo Lemon Pie",1,3521.00,0.00,3521.00,783.732
+2023-01-03 00:00:00.0,"Los Militares","Rappi","Delicias","Queques",403001,"Troz Queque Zanahoria",2,4184.00,0.00,4184.00,766.143
+2023-01-03 00:00:00.0,"Los Militares","Local","Pastel Trozo","Cheesecake Trozo",101006,"Trozo Ch Oreo",4,13076.00,0.00,13076.00,3835.699
+2023-01-03 00:00:00.0,"Los Militares","Local","Delicias","Queques",403005,"Troz Queque Limón",1,1765.00,-529.00,1236.00,377.143
+2023-01-03 00:00:00.0,"Tabancura","Local","Pastel Mediano","Cheesecake Mediano",201002,"Mediano Ch NY Maracuya",2,31092.00,0.00,31092.00,13290.22
+2023-01-03 00:00:00.0,"Tabancura","Justo","Retail","Desayuno",604001,"Bagel Pavo Cheddar",2,0.00,0.00,0.00,3216.219
+2023-01-03 00:00:00.0,"Tabancura","Justo","Delicias","Galletones",401001,"Cookie Triple Chocolate",3,5126.00,0.00,5126.00,1952.359
+2023-01-03 00:00:00.0,"Tabancura","Local","Pastel Mediano","Torta Mediana",202005,"Mediana Tor Red Velvet",1,15546.00,0.00,15546.00,4761.609
+2023-01-03 00:00:00.0,"Tabancura","Local","Pastel Trozo","Torta Trozo",102006,"Trozo Tor Bon o Bon",3,9807.00,0.00,9807.00,2966.646
+2023-01-03 00:00:00.0,"Tabancura","CornerShop","Pastel Trozo","Cheesecake Trozo",101003,"Trozo Ch White Berries",1,3605.00,0.00,3605.00,970.957
+2023-01-03 00:00:00.0,"Tabancura","Local","Pastel Trozo","Cheesecake Trozo",101006,"Trozo Ch Oreo",10,32690.00,-981.00,31709.00,9614.791
+2023-01-03 00:00:00.0,"Tabancura","CornerShop","Delicias","Gift Box",405001,"Gift Box 4 Brownies",1,7050.00,0.00,7050.00,1630.152
+2023-01-03 00:00:00.0,"Tabancura","Local","Pastel Trozo","Torta Trozo",102001,"Trozo Tor Brownie Man y Framb",4,13076.00,0.00,13076.00,3727.887
+2023-01-03 00:00:00.0,"Tabancura","Rappi","Retail","Desayuno",605015,"Desayuno X1",1,7555.00,0.00,7555.00,1608.11
+2023-01-03 00:00:00.0,"Tabancura","Local","Pastel Trozo","Torta Trozo",102008,"Trozo Tor S/A Carrot Cake",3,9807.00,0.00,9807.00,2071.63
+2023-01-03 00:00:00.0,"La Reina","Local","Pastel Mediano","Torta Mediana",202006,"Mediana Tor Bon o Bon",2,32774.00,0.00,32774.00,11908.358
+2023-01-03 00:00:00.0,"La Reina","Local","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",1,1504.00,0.00,1504.00,363.673
+2023-01-03 00:00:00.0,"Pocuro","Uber","Pastel Trozo","Pie Trozo",103003,"Trozo Apple Pie",4,14084.00,0.00,14084.00,3101.894
+2023-01-03 00:00:00.0,"Pocuro","Local","Pastel Trozo","Cheesecake Trozo",101001,"Trozo Ch NY Berries",2,6202.00,0.00,6202.00,1938.522
+2023-01-03 00:00:00.0,"Pocuro","Local","Pastel Grande","Cheesecake Grande",301002,"Grande Ch NY Maracuya",1,22269.00,0.00,22269.00,10284.224
+2023-01-03 00:00:00.0,"Pocuro","Local","Delicias","Queques",403001,"Troz Queque Zanahoria",1,1765.00,0.00,1765.00,383.138
+2023-01-03 00:00:00.0,"Pocuro","Uber","Pastel Trozo","Torta Trozo",102004,"Trozo Tor Carrot Cake",2,7042.00,0.00,7042.00,1704.418
+2023-01-03 00:00:00.0,"Pocuro","Rappi","Retail","Desayuno",604001,"Bagel Pavo Cheddar",1,0.00,0.00,0.00,1610.09
+2023-01-03 00:00:00.0,"Pocuro","Rappi","Retail","Velas",501001,"Paquete Velas Doradas",1,1672.00,0.00,1672.00,690.529
+2023-01-03 00:00:00.0,"Nunoa","Local","Pastel Trozo","Cheesecake Trozo",101009,"Trozo Ch S/A NY Berries",3,9807.00,0.00,9807.00,3281.106
+2023-01-03 00:00:00.0,"Nunoa","Local","Pastel Mediano","Torta Mediana",202004,"Mediana Tor Carrot Cake",2,31092.00,0.00,31092.00,11098.889
+2023-01-03 00:00:00.0,"Nunoa","CornerShop","Pastel Mediano","Torta Mediana",202001,"Mediana Tor Brownie Man y Framb",1,18479.00,0.00,18479.00,5657.386
+2023-01-03 00:00:00.0,"Nunoa","Good Meal","Good Meal","Good Meal",407001,"Good Meal",3,14874.00,0.00,14874.00,0.00
+2023-01-03 00:00:00.0,"Nunoa","CornerShop","Retail","Desayuno",604001,"Bagel Pavo Cheddar",1,0.00,0.00,0.00,1611.00
+2023-01-03 00:00:00.0,"Nunoa","Uber","Retail","Desayuno",605013,"Bagel & Café Grande",1,5034.00,0.00,5034.00,1611.00
+2023-01-03 00:00:00.0,"Nunoa","Uber","Retail","Desayuno",604001,"Bagel Pavo Cheddar",2,0.00,0.00,0.00,3222.00
+2023-01-03 00:00:00.0,"Nunoa","Local","Pastel Mediano","Torta Mediana",202007,"Mediana Tor S/A Carrot Cake",1,16387.00,0.00,16387.00,4268.672
+2023-01-03 00:00:00.0,"Nunoa","Local","Pastel Mediano","Cheesecake Mediano",201006,"Mediano Ch Oreo",2,32774.00,0.00,32774.00,12142.339
+2023-01-03 00:00:00.0,"Los Militares","Local","Pastel Grande","Cheesecake Grande",301004,"Grande Ch White Maracuya",1,22269.00,0.00,22269.00,9977.285
+2023-01-03 00:00:00.0,"Los Militares","Uber","Retail","Velas",501001,"Paquete Velas Doradas",1,1672.00,0.00,1672.00,702.838
+2023-01-03 00:00:00.0,"Los Militares","Rappi","Pastel Trozo","Cheesecake Trozo",101003,"Trozo Ch White Berries",3,10563.00,0.00,10563.00,2907.737
+2023-01-03 00:00:00.0,"Los Militares","Uber","Pastel Mediano","Torta Mediana",202004,"Mediana Tor Carrot Cake",3,50394.00,0.00,50394.00,16649.039
+2023-01-03 00:00:00.0,"Los Militares","Uber","Pastel Mediano","Cheesecake Mediano",201001,"Mediano Ch NY Berries",4,67192.00,0.00,67192.00,26074.775
+2023-01-03 00:00:00.0,"Los Militares","Uber","Pastel Trozo","Cheesecake Trozo",101006,"Trozo Ch Oreo",3,11319.00,0.00,11319.00,2876.774
+2023-01-03 00:00:00.0,"Los Militares","Uber","Pastel Trozo","Torta Trozo",102004,"Trozo Tor Carrot Cake",3,10563.00,0.00,10563.00,2561.337
+2023-01-03 00:00:00.0,"Los Militares","Local","Delicias","Barras",404002,"Peanut Butter Bar",2,2672.00,0.00,2672.00,1003.255
+2023-01-03 00:00:00.0,"Los Militares","Uber","Delicias","Barras",404002,"Peanut Butter Bar",4,7228.00,0.00,7228.00,2006.509
+2023-01-03 00:00:00.0,"Tabancura","Justo","Retail","Desayuno",605017,"Desayuno X2",1,14277.00,0.00,14277.00,3216.219
+2023-01-03 00:00:00.0,"Tabancura","Uber","Liquidos y Café","Café Grande",602003,"Café Latte Grande",1,0.00,0.00,0.00,356.214
+2023-01-03 00:00:00.0,"Tabancura","Local","Delicias","Galletones",401003,"Cookie Avena Cranberry",1,2261.00,0.00,2261.00,557.288
+2023-01-03 00:00:00.0,"Tabancura","Local","Pastel Trozo","Pie Trozo",103003,"Trozo Apple Pie",2,6202.00,0.00,6202.00,1496.80
+2023-01-03 00:00:00.0,"Tabancura","Good Meal","Delicias","Queques",403007,"Troz Queque S/A Zanahoria ",2,0.00,0.00,0.00,1073.107
+2023-01-03 00:00:00.0,"Tabancura","PedidosYa","Pastel Mediano","Cheesecake Mediano",201001,"Mediano Ch NY Berries",1,16798.00,0.00,16798.00,6521.911
+2023-01-03 00:00:00.0,"Tabancura","Local","Pastel Trozo","Cheesecake Trozo",101002,"Trozo Ch NY Maracuya",1,3101.00,0.00,3101.00,996.048
+2023-01-03 00:00:00.0,"Tabancura","Local","Pastel Mediano","Cheesecake Mediano",201005,"Mediano Ch Choc y Dulce de Leche",4,62184.00,0.00,62184.00,25041.651
+2023-01-03 00:00:00.0,"Tabancura","Local","Pastel Trozo","Cheesecake Trozo",101005,"Trozo Ch Choc y Dulce de Leche",4,12404.00,0.00,12404.00,4232.255
+2023-01-03 00:00:00.0,"Tabancura","Uber","Pastel Trozo","Cheesecake Trozo",101009,"Trozo Ch S/A NY Berries",0,0.00,0.00,0.00,0.00
+2023-01-03 00:00:00.0,"Tabancura","Good Meal","Pastel Trozo","Cheesecake Trozo",101010,"Trozo Ch NY Plain",1,0.00,0.00,0.00,844.843
+2023-01-03 00:00:00.0,"La Reina","Uber","Pastel Trozo","Cheesecake Trozo",101001,"Trozo Ch NY Berries",0,0.00,0.00,0.00,0.00
+2023-01-03 00:00:00.0,"La Reina","Rappi","Pastel Trozo","Pie Trozo",103003,"Trozo Apple Pie",0,0.00,0.00,0.00,0.00
+2023-01-03 00:00:00.0,"La Reina","Uber","Retail","Desayuno",605016,"Desayuno Full X1",1,10916.00,0.00,10916.00,1609.549
+2023-01-03 00:00:00.0,"La Reina","Uber","Liquidos y Café","Aguas y Bebidas",603006,"Jugo Naranja Bless",1,0.00,0.00,0.00,1097.917
+2023-01-03 00:00:00.0,"La Reina","Local","Liquidos y Café","Aguas y Bebidas",603006,"Jugo Naranja Bless",1,1672.00,0.00,1672.00,1097.917
+2023-01-03 00:00:00.0,"La Reina","Local","Retail","Helado",505004,"Lemon Ice Cream 355mL",1,4613.00,0.00,4613.00,2539.96
+2023-01-03 00:00:00.0,"Pocuro","Uber","Retail","Helado",505002,"Manjar Chips Ice Cream 355mL",1,5454.00,0.00,5454.00,2539.959
+2023-01-03 00:00:00.0,"Pocuro","Local","Delicias","Queques",403007,"Troz Queque S/A Zanahoria ",1,1765.00,0.00,1765.00,483.824
+2023-01-03 00:00:00.0,"Pocuro","Local","Retail","Café Bolsa",502001,"Café Molido 250 grs",1,7555.00,0.00,7555.00,4588.902
+2023-01-03 00:00:00.0,"Pocuro","Uber","Pastel Trozo","Cheesecake Trozo",101005,"Trozo Ch Choc y Dulce de Leche",2,7042.00,0.00,7042.00,2111.205
+2023-01-03 00:00:00.0,"Pocuro","Local","Pastel Trozo","Torta Trozo",102001,"Trozo Tor Brownie Man y Framb",1,3269.00,0.00,3269.00,929.849
+2023-01-03 00:00:00.0,"Pocuro","Local","Pastel Trozo","Cheesecake Trozo",101006,"Trozo Ch Oreo",5,16345.00,0.00,16345.00,4797.155
+2023-01-03 00:00:00.0,"Pocuro","Local","Pastel Mediano","Torta Mediana",202003,"Mediana Tor Dark Cake",1,15546.00,0.00,15546.00,4917.044
+2023-01-03 00:00:00.0,"Pocuro","Local","Pastel Mediano","Cheesecake Mediano",201006,"Mediano Ch Oreo",1,16387.00,0.00,16387.00,6071.287
+2023-01-03 00:00:00.0,"Nunoa","Local","Liquidos y Café","Café Mediano",601008,"Café Espresso Simple",3,4539.00,0.00,4539.00,894.093
+2023-01-03 00:00:00.0,"Nunoa","Good Meal","Delicias","Galletones",401001,"Cookie Triple Chocolate",2,0.00,0.00,0.00,1307.055
+2023-01-03 00:00:00.0,"Nunoa","Local","Liquidos y Café","Aguas y Bebidas",603002,"Coca Zero Lata",1,1345.00,0.00,1345.00,620.833
+2023-01-03 00:00:00.0,"Nunoa","Justo","Pastel Mediano","Cheesecake Mediano",201003,"Mediano Ch White Berries",1,16798.00,0.00,16798.00,6517.962
+2023-01-03 00:00:00.0,"Nunoa","Local","Delicias","Queques",403007,"Troz Queque S/A Zanahoria ",2,3530.00,0.00,3530.00,873.609
+2023-01-03 00:00:00.0,"Nunoa","Local","Pastel Trozo","Torta Trozo",102004,"Trozo Tor Carrot Cake",9,27909.00,-930.00,26979.00,7663.471
+2023-01-03 00:00:00.0,"Nunoa","PedidosYa","Retail","Desayuno",605013,"Bagel & Café Grande",1,5034.00,0.00,5034.00,1611.00
+2023-01-03 00:00:00.0,"Los Militares","Rappi","Retail","Desayuno",605013,"Bagel & Café Grande",1,5034.00,0.00,5034.00,1610.183
+2023-01-03 00:00:00.0,"Los Militares","Local","Pastel Mediano","Cheesecake Mediano",201009,"Mediano Ch S/A NY Berries",2,32774.00,0.00,32774.00,14563.251
+2023-01-03 00:00:00.0,"Los Militares","Uber","Retail","Helado",505003,"Ferrero Ice Cream 355mL",2,10908.00,0.00,10908.00,5079.92
+2023-01-03 00:00:00.0,"Los Militares","Local","Pastel Grande","Pie Grande",303003,"Grande Pie Apple Crumble",1,16723.00,0.00,16723.00,6580.631
+2023-01-03 00:00:00.0,"Los Militares","Uber","Pastel Trozo","Torta Trozo",102003,"Trozo Tor Dark Cake",2,7042.00,0.00,7042.00,1546.345
+2023-01-03 00:00:00.0,"Los Militares","Local","Pastel Trozo","Cheesecake Trozo",101001,"Trozo Ch NY Berries",9,27909.00,0.00,27909.00,8723.94
+2023-01-03 00:00:00.0,"Los Militares","Local","Pastel Mediano","Cheesecake Mediano",201002,"Mediano Ch NY Maracuya",1,15546.00,0.00,15546.00,6641.892
+2023-01-03 00:00:00.0,"Tabancura","Uber","Delicias","Gift Box",405001,"Gift Box 4 Brownies",1,6891.00,0.00,6891.00,1630.152
+2023-01-03 00:00:00.0,"Tabancura","Justo","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",3,3614.00,0.00,3614.00,1087.885
+2023-01-03 00:00:00.0,"Tabancura","Uber","Delicias","Galletones",401002,"Cookie Chocolate Chip Walnut",0,0.00,0.00,0.00,0.00
+2023-01-03 00:00:00.0,"Tabancura","Uber","Retail","Desayuno",605015,"Desayuno X1",1,7555.00,0.00,7555.00,1608.11
+2023-01-03 00:00:00.0,"Tabancura","Local","Pastel Mediano","Cheesecake Mediano",201001,"Mediano Ch NY Berries",2,31092.00,0.00,31092.00,13043.823
+2023-01-03 00:00:00.0,"Tabancura","Local","Delicias","Barras",404002,"Peanut Butter Bar",1,1336.00,0.00,1336.00,499.736
+2023-01-03 00:00:00.0,"Tabancura","Uber","Pastel Trozo","Cheesecake Trozo",101003,"Trozo Ch White Berries",1,3521.00,0.00,3521.00,970.957
+2023-01-03 00:00:00.0,"Tabancura","Local","Delicias","Queques",403001,"Troz Queque Zanahoria",1,1765.00,0.00,1765.00,384.076
+2023-01-03 00:00:00.0,"Tabancura","Local","Pastel Grande","Pie Grande",303003,"Grande Pie Apple Crumble",1,16723.00,0.00,16723.00,6564.22
+2023-01-03 00:00:00.0,"Tabancura","Uber","Pastel Trozo","Torta Trozo",102001,"Trozo Tor Brownie Man y Framb",2,7546.00,0.00,7546.00,1863.944
+2023-01-03 00:00:00.0,"Tabancura","Uber","Delicias","Queques",403004,"Ent Queque Chocolate",1,12176.00,0.00,12176.00,2587.171
+2023-01-03 00:00:00.0,"Tabancura","CornerShop","Pastel Mediano","Torta Mediana",202004,"Mediana Tor Carrot Cake",2,35278.00,0.00,35278.00,11102.598
+2023-01-03 00:00:00.0,"Tabancura","Local","Pastel Trozo","Cheesecake Trozo",101011,"Trozo Ch S/A NY Maracuya",2,6538.00,0.00,6538.00,2278.814
+2023-01-03 00:00:00.0,"Tabancura","Local","Delicias","Gift Box",405001,"Gift Box 4 Brownies",1,5538.00,0.00,5538.00,1630.152
+2023-01-03 00:00:00.0,"La Reina","Local","Pastel Trozo","Torta Trozo",102001,"Trozo Tor Brownie Man y Framb",4,13076.00,0.00,13076.00,3719.617
+2023-01-03 00:00:00.0,"La Reina","Local","Pastel Trozo","Torta Trozo",102004,"Trozo Tor Carrot Cake",1,3101.00,0.00,3101.00,852.231
+2023-01-03 00:00:00.0,"La Reina","Local","Pastel Trozo","Torta Trozo",102009,"Trozo Tor Lemon Blueberry Cake",1,3269.00,0.00,3269.00,914.084
+2023-01-03 00:00:00.0,"La Reina","Local","Pastel Grande","Torta Grande",302003,"Grande Tor Dark Cake",1,22269.00,0.00,22269.00,8246.22
+2023-01-03 00:00:00.0,"Pocuro","Rappi","Pastel Mediano","Cheesecake Mediano",201001,"Mediano Ch NY Berries",1,16798.00,0.00,16798.00,6499.752
+2023-01-03 00:00:00.0,"Pocuro","Local","Pastel Mediano","Cheesecake Mediano",201011,"Mediano Ch S/A NY Maracuya",1,16387.00,0.00,16387.00,7494.359
+2023-01-03 00:00:00.0,"Pocuro","Rappi","Pastel Trozo","Pie Trozo",103003,"Trozo Apple Pie",1,3521.00,0.00,3521.00,775.474
+2023-01-03 00:00:00.0,"Pocuro","Uber","Retail","Helado",505003,"Ferrero Ice Cream 355mL",1,5454.00,0.00,5454.00,2539.959
+2023-01-03 00:00:00.0,"Pocuro","Uber","Pastel Trozo","Cheesecake Trozo",101001,"Trozo Ch NY Berries",2,7042.00,0.00,7042.00,1938.522
+2023-01-03 00:00:00.0,"Pocuro","CornerShop","Pastel Mediano","Cheesecake Mediano",201006,"Mediano Ch Oreo",1,18479.00,0.00,18479.00,6071.287
+2023-01-03 00:00:00.0,"Nunoa","Local","Pastel Mediano","Torta Mediana",202001,"Mediana Tor Brownie Man y Framb",1,16387.00,0.00,16387.00,5657.386
+2023-01-03 00:00:00.0,"Nunoa","Local","Liquidos y Café","Café Grande",602004,"Café Mokaccino Grande",1,2437.00,-731.00,1706.00,475.774
+2023-01-03 00:00:00.0,"Nunoa","Local","Delicias","Queques",403005,"Troz Queque Limón",1,1765.00,-529.00,1236.00,376.978
+2023-01-03 00:00:00.0,"Nunoa","Local","Liquidos y Café","Aguas y Bebidas",603007,"Jugo Maracuya Manzana Piña Bless",1,1672.00,-502.00,1170.00,1100.00
+2023-01-03 00:00:00.0,"Nunoa","Good Meal","Pastel Trozo","Cheesecake Trozo",101009,"Trozo Ch S/A NY Berries",5,0.00,0.00,0.00,5468.51
+2023-01-03 00:00:00.0,"Nunoa","Local","Retail","Frappe",504002,"Jolly Rancher Cherry",3,5016.00,0.00,5016.00,2934.81
+2023-01-03 00:00:00.0,"Nunoa","CornerShop","Liquidos y Café","Café Grande",602001,"Café Americano Grande",1,0.00,0.00,0.00,428.096
+2023-01-03 00:00:00.0,"Nunoa","CornerShop","Pastel Trozo","Cheesecake Trozo",101012,"Trozo Ch NY Naranja",1,0.00,0.00,0.00,1165.579
+2023-01-03 00:00:00.0,"Nunoa","Uber","Retail","Desayuno",605016,"Desayuno Full X1",1,10916.00,0.00,10916.00,1611.00
+2023-01-03 00:00:00.0,"Nunoa","Local","Pastel Grande","Torta Grande",302003,"Grande Tor Dark Cake",1,22269.00,0.00,22269.00,8247.359

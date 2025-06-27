@@ -1,0 +1,1422 @@
+"Business Date","Location Name","Order Type Name","Major Group Name","Family Group Name","Menu Item Number","Menu Item Name","Sales Count","Sales Total","Discounts Amount","Gross Sales after Discount","Cost of Goods Sold"
+2024-09-17 00:00:00.0,"La Florida","Local","Pastel Trozo","Cheesecake Trozo",101001,"Trozo Ch NY Berries",5,16805.00,0.00,16805.00,4993.541
+2024-09-17 00:00:00.0,"La Reina","Local","Pastel Trozo","Cheesecake Trozo",101001,"Trozo Ch NY Berries",1,3361.00,0.00,3361.00,998.815
+2024-09-17 00:00:00.0,"Los Militares","Local","Pastel Trozo","Cheesecake Trozo",101001,"Trozo Ch NY Berries",6,20166.00,0.00,20166.00,6001.165
+2024-09-17 00:00:00.0,"Maipu","Local","Pastel Trozo","Cheesecake Trozo",101001,"Trozo Ch NY Berries",4,13444.00,0.00,13444.00,3997.73
+2024-09-17 00:00:00.0,"Pocuro","Local","Pastel Trozo","Cheesecake Trozo",101001,"Trozo Ch NY Berries",2,6722.00,0.00,6722.00,1997.208
+2024-09-17 00:00:00.0,"Providencia","Local","Pastel Trozo","Cheesecake Trozo",101001,"Trozo Ch NY Berries",6,20166.00,0.00,20166.00,6001.169
+2024-09-17 00:00:00.0,"Tabancura","Local","Pastel Trozo","Cheesecake Trozo",101001,"Trozo Ch NY Berries",2,6722.00,0.00,6722.00,1998.354
+2024-09-17 00:00:00.0,"Nunoa","Local","Pastel Trozo","Cheesecake Trozo",101001,"Trozo Ch NY Berries",8,26888.00,0.00,26888.00,7995.696
+2024-09-17 00:00:00.0,"Penalolen","Local","Pastel Trozo","Cheesecake Trozo",101001,"Trozo Ch NY Berries",2,6722.00,0.00,6722.00,1998.992
+2024-09-17 00:00:00.0,"Lastarria","Local","Pastel Trozo","Cheesecake Trozo",101001,"Trozo Ch NY Berries",2,6722.00,0.00,6722.00,1999.708
+2024-09-17 00:00:00.0,"Chicureo","Local","Pastel Trozo","Cheesecake Trozo",101001,"Trozo Ch NY Berries",7,23527.00,0.00,23527.00,6995.395
+2024-09-17 00:00:00.0,"San Miguel ","Local","Pastel Trozo","Cheesecake Trozo",101001,"Trozo Ch NY Berries",2,6722.00,0.00,6722.00,1998.475
+2024-09-17 00:00:00.0,"La Reina","Uber","Pastel Trozo","Cheesecake Trozo",101001,"Trozo Ch NY Berries",1,4118.00,0.00,4118.00,998.815
+2024-09-17 00:00:00.0,"Los Militares","Uber","Pastel Trozo","Cheesecake Trozo",101001,"Trozo Ch NY Berries",3,12354.00,0.00,12354.00,3000.582
+2024-09-17 00:00:00.0,"Maipu","Uber","Pastel Trozo","Cheesecake Trozo",101001,"Trozo Ch NY Berries",1,4118.00,0.00,4118.00,999.433
+2024-09-17 00:00:00.0,"Pocuro","Uber","Pastel Trozo","Cheesecake Trozo",101001,"Trozo Ch NY Berries",3,12354.00,0.00,12354.00,2995.812
+2024-09-17 00:00:00.0,"Providencia","Uber","Pastel Trozo","Cheesecake Trozo",101001,"Trozo Ch NY Berries",1,4118.00,0.00,4118.00,1000.195
+2024-09-17 00:00:00.0,"Tabancura","Uber","Pastel Trozo","Cheesecake Trozo",101001,"Trozo Ch NY Berries",3,12354.00,0.00,12354.00,2997.531
+2024-09-17 00:00:00.0,"Nunoa","Uber","Pastel Trozo","Cheesecake Trozo",101001,"Trozo Ch NY Berries",3,12354.00,0.00,12354.00,2998.386
+2024-09-17 00:00:00.0,"Lastarria","Uber","Pastel Trozo","Cheesecake Trozo",101001,"Trozo Ch NY Berries",4,16472.00,0.00,16472.00,3999.416
+2024-09-17 00:00:00.0,"San Miguel ","Uber","Pastel Trozo","Cheesecake Trozo",101001,"Trozo Ch NY Berries",3,12354.00,0.00,12354.00,2997.712
+2024-09-17 00:00:00.0,"La Florida","Rappi","Pastel Trozo","Cheesecake Trozo",101001,"Trozo Ch NY Berries",1,4118.00,0.00,4118.00,998.708
+2024-09-17 00:00:00.0,"Pocuro","Rappi","Pastel Trozo","Cheesecake Trozo",101001,"Trozo Ch NY Berries",1,4118.00,0.00,4118.00,998.604
+2024-09-17 00:00:00.0,"Tabancura","Rappi","Pastel Trozo","Cheesecake Trozo",101001,"Trozo Ch NY Berries",2,8236.00,0.00,8236.00,1998.354
+2024-09-17 00:00:00.0,"Nunoa","Rappi","Pastel Trozo","Cheesecake Trozo",101001,"Trozo Ch NY Berries",1,4118.00,0.00,4118.00,999.462
+2024-09-17 00:00:00.0,"Penalolen","Rappi","Pastel Trozo","Cheesecake Trozo",101001,"Trozo Ch NY Berries",1,4118.00,0.00,4118.00,999.496
+2024-09-17 00:00:00.0,"Lastarria","Rappi","Pastel Trozo","Cheesecake Trozo",101001,"Trozo Ch NY Berries",1,4118.00,0.00,4118.00,999.854
+2024-09-17 00:00:00.0,"La Florida","PedidosYa","Pastel Trozo","Cheesecake Trozo",101001,"Trozo Ch NY Berries",2,8236.00,0.00,8236.00,1997.416
+2024-09-17 00:00:00.0,"Maipu","PedidosYa","Pastel Trozo","Cheesecake Trozo",101001,"Trozo Ch NY Berries",1,4118.00,0.00,4118.00,999.433
+2024-09-17 00:00:00.0,"Chicureo","Good Meal","Pastel Trozo","Cheesecake Trozo",101001,"Trozo Ch NY Berries",1,0.00,0.00,0.00,999.342
+2024-09-17 00:00:00.0,"Lastarria","Justo","Pastel Trozo","Cheesecake Trozo",101001,"Trozo Ch NY Berries",1,4118.00,0.00,4118.00,999.854
+2024-09-17 00:00:00.0,"Nunoa","Rappi Turbo","Pastel Trozo","Cheesecake Trozo",101001,"Trozo Ch NY Berries",2,8236.00,0.00,8236.00,1998.924
+2024-09-17 00:00:00.0,"La Florida","Local","Pastel Trozo","Cheesecake Trozo",101002,"Trozo Ch NY Maracuya",5,16805.00,0.00,16805.00,5208.721
+2024-09-17 00:00:00.0,"La Reina","Local","Pastel Trozo","Cheesecake Trozo",101002,"Trozo Ch NY Maracuya",1,3361.00,0.00,3361.00,1039.602
+2024-09-17 00:00:00.0,"Los Militares","Local","Pastel Trozo","Cheesecake Trozo",101002,"Trozo Ch NY Maracuya",2,6722.00,0.00,6722.00,2089.527
+2024-09-17 00:00:00.0,"Maipu","Local","Pastel Trozo","Cheesecake Trozo",101002,"Trozo Ch NY Maracuya",1,3361.00,0.00,3361.00,1041.685
+2024-09-17 00:00:00.0,"Pocuro","Local","Pastel Trozo","Cheesecake Trozo",101002,"Trozo Ch NY Maracuya",2,6722.00,0.00,6722.00,2085.158
+2024-09-17 00:00:00.0,"Providencia","Local","Pastel Trozo","Cheesecake Trozo",101002,"Trozo Ch NY Maracuya",8,26888.00,0.00,26888.00,8357.484
+2024-09-17 00:00:00.0,"Tabancura","Local","Pastel Trozo","Cheesecake Trozo",101002,"Trozo Ch NY Maracuya",2,6722.00,0.00,6722.00,2078.129
+2024-09-17 00:00:00.0,"Nunoa","Local","Pastel Trozo","Cheesecake Trozo",101002,"Trozo Ch NY Maracuya",7,23527.00,0.00,23527.00,7310.437
+2024-09-17 00:00:00.0,"Penalolen","Local","Pastel Trozo","Cheesecake Trozo",101002,"Trozo Ch NY Maracuya",2,6722.00,0.00,6722.00,2087.293
+2024-09-17 00:00:00.0,"Lastarria","Local","Pastel Trozo","Cheesecake Trozo",101002,"Trozo Ch NY Maracuya",3,10083.00,0.00,10083.00,3134.463
+2024-09-17 00:00:00.0,"San Miguel ","Local","Pastel Trozo","Cheesecake Trozo",101002,"Trozo Ch NY Maracuya",5,16805.00,0.00,16805.00,5211.43
+2024-09-17 00:00:00.0,"Maipu","Uber","Pastel Trozo","Cheesecake Trozo",101002,"Trozo Ch NY Maracuya",0,0.00,0.00,0.00,0.00
+2024-09-17 00:00:00.0,"Pocuro","Uber","Pastel Trozo","Cheesecake Trozo",101002,"Trozo Ch NY Maracuya",2,8236.00,0.00,8236.00,2085.158
+2024-09-17 00:00:00.0,"Tabancura","Uber","Pastel Trozo","Cheesecake Trozo",101002,"Trozo Ch NY Maracuya",1,4118.00,0.00,4118.00,1039.065
+2024-09-17 00:00:00.0,"Nunoa","Uber","Pastel Trozo","Cheesecake Trozo",101002,"Trozo Ch NY Maracuya",1,4118.00,0.00,4118.00,1044.348
+2024-09-17 00:00:00.0,"Lastarria","Uber","Pastel Trozo","Cheesecake Trozo",101002,"Trozo Ch NY Maracuya",1,0.00,0.00,0.00,1044.821
+2024-09-17 00:00:00.0,"La Florida","Rappi","Pastel Trozo","Cheesecake Trozo",101002,"Trozo Ch NY Maracuya",1,4118.00,0.00,4118.00,1041.744
+2024-09-17 00:00:00.0,"La Florida","PedidosYa","Pastel Trozo","Cheesecake Trozo",101002,"Trozo Ch NY Maracuya",1,4118.00,0.00,4118.00,1041.744
+2024-09-17 00:00:00.0,"Tabancura","PedidosYa","Pastel Trozo","Cheesecake Trozo",101002,"Trozo Ch NY Maracuya",1,4118.00,0.00,4118.00,1039.065
+2024-09-17 00:00:00.0,"Nunoa","PedidosYa","Pastel Trozo","Cheesecake Trozo",101002,"Trozo Ch NY Maracuya",1,4118.00,0.00,4118.00,1044.348
+2024-09-17 00:00:00.0,"Los Militares","Justo","Pastel Trozo","Cheesecake Trozo",101002,"Trozo Ch NY Maracuya",0,0.00,0.00,0.00,0.00
+2024-09-17 00:00:00.0,"Nunoa","Justo","Pastel Trozo","Cheesecake Trozo",101002,"Trozo Ch NY Maracuya",1,4118.00,0.00,4118.00,1044.348
+2024-09-17 00:00:00.0,"La Florida","Local","Pastel Trozo","Cheesecake Trozo",101006,"Trozo Ch Oreo",4,10083.00,0.00,10083.00,4408.66
+2024-09-17 00:00:00.0,"La Reina","Local","Pastel Trozo","Cheesecake Trozo",101006,"Trozo Ch Oreo",3,10083.00,0.00,10083.00,3307.44
+2024-09-17 00:00:00.0,"Los Militares","Local","Pastel Trozo","Cheesecake Trozo",101006,"Trozo Ch Oreo",7,23527.00,0.00,23527.00,7725.036
+2024-09-17 00:00:00.0,"Maipu","Local","Pastel Trozo","Cheesecake Trozo",101006,"Trozo Ch Oreo",3,10083.00,0.00,10083.00,3308.623
+2024-09-17 00:00:00.0,"Pocuro","Local","Pastel Trozo","Cheesecake Trozo",101006,"Trozo Ch Oreo",2,6722.00,0.00,6722.00,2204.686
+2024-09-17 00:00:00.0,"Providencia","Local","Pastel Trozo","Cheesecake Trozo",101006,"Trozo Ch Oreo",16,53776.00,0.00,53776.00,17660.325
+2024-09-17 00:00:00.0,"Tabancura","Local","Pastel Trozo","Cheesecake Trozo",101006,"Trozo Ch Oreo",2,6722.00,0.00,6722.00,2205.353
+2024-09-17 00:00:00.0,"Nunoa","Local","Pastel Trozo","Cheesecake Trozo",101006,"Trozo Ch Oreo",19,63859.00,0.00,63859.00,20952.411
+2024-09-17 00:00:00.0,"Penalolen","Local","Pastel Trozo","Cheesecake Trozo",101006,"Trozo Ch Oreo",2,6722.00,0.00,6722.00,2205.384
+2024-09-17 00:00:00.0,"Lastarria","Local","Pastel Trozo","Cheesecake Trozo",101006,"Trozo Ch Oreo",4,13444.00,0.00,13444.00,4414.401
+2024-09-17 00:00:00.0,"Chicureo","Local","Pastel Trozo","Cheesecake Trozo",101006,"Trozo Ch Oreo",4,13444.00,0.00,13444.00,4411.445
+2024-09-17 00:00:00.0,"San Miguel ","Local","Pastel Trozo","Cheesecake Trozo",101006,"Trozo Ch Oreo",4,13444.00,0.00,13444.00,4409.682
+2024-09-17 00:00:00.0,"La Florida","Uber","Pastel Trozo","Cheesecake Trozo",101006,"Trozo Ch Oreo",1,4118.00,0.00,4118.00,1102.165
+2024-09-17 00:00:00.0,"La Reina","Uber","Pastel Trozo","Cheesecake Trozo",101006,"Trozo Ch Oreo",3,12354.00,0.00,12354.00,3307.44
+2024-09-17 00:00:00.0,"Los Militares","Uber","Pastel Trozo","Cheesecake Trozo",101006,"Trozo Ch Oreo",5,16472.00,0.00,16472.00,5517.883
+2024-09-17 00:00:00.0,"Maipu","Uber","Pastel Trozo","Cheesecake Trozo",101006,"Trozo Ch Oreo",2,8236.00,0.00,8236.00,2205.749
+2024-09-17 00:00:00.0,"Pocuro","Uber","Pastel Trozo","Cheesecake Trozo",101006,"Trozo Ch Oreo",7,28826.00,0.00,28826.00,7716.403
+2024-09-17 00:00:00.0,"Providencia","Uber","Pastel Trozo","Cheesecake Trozo",101006,"Trozo Ch Oreo",3,12354.00,0.00,12354.00,3311.311
+2024-09-17 00:00:00.0,"Tabancura","Uber","Pastel Trozo","Cheesecake Trozo",101006,"Trozo Ch Oreo",3,12354.00,0.00,12354.00,3308.03
+2024-09-17 00:00:00.0,"Nunoa","Uber","Pastel Trozo","Cheesecake Trozo",101006,"Trozo Ch Oreo",10,37062.00,0.00,37062.00,11027.585
+2024-09-17 00:00:00.0,"Penalolen","Uber","Pastel Trozo","Cheesecake Trozo",101006,"Trozo Ch Oreo",4,12354.00,0.00,12354.00,4410.769
+2024-09-17 00:00:00.0,"Lastarria","Uber","Pastel Trozo","Cheesecake Trozo",101006,"Trozo Ch Oreo",6,24708.00,0.00,24708.00,6621.602
+2024-09-17 00:00:00.0,"Chicureo","Uber","Pastel Trozo","Cheesecake Trozo",101006,"Trozo Ch Oreo",3,12354.00,0.00,12354.00,3308.584
+2024-09-17 00:00:00.0,"La Florida","Rappi","Pastel Trozo","Cheesecake Trozo",101006,"Trozo Ch Oreo",2,8236.00,0.00,8236.00,2204.33
+2024-09-17 00:00:00.0,"Providencia","Rappi","Pastel Trozo","Cheesecake Trozo",101006,"Trozo Ch Oreo",1,4118.00,0.00,4118.00,1103.77
+2024-09-17 00:00:00.0,"Nunoa","Rappi","Pastel Trozo","Cheesecake Trozo",101006,"Trozo Ch Oreo",1,4118.00,0.00,4118.00,1102.758
+2024-09-17 00:00:00.0,"La Florida","PedidosYa","Pastel Trozo","Cheesecake Trozo",101006,"Trozo Ch Oreo",1,4118.00,0.00,4118.00,1102.165
+2024-09-17 00:00:00.0,"Maipu","PedidosYa","Pastel Trozo","Cheesecake Trozo",101006,"Trozo Ch Oreo",1,4118.00,0.00,4118.00,1102.874
+2024-09-17 00:00:00.0,"Nunoa","PedidosYa","Pastel Trozo","Cheesecake Trozo",101006,"Trozo Ch Oreo",2,8236.00,-411.80,7824.20,2205.517
+2024-09-17 00:00:00.0,"Lastarria","PedidosYa","Pastel Trozo","Cheesecake Trozo",101006,"Trozo Ch Oreo",1,4118.00,0.00,4118.00,1103.60
+2024-09-17 00:00:00.0,"Chicureo","Good Meal","Pastel Trozo","Cheesecake Trozo",101006,"Trozo Ch Oreo",1,0.00,0.00,0.00,1102.861
+2024-09-17 00:00:00.0,"Los Militares","Justo","Pastel Trozo","Cheesecake Trozo",101006,"Trozo Ch Oreo",1,4118.00,0.00,4118.00,1103.577
+2024-09-17 00:00:00.0,"Tabancura","Justo","Pastel Trozo","Cheesecake Trozo",101006,"Trozo Ch Oreo",1,4118.00,0.00,4118.00,1102.677
+2024-09-17 00:00:00.0,"Lastarria","Justo","Pastel Trozo","Cheesecake Trozo",101006,"Trozo Ch Oreo",1,0.00,0.00,0.00,1103.60
+2024-09-17 00:00:00.0,"Nunoa","Rappi Turbo","Pastel Trozo","Cheesecake Trozo",101006,"Trozo Ch Oreo",2,8236.00,0.00,8236.00,2205.517
+2024-09-17 00:00:00.0,"Los Militares","Local","Pastel Trozo","Cheesecake Trozo",101011,"Trozo Ch S/A NY Maracuya",3,10083.00,0.00,10083.00,3227.249
+2024-09-17 00:00:00.0,"Maipu","Local","Pastel Trozo","Cheesecake Trozo",101011,"Trozo Ch S/A NY Maracuya",1,3361.00,0.00,3361.00,1074.991
+2024-09-17 00:00:00.0,"Providencia","Local","Pastel Trozo","Cheesecake Trozo",101011,"Trozo Ch S/A NY Maracuya",2,6722.00,0.00,6722.00,2152.36
+2024-09-17 00:00:00.0,"Tabancura","Local","Pastel Trozo","Cheesecake Trozo",101011,"Trozo Ch S/A NY Maracuya",1,3361.00,0.00,3361.00,1075.31
+2024-09-17 00:00:00.0,"Nunoa","Local","Pastel Trozo","Cheesecake Trozo",101011,"Trozo Ch S/A NY Maracuya",9,30249.00,0.00,30249.00,9677.175
+2024-09-17 00:00:00.0,"Chicureo","Local","Pastel Trozo","Cheesecake Trozo",101011,"Trozo Ch S/A NY Maracuya",1,3361.00,0.00,3361.00,1076.028
+2024-09-17 00:00:00.0,"Pocuro","Uber","Pastel Trozo","Cheesecake Trozo",101011,"Trozo Ch S/A NY Maracuya",2,8236.00,0.00,8236.00,2148.335
+2024-09-17 00:00:00.0,"Tabancura","Uber","Pastel Trozo","Cheesecake Trozo",101011,"Trozo Ch S/A NY Maracuya",1,4118.00,0.00,4118.00,1075.31
+2024-09-17 00:00:00.0,"Penalolen","Uber","Pastel Trozo","Cheesecake Trozo",101011,"Trozo Ch S/A NY Maracuya",1,4118.00,0.00,4118.00,1075.071
+2024-09-17 00:00:00.0,"Lastarria","Uber","Pastel Trozo","Cheesecake Trozo",101011,"Trozo Ch S/A NY Maracuya",3,12354.00,0.00,12354.00,3226.625
+2024-09-17 00:00:00.0,"Chicureo","Uber","Pastel Trozo","Cheesecake Trozo",101011,"Trozo Ch S/A NY Maracuya",3,12354.00,0.00,12354.00,3228.084
+2024-09-17 00:00:00.0,"La Reina","Rappi","Pastel Trozo","Cheesecake Trozo",101011,"Trozo Ch S/A NY Maracuya",1,4118.00,0.00,4118.00,1074.381
+2024-09-17 00:00:00.0,"Los Militares","Rappi","Pastel Trozo","Cheesecake Trozo",101011,"Trozo Ch S/A NY Maracuya",1,4118.00,0.00,4118.00,1075.75
+2024-09-17 00:00:00.0,"Lastarria","Rappi","Pastel Trozo","Cheesecake Trozo",101011,"Trozo Ch S/A NY Maracuya",1,4118.00,0.00,4118.00,1075.542
+2024-09-17 00:00:00.0,"San Miguel ","PedidosYa","Pastel Trozo","Cheesecake Trozo",101011,"Trozo Ch S/A NY Maracuya",1,4118.00,0.00,4118.00,1074.765
+2024-09-17 00:00:00.0,"Chicureo","Good Meal","Pastel Trozo","Cheesecake Trozo",101011,"Trozo Ch S/A NY Maracuya",1,0.00,0.00,0.00,1076.028
+2024-09-17 00:00:00.0,"Providencia","Justo","Pastel Trozo","Cheesecake Trozo",101011,"Trozo Ch S/A NY Maracuya",1,4118.00,0.00,4118.00,1076.18
+2024-09-17 00:00:00.0,"La Florida","Local","Pastel Trozo","Cheesecake Trozo",101015,"Trozo Ch White Raspberry",3,10083.00,0.00,10083.00,3219.602
+2024-09-17 00:00:00.0,"Los Militares","Local","Pastel Trozo","Cheesecake Trozo",101015,"Trozo Ch White Raspberry",3,10083.00,0.00,10083.00,3224.131
+2024-09-17 00:00:00.0,"Maipu","Local","Pastel Trozo","Cheesecake Trozo",101015,"Trozo Ch White Raspberry",2,6722.00,0.00,6722.00,2147.915
+2024-09-17 00:00:00.0,"Pocuro","Local","Pastel Trozo","Cheesecake Trozo",101015,"Trozo Ch White Raspberry",3,10083.00,0.00,10083.00,3219.096
+2024-09-17 00:00:00.0,"Providencia","Local","Pastel Trozo","Cheesecake Trozo",101015,"Trozo Ch White Raspberry",4,13444.00,0.00,13444.00,4298.212
+2024-09-17 00:00:00.0,"Tabancura","Local","Pastel Trozo","Cheesecake Trozo",101015,"Trozo Ch White Raspberry",1,3361.00,0.00,3361.00,1073.69
+2024-09-17 00:00:00.0,"Nunoa","Local","Pastel Trozo","Cheesecake Trozo",101015,"Trozo Ch White Raspberry",1,3361.00,0.00,3361.00,1074.206
+2024-09-17 00:00:00.0,"Lastarria","Local","Pastel Trozo","Cheesecake Trozo",101015,"Trozo Ch White Raspberry",2,6722.00,0.00,6722.00,2149.007
+2024-09-17 00:00:00.0,"Chicureo","Local","Pastel Trozo","Cheesecake Trozo",101015,"Trozo Ch White Raspberry",1,3361.00,0.00,3361.00,1073.842
+2024-09-17 00:00:00.0,"San Miguel ","Local","Pastel Trozo","Cheesecake Trozo",101015,"Trozo Ch White Raspberry",1,3361.00,0.00,3361.00,1073.661
+2024-09-17 00:00:00.0,"La Florida","Uber","Pastel Trozo","Cheesecake Trozo",101015,"Trozo Ch White Raspberry",1,4118.00,0.00,4118.00,1073.201
+2024-09-17 00:00:00.0,"Maipu","Uber","Pastel Trozo","Cheesecake Trozo",101015,"Trozo Ch White Raspberry",2,8236.00,0.00,8236.00,2147.915
+2024-09-17 00:00:00.0,"Pocuro","Uber","Pastel Trozo","Cheesecake Trozo",101015,"Trozo Ch White Raspberry",4,16472.00,0.00,16472.00,4292.128
+2024-09-17 00:00:00.0,"Providencia","Uber","Pastel Trozo","Cheesecake Trozo",101015,"Trozo Ch White Raspberry",3,12354.00,0.00,12354.00,3223.659
+2024-09-17 00:00:00.0,"Tabancura","Uber","Pastel Trozo","Cheesecake Trozo",101015,"Trozo Ch White Raspberry",3,12354.00,0.00,12354.00,3221.069
+2024-09-17 00:00:00.0,"Chicureo","Uber","Pastel Trozo","Cheesecake Trozo",101015,"Trozo Ch White Raspberry",1,4118.00,0.00,4118.00,1073.842
+2024-09-17 00:00:00.0,"San Miguel ","Uber","Pastel Trozo","Cheesecake Trozo",101015,"Trozo Ch White Raspberry",1,4118.00,0.00,4118.00,1073.661
+2024-09-17 00:00:00.0,"Tabancura","Rappi","Pastel Trozo","Cheesecake Trozo",101015,"Trozo Ch White Raspberry",1,4118.00,0.00,4118.00,1073.69
+2024-09-17 00:00:00.0,"Penalolen","Rappi","Pastel Trozo","Cheesecake Trozo",101015,"Trozo Ch White Raspberry",0,0.00,0.00,0.00,0.00
+2024-09-17 00:00:00.0,"Chicureo","Good Meal","Pastel Trozo","Cheesecake Trozo",101015,"Trozo Ch White Raspberry",1,0.00,0.00,0.00,1073.842
+2024-09-17 00:00:00.0,"Chicureo","Local","Pastel Trozo","Cheesecake Trozo",101016,"Trozo Ch de Chocolate",1,3361.00,0.00,3361.00,1100.338
+2024-09-17 00:00:00.0,"La Florida","Local","Pastel Trozo","Torta Trozo",102001,"Trozo Tor Brownie Man y Framb",5,16805.00,0.00,16805.00,5226.50
+2024-09-17 00:00:00.0,"Los Militares","Local","Pastel Trozo","Torta Trozo",102001,"Trozo Tor Brownie Man y Framb",1,3361.00,0.00,3361.00,1046.789
+2024-09-17 00:00:00.0,"Maipu","Local","Pastel Trozo","Torta Trozo",102001,"Trozo Tor Brownie Man y Framb",2,6722.00,0.00,6722.00,2092.068
+2024-09-17 00:00:00.0,"Providencia","Local","Pastel Trozo","Torta Trozo",102001,"Trozo Tor Brownie Man y Framb",2,6722.00,0.00,6722.00,2102.242
+2024-09-17 00:00:00.0,"Tabancura","Local","Pastel Trozo","Torta Trozo",102001,"Trozo Tor Brownie Man y Framb",2,6722.00,0.00,6722.00,2091.557
+2024-09-17 00:00:00.0,"Nunoa","Local","Pastel Trozo","Torta Trozo",102001,"Trozo Tor Brownie Man y Framb",9,30249.00,0.00,30249.00,9534.523
+2024-09-17 00:00:00.0,"Lastarria","Local","Pastel Trozo","Torta Trozo",102001,"Trozo Tor Brownie Man y Framb",3,10083.00,0.00,10083.00,3159.412
+2024-09-17 00:00:00.0,"San Miguel ","Local","Pastel Trozo","Torta Trozo",102001,"Trozo Tor Brownie Man y Framb",2,6722.00,0.00,6722.00,2091.592
+2024-09-17 00:00:00.0,"La Florida","Uber","Pastel Trozo","Torta Trozo",102001,"Trozo Tor Brownie Man y Framb",2,8236.00,0.00,8236.00,2090.60
+2024-09-17 00:00:00.0,"Los Militares","Uber","Pastel Trozo","Torta Trozo",102001,"Trozo Tor Brownie Man y Framb",4,16472.00,0.00,16472.00,4187.157
+2024-09-17 00:00:00.0,"Maipu","Uber","Pastel Trozo","Torta Trozo",102001,"Trozo Tor Brownie Man y Framb",2,8236.00,0.00,8236.00,2092.068
+2024-09-17 00:00:00.0,"Pocuro","Uber","Pastel Trozo","Torta Trozo",102001,"Trozo Tor Brownie Man y Framb",3,12354.00,0.00,12354.00,3135.629
+2024-09-17 00:00:00.0,"Nunoa","Uber","Pastel Trozo","Torta Trozo",102001,"Trozo Tor Brownie Man y Framb",2,8236.00,0.00,8236.00,2118.783
+2024-09-17 00:00:00.0,"Lastarria","Uber","Pastel Trozo","Torta Trozo",102001,"Trozo Tor Brownie Man y Framb",4,12354.00,0.00,12354.00,4212.55
+2024-09-17 00:00:00.0,"San Miguel ","Uber","Pastel Trozo","Torta Trozo",102001,"Trozo Tor Brownie Man y Framb",1,4118.00,0.00,4118.00,1045.796
+2024-09-17 00:00:00.0,"La Florida","Rappi","Pastel Trozo","Torta Trozo",102001,"Trozo Tor Brownie Man y Framb",2,8236.00,0.00,8236.00,2090.60
+2024-09-17 00:00:00.0,"San Miguel ","PedidosYa","Pastel Trozo","Torta Trozo",102001,"Trozo Tor Brownie Man y Framb",1,4118.00,0.00,4118.00,1045.796
+2024-09-17 00:00:00.0,"La Florida","Local","Pastel Trozo","Torta Trozo",102003,"Trozo Tor Dark Cake",4,13444.00,0.00,13444.00,3413.022
+2024-09-17 00:00:00.0,"La Reina","Local","Pastel Trozo","Torta Trozo",102003,"Trozo Tor Dark Cake",3,10083.00,0.00,10083.00,2559.76
+2024-09-17 00:00:00.0,"Los Militares","Local","Pastel Trozo","Torta Trozo",102003,"Trozo Tor Dark Cake",4,13444.00,0.00,13444.00,3420.83
+2024-09-17 00:00:00.0,"Maipu","Local","Pastel Trozo","Torta Trozo",102003,"Trozo Tor Dark Cake",6,20166.00,-1008.00,19158.00,5126.936
+2024-09-17 00:00:00.0,"Pocuro","Local","Pastel Trozo","Torta Trozo",102003,"Trozo Tor Dark Cake",2,6722.00,0.00,6722.00,1707.099
+2024-09-17 00:00:00.0,"Providencia","Local","Pastel Trozo","Torta Trozo",102003,"Trozo Tor Dark Cake",5,16805.00,0.00,16805.00,4280.162
+2024-09-17 00:00:00.0,"Tabancura","Local","Pastel Trozo","Torta Trozo",102003,"Trozo Tor Dark Cake",5,16805.00,0.00,16805.00,4270.06
+2024-09-17 00:00:00.0,"Nunoa","Local","Pastel Trozo","Torta Trozo",102003,"Trozo Tor Dark Cake",5,16805.00,0.00,16805.00,4270.459
+2024-09-17 00:00:00.0,"Penalolen","Local","Pastel Trozo","Torta Trozo",102003,"Trozo Tor Dark Cake",2,6722.00,0.00,6722.00,1709.431
+2024-09-17 00:00:00.0,"Lastarria","Local","Pastel Trozo","Torta Trozo",102003,"Trozo Tor Dark Cake",6,20166.00,0.00,20166.00,5129.095
+2024-09-17 00:00:00.0,"San Miguel ","Local","Pastel Trozo","Torta Trozo",102003,"Trozo Tor Dark Cake",2,6722.00,0.00,6722.00,1707.57
+2024-09-17 00:00:00.0,"La Florida","Uber","Pastel Trozo","Torta Trozo",102003,"Trozo Tor Dark Cake",1,0.00,0.00,0.00,853.255
+2024-09-17 00:00:00.0,"Los Militares","Uber","Pastel Trozo","Torta Trozo",102003,"Trozo Tor Dark Cake",2,8236.00,0.00,8236.00,1710.415
+2024-09-17 00:00:00.0,"Maipu","Uber","Pastel Trozo","Torta Trozo",102003,"Trozo Tor Dark Cake",3,8236.00,0.00,8236.00,2563.468
+2024-09-17 00:00:00.0,"Pocuro","Uber","Pastel Trozo","Torta Trozo",102003,"Trozo Tor Dark Cake",3,12354.00,0.00,12354.00,2560.649
+2024-09-17 00:00:00.0,"Providencia","Uber","Pastel Trozo","Torta Trozo",102003,"Trozo Tor Dark Cake",2,8236.00,0.00,8236.00,1712.065
+2024-09-17 00:00:00.0,"Tabancura","Uber","Pastel Trozo","Torta Trozo",102003,"Trozo Tor Dark Cake",3,12354.00,0.00,12354.00,2562.036
+2024-09-17 00:00:00.0,"Nunoa","Uber","Pastel Trozo","Torta Trozo",102003,"Trozo Tor Dark Cake",2,8236.00,0.00,8236.00,1708.184
+2024-09-17 00:00:00.0,"Penalolen","Uber","Pastel Trozo","Torta Trozo",102003,"Trozo Tor Dark Cake",1,4118.00,0.00,4118.00,854.715
+2024-09-17 00:00:00.0,"Lastarria","Uber","Pastel Trozo","Torta Trozo",102003,"Trozo Tor Dark Cake",2,8236.00,0.00,8236.00,1709.698
+2024-09-17 00:00:00.0,"Chicureo","Uber","Pastel Trozo","Torta Trozo",102003,"Trozo Tor Dark Cake",3,12354.00,0.00,12354.00,2562.783
+2024-09-17 00:00:00.0,"San Miguel ","Uber","Pastel Trozo","Torta Trozo",102003,"Trozo Tor Dark Cake",4,16472.00,0.00,16472.00,3415.139
+2024-09-17 00:00:00.0,"La Florida","Rappi","Pastel Trozo","Torta Trozo",102003,"Trozo Tor Dark Cake",1,4118.00,0.00,4118.00,853.255
+2024-09-17 00:00:00.0,"Pocuro","Rappi","Pastel Trozo","Torta Trozo",102003,"Trozo Tor Dark Cake",1,4118.00,0.00,4118.00,853.55
+2024-09-17 00:00:00.0,"Nunoa","Rappi","Pastel Trozo","Torta Trozo",102003,"Trozo Tor Dark Cake",1,4118.00,0.00,4118.00,854.092
+2024-09-17 00:00:00.0,"La Florida","PedidosYa","Pastel Trozo","Torta Trozo",102003,"Trozo Tor Dark Cake",1,4118.00,0.00,4118.00,853.255
+2024-09-17 00:00:00.0,"Los Militares","PedidosYa","Pastel Trozo","Torta Trozo",102003,"Trozo Tor Dark Cake",1,4118.00,0.00,4118.00,855.208
+2024-09-17 00:00:00.0,"Maipu","PedidosYa","Pastel Trozo","Torta Trozo",102003,"Trozo Tor Dark Cake",0,0.00,0.00,0.00,0.00
+2024-09-17 00:00:00.0,"Nunoa","Rappi Turbo","Pastel Trozo","Torta Trozo",102003,"Trozo Tor Dark Cake",1,4118.00,0.00,4118.00,854.092
+2024-09-17 00:00:00.0,"La Florida","Local","Pastel Trozo","Torta Trozo",102004,"Trozo Tor Carrot Cake",4,13444.00,0.00,13444.00,3351.426
+2024-09-17 00:00:00.0,"La Reina","Local","Pastel Trozo","Torta Trozo",102004,"Trozo Tor Carrot Cake",2,6722.00,0.00,6722.00,1674.862
+2024-09-17 00:00:00.0,"Los Militares","Local","Pastel Trozo","Torta Trozo",102004,"Trozo Tor Carrot Cake",6,20166.00,0.00,20166.00,5033.332
+2024-09-17 00:00:00.0,"Maipu","Local","Pastel Trozo","Torta Trozo",102004,"Trozo Tor Carrot Cake",5,13444.00,0.00,13444.00,4190.65
+2024-09-17 00:00:00.0,"Pocuro","Local","Pastel Trozo","Torta Trozo",102004,"Trozo Tor Carrot Cake",3,10083.00,0.00,10083.00,2512.041
+2024-09-17 00:00:00.0,"Providencia","Local","Pastel Trozo","Torta Trozo",102004,"Trozo Tor Carrot Cake",15,50415.00,0.00,50415.00,12583.563
+2024-09-17 00:00:00.0,"Tabancura","Local","Pastel Trozo","Torta Trozo",102004,"Trozo Tor Carrot Cake",5,16805.00,0.00,16805.00,4189.507
+2024-09-17 00:00:00.0,"Nunoa","Local","Pastel Trozo","Torta Trozo",102004,"Trozo Tor Carrot Cake",13,43693.00,0.00,43693.00,10898.307
+2024-09-17 00:00:00.0,"Penalolen","Local","Pastel Trozo","Torta Trozo",102004,"Trozo Tor Carrot Cake",1,3361.00,0.00,3361.00,838.208
+2024-09-17 00:00:00.0,"Lastarria","Local","Pastel Trozo","Torta Trozo",102004,"Trozo Tor Carrot Cake",8,26888.00,0.00,26888.00,6709.524
+2024-09-17 00:00:00.0,"Chicureo","Local","Pastel Trozo","Torta Trozo",102004,"Trozo Tor Carrot Cake",6,20166.00,0.00,20166.00,5028.28
+2024-09-17 00:00:00.0,"San Miguel ","Local","Pastel Trozo","Torta Trozo",102004,"Trozo Tor Carrot Cake",7,23527.00,0.00,23527.00,5865.862
+2024-09-17 00:00:00.0,"La Florida","Uber","Pastel Trozo","Torta Trozo",102004,"Trozo Tor Carrot Cake",2,8236.00,0.00,8236.00,1675.713
+2024-09-17 00:00:00.0,"Los Militares","Uber","Pastel Trozo","Torta Trozo",102004,"Trozo Tor Carrot Cake",5,20590.00,0.00,20590.00,4194.443
+2024-09-17 00:00:00.0,"Maipu","Uber","Pastel Trozo","Torta Trozo",102004,"Trozo Tor Carrot Cake",2,8236.00,0.00,8236.00,1676.26
+2024-09-17 00:00:00.0,"Pocuro","Uber","Pastel Trozo","Torta Trozo",102004,"Trozo Tor Carrot Cake",1,4118.00,0.00,4118.00,837.347
+2024-09-17 00:00:00.0,"Tabancura","Uber","Pastel Trozo","Torta Trozo",102004,"Trozo Tor Carrot Cake",1,4118.00,0.00,4118.00,837.901
+2024-09-17 00:00:00.0,"Nunoa","Uber","Pastel Trozo","Torta Trozo",102004,"Trozo Tor Carrot Cake",5,20590.00,0.00,20590.00,4191.657
+2024-09-17 00:00:00.0,"Penalolen","Uber","Pastel Trozo","Torta Trozo",102004,"Trozo Tor Carrot Cake",4,16472.00,0.00,16472.00,3352.832
+2024-09-17 00:00:00.0,"Lastarria","Uber","Pastel Trozo","Torta Trozo",102004,"Trozo Tor Carrot Cake",3,12354.00,0.00,12354.00,2516.072
+2024-09-17 00:00:00.0,"Chicureo","Uber","Pastel Trozo","Torta Trozo",102004,"Trozo Tor Carrot Cake",2,8236.00,0.00,8236.00,1676.093
+2024-09-17 00:00:00.0,"San Miguel ","Uber","Pastel Trozo","Torta Trozo",102004,"Trozo Tor Carrot Cake",2,8236.00,0.00,8236.00,1675.961
+2024-09-17 00:00:00.0,"La Florida","Rappi","Pastel Trozo","Torta Trozo",102004,"Trozo Tor Carrot Cake",4,12354.00,0.00,12354.00,3351.426
+2024-09-17 00:00:00.0,"Pocuro","Rappi","Pastel Trozo","Torta Trozo",102004,"Trozo Tor Carrot Cake",1,4118.00,0.00,4118.00,837.347
+2024-09-17 00:00:00.0,"Tabancura","Rappi","Pastel Trozo","Torta Trozo",102004,"Trozo Tor Carrot Cake",2,8236.00,0.00,8236.00,1675.803
+2024-09-17 00:00:00.0,"San Miguel ","Rappi","Pastel Trozo","Torta Trozo",102004,"Trozo Tor Carrot Cake",2,8236.00,0.00,8236.00,1675.961
+2024-09-17 00:00:00.0,"La Florida","PedidosYa","Pastel Trozo","Torta Trozo",102004,"Trozo Tor Carrot Cake",1,4118.00,0.00,4118.00,837.856
+2024-09-17 00:00:00.0,"Maipu","PedidosYa","Pastel Trozo","Torta Trozo",102004,"Trozo Tor Carrot Cake",2,8236.00,0.00,8236.00,1676.26
+2024-09-17 00:00:00.0,"Nunoa","Justo","Pastel Trozo","Torta Trozo",102004,"Trozo Tor Carrot Cake",1,4118.00,0.00,4118.00,838.331
+2024-09-17 00:00:00.0,"Nunoa","Rappi Turbo","Pastel Trozo","Torta Trozo",102004,"Trozo Tor Carrot Cake",1,4118.00,0.00,4118.00,838.331
+2024-09-17 00:00:00.0,"La Florida","Local","Pastel Trozo","Torta Trozo",102005,"Trozo Tor Red Velvet",4,13444.00,0.00,13444.00,3114.286
+2024-09-17 00:00:00.0,"La Reina","Local","Pastel Trozo","Torta Trozo",102005,"Trozo Tor Red Velvet",2,6722.00,0.00,6722.00,1557.421
+2024-09-17 00:00:00.0,"Los Militares","Local","Pastel Trozo","Torta Trozo",102005,"Trozo Tor Red Velvet",1,3361.00,0.00,3361.00,780.17
+2024-09-17 00:00:00.0,"Maipu","Local","Pastel Trozo","Torta Trozo",102005,"Trozo Tor Red Velvet",4,13444.00,0.00,13444.00,3117.588
+2024-09-17 00:00:00.0,"Pocuro","Local","Pastel Trozo","Torta Trozo",102005,"Trozo Tor Red Velvet",2,3361.00,0.00,3361.00,1557.206
+2024-09-17 00:00:00.0,"Providencia","Local","Pastel Trozo","Torta Trozo",102005,"Trozo Tor Red Velvet",14,47054.00,0.00,47054.00,10922.487
+2024-09-17 00:00:00.0,"Tabancura","Local","Pastel Trozo","Torta Trozo",102005,"Trozo Tor Red Velvet",4,13444.00,0.00,13444.00,3116.739
+2024-09-17 00:00:00.0,"Nunoa","Local","Pastel Trozo","Torta Trozo",102005,"Trozo Tor Red Velvet",2,6722.00,0.00,6722.00,1558.894
+2024-09-17 00:00:00.0,"Penalolen","Local","Pastel Trozo","Torta Trozo",102005,"Trozo Tor Red Velvet",3,10083.00,0.00,10083.00,2336.909
+2024-09-17 00:00:00.0,"Lastarria","Local","Pastel Trozo","Torta Trozo",102005,"Trozo Tor Red Velvet",2,6722.00,0.00,6722.00,1559.869
+2024-09-17 00:00:00.0,"Chicureo","Local","Pastel Trozo","Torta Trozo",102005,"Trozo Tor Red Velvet",1,3361.00,0.00,3361.00,779.381
+2024-09-17 00:00:00.0,"San Miguel ","Local","Pastel Trozo","Torta Trozo",102005,"Trozo Tor Red Velvet",2,6722.00,0.00,6722.00,1558.234
+2024-09-17 00:00:00.0,"Los Militares","Uber","Pastel Trozo","Torta Trozo",102005,"Trozo Tor Red Velvet",3,12354.00,0.00,12354.00,2340.509
+2024-09-17 00:00:00.0,"Maipu","Uber","Pastel Trozo","Torta Trozo",102005,"Trozo Tor Red Velvet",2,8236.00,0.00,8236.00,1558.794
+2024-09-17 00:00:00.0,"Pocuro","Uber","Pastel Trozo","Torta Trozo",102005,"Trozo Tor Red Velvet",4,16472.00,0.00,16472.00,3114.413
+2024-09-17 00:00:00.0,"Tabancura","Uber","Pastel Trozo","Torta Trozo",102005,"Trozo Tor Red Velvet",1,0.00,0.00,0.00,779.185
+2024-09-17 00:00:00.0,"Nunoa","Uber","Pastel Trozo","Torta Trozo",102005,"Trozo Tor Red Velvet",2,8236.00,0.00,8236.00,1558.894
+2024-09-17 00:00:00.0,"Penalolen","Uber","Pastel Trozo","Torta Trozo",102005,"Trozo Tor Red Velvet",1,4118.00,0.00,4118.00,778.97
+2024-09-17 00:00:00.0,"Lastarria","Uber","Pastel Trozo","Torta Trozo",102005,"Trozo Tor Red Velvet",8,32944.00,0.00,32944.00,6239.476
+2024-09-17 00:00:00.0,"Chicureo","Uber","Pastel Trozo","Torta Trozo",102005,"Trozo Tor Red Velvet",1,4118.00,0.00,4118.00,779.381
+2024-09-17 00:00:00.0,"San Miguel ","Uber","Pastel Trozo","Torta Trozo",102005,"Trozo Tor Red Velvet",3,12354.00,0.00,12354.00,2337.35
+2024-09-17 00:00:00.0,"La Florida","Rappi","Pastel Trozo","Torta Trozo",102005,"Trozo Tor Red Velvet",2,8236.00,0.00,8236.00,1557.143
+2024-09-17 00:00:00.0,"La Florida","PedidosYa","Pastel Trozo","Torta Trozo",102005,"Trozo Tor Red Velvet",1,4118.00,0.00,4118.00,778.572
+2024-09-17 00:00:00.0,"La Florida","Justo","Pastel Trozo","Torta Trozo",102005,"Trozo Tor Red Velvet",1,4118.00,0.00,4118.00,778.572
+2024-09-17 00:00:00.0,"La Florida","Local","Pastel Trozo","Torta Trozo",102008,"Trozo Tor S/A Carrot Cake",1,3361.00,0.00,3361.00,725.404
+2024-09-17 00:00:00.0,"Los Militares","Local","Pastel Trozo","Torta Trozo",102008,"Trozo Tor S/A Carrot Cake",2,6722.00,0.00,6722.00,1453.036
+2024-09-17 00:00:00.0,"Maipu","Local","Pastel Trozo","Torta Trozo",102008,"Trozo Tor S/A Carrot Cake",2,6722.00,0.00,6722.00,1450.133
+2024-09-17 00:00:00.0,"Providencia","Local","Pastel Trozo","Torta Trozo",102008,"Trozo Tor S/A Carrot Cake",5,16805.00,0.00,16805.00,3633.103
+2024-09-17 00:00:00.0,"Tabancura","Local","Pastel Trozo","Torta Trozo",102008,"Trozo Tor S/A Carrot Cake",1,3361.00,0.00,3361.00,726.073
+2024-09-17 00:00:00.0,"Nunoa","Local","Pastel Trozo","Torta Trozo",102008,"Trozo Tor S/A Carrot Cake",1,3361.00,0.00,3361.00,726.028
+2024-09-17 00:00:00.0,"Penalolen","Local","Pastel Trozo","Torta Trozo",102008,"Trozo Tor S/A Carrot Cake",2,6722.00,0.00,6722.00,1451.35
+2024-09-17 00:00:00.0,"Lastarria","Local","Pastel Trozo","Torta Trozo",102008,"Trozo Tor S/A Carrot Cake",3,10083.00,0.00,10083.00,2178.694
+2024-09-17 00:00:00.0,"Chicureo","Local","Pastel Trozo","Torta Trozo",102008,"Trozo Tor S/A Carrot Cake",1,3361.00,0.00,3361.00,726.598
+2024-09-17 00:00:00.0,"Maipu","Uber","Pastel Trozo","Torta Trozo",102008,"Trozo Tor S/A Carrot Cake",2,8236.00,0.00,8236.00,1450.133
+2024-09-17 00:00:00.0,"Pocuro","Uber","Pastel Trozo","Torta Trozo",102008,"Trozo Tor S/A Carrot Cake",1,4118.00,0.00,4118.00,724.853
+2024-09-17 00:00:00.0,"Providencia","Uber","Pastel Trozo","Torta Trozo",102008,"Trozo Tor S/A Carrot Cake",1,4118.00,0.00,4118.00,726.621
+2024-09-17 00:00:00.0,"Tabancura","Uber","Pastel Trozo","Torta Trozo",102008,"Trozo Tor S/A Carrot Cake",1,4118.00,0.00,4118.00,726.073
+2024-09-17 00:00:00.0,"Nunoa","Uber","Pastel Trozo","Torta Trozo",102008,"Trozo Tor S/A Carrot Cake",1,4118.00,0.00,4118.00,726.028
+2024-09-17 00:00:00.0,"Penalolen","Uber","Pastel Trozo","Torta Trozo",102008,"Trozo Tor S/A Carrot Cake",3,12354.00,0.00,12354.00,2177.025
+2024-09-17 00:00:00.0,"Lastarria","Uber","Pastel Trozo","Torta Trozo",102008,"Trozo Tor S/A Carrot Cake",2,8236.00,0.00,8236.00,1452.463
+2024-09-17 00:00:00.0,"San Miguel ","Uber","Pastel Trozo","Torta Trozo",102008,"Trozo Tor S/A Carrot Cake",1,4118.00,0.00,4118.00,725.369
+2024-09-17 00:00:00.0,"La Reina","Rappi","Pastel Trozo","Torta Trozo",102008,"Trozo Tor S/A Carrot Cake",1,4118.00,0.00,4118.00,724.983
+2024-09-17 00:00:00.0,"Los Militares","Rappi","Pastel Trozo","Torta Trozo",102008,"Trozo Tor S/A Carrot Cake",1,4118.00,0.00,4118.00,726.518
+2024-09-17 00:00:00.0,"Pocuro","Rappi","Pastel Trozo","Torta Trozo",102008,"Trozo Tor S/A Carrot Cake",1,4118.00,0.00,4118.00,724.853
+2024-09-17 00:00:00.0,"Los Militares","PedidosYa","Pastel Trozo","Torta Trozo",102008,"Trozo Tor S/A Carrot Cake",1,4118.00,0.00,4118.00,726.518
+2024-09-17 00:00:00.0,"Tabancura","PedidosYa","Pastel Trozo","Torta Trozo",102008,"Trozo Tor S/A Carrot Cake",5,20590.00,0.00,20590.00,3630.363
+2024-09-17 00:00:00.0,"San Miguel ","PedidosYa","Pastel Trozo","Torta Trozo",102008,"Trozo Tor S/A Carrot Cake",2,8236.00,-411.80,7824.20,1450.737
+2024-09-17 00:00:00.0,"Providencia","Justo","Pastel Trozo","Torta Trozo",102008,"Trozo Tor S/A Carrot Cake",1,4118.00,0.00,4118.00,726.621
+2024-09-17 00:00:00.0,"La Reina","Local","Pastel Trozo","Torta Trozo",102009,"Trozo Tor Lemon Blueberry Cake",3,10083.00,0.00,10083.00,2568.50
+2024-09-17 00:00:00.0,"Los Militares","Local","Pastel Trozo","Torta Trozo",102009,"Trozo Tor Lemon Blueberry Cake",3,10083.00,0.00,10083.00,2573.329
+2024-09-17 00:00:00.0,"Maipu","Local","Pastel Trozo","Torta Trozo",102009,"Trozo Tor Lemon Blueberry Cake",2,6722.00,0.00,6722.00,1713.805
+2024-09-17 00:00:00.0,"Providencia","Local","Pastel Trozo","Torta Trozo",102009,"Trozo Tor Lemon Blueberry Cake",5,16805.00,0.00,16805.00,4290.653
+2024-09-17 00:00:00.0,"Tabancura","Local","Pastel Trozo","Torta Trozo",102009,"Trozo Tor Lemon Blueberry Cake",3,10083.00,0.00,10083.00,2570.203
+2024-09-17 00:00:00.0,"Nunoa","Local","Pastel Trozo","Torta Trozo",102009,"Trozo Tor Lemon Blueberry Cake",2,6722.00,0.00,6722.00,1714.293
+2024-09-17 00:00:00.0,"Penalolen","Local","Pastel Trozo","Torta Trozo",102009,"Trozo Tor Lemon Blueberry Cake",1,3361.00,0.00,3361.00,856.963
+2024-09-17 00:00:00.0,"Lastarria","Local","Pastel Trozo","Torta Trozo",102009,"Trozo Tor Lemon Blueberry Cake",2,6722.00,0.00,6722.00,1714.978
+2024-09-17 00:00:00.0,"San Miguel ","Local","Pastel Trozo","Torta Trozo",102009,"Trozo Tor Lemon Blueberry Cake",1,3361.00,0.00,3361.00,856.801
+2024-09-17 00:00:00.0,"La Florida","Uber","Pastel Trozo","Torta Trozo",102009,"Trozo Tor Lemon Blueberry Cake",1,4118.00,0.00,4118.00,856.056
+2024-09-17 00:00:00.0,"Los Militares","Uber","Pastel Trozo","Torta Trozo",102009,"Trozo Tor Lemon Blueberry Cake",1,4118.00,0.00,4118.00,857.776
+2024-09-17 00:00:00.0,"Maipu","Uber","Pastel Trozo","Torta Trozo",102009,"Trozo Tor Lemon Blueberry Cake",3,12354.00,0.00,12354.00,2570.708
+2024-09-17 00:00:00.0,"Pocuro","Uber","Pastel Trozo","Torta Trozo",102009,"Trozo Tor Lemon Blueberry Cake",3,12354.00,0.00,12354.00,2569.047
+2024-09-17 00:00:00.0,"Providencia","Uber","Pastel Trozo","Torta Trozo",102009,"Trozo Tor Lemon Blueberry Cake",1,4118.00,0.00,4118.00,858.131
+2024-09-17 00:00:00.0,"Tabancura","Uber","Pastel Trozo","Torta Trozo",102009,"Trozo Tor Lemon Blueberry Cake",1,4118.00,0.00,4118.00,856.734
+2024-09-17 00:00:00.0,"Nunoa","Uber","Pastel Trozo","Torta Trozo",102009,"Trozo Tor Lemon Blueberry Cake",2,8236.00,0.00,8236.00,1714.293
+2024-09-17 00:00:00.0,"Lastarria","Uber","Pastel Trozo","Torta Trozo",102009,"Trozo Tor Lemon Blueberry Cake",2,8236.00,0.00,8236.00,1714.978
+2024-09-17 00:00:00.0,"San Miguel ","Uber","Pastel Trozo","Torta Trozo",102009,"Trozo Tor Lemon Blueberry Cake",3,12354.00,0.00,12354.00,2570.402
+2024-09-17 00:00:00.0,"La Florida","Rappi","Pastel Trozo","Torta Trozo",102009,"Trozo Tor Lemon Blueberry Cake",3,12354.00,0.00,12354.00,2568.167
+2024-09-17 00:00:00.0,"Providencia","Rappi","Pastel Trozo","Torta Trozo",102009,"Trozo Tor Lemon Blueberry Cake",1,4118.00,0.00,4118.00,858.131
+2024-09-17 00:00:00.0,"La Florida","PedidosYa","Pastel Trozo","Torta Trozo",102009,"Trozo Tor Lemon Blueberry Cake",1,4118.00,0.00,4118.00,856.056
+2024-09-17 00:00:00.0,"Nunoa","PedidosYa","Pastel Trozo","Torta Trozo",102009,"Trozo Tor Lemon Blueberry Cake",3,12354.00,-411.80,11942.20,2571.439
+2024-09-17 00:00:00.0,"Lastarria","PedidosYa","Pastel Trozo","Torta Trozo",102009,"Trozo Tor Lemon Blueberry Cake",1,4118.00,0.00,4118.00,857.489
+2024-09-17 00:00:00.0,"La Florida","Justo","Pastel Trozo","Torta Trozo",102009,"Trozo Tor Lemon Blueberry Cake",2,8236.00,0.00,8236.00,1712.111
+2024-09-17 00:00:00.0,"Nunoa","Justo","Pastel Trozo","Torta Trozo",102009,"Trozo Tor Lemon Blueberry Cake",1,4118.00,0.00,4118.00,857.146
+2024-09-17 00:00:00.0,"Lastarria","Justo","Pastel Trozo","Torta Trozo",102009,"Trozo Tor Lemon Blueberry Cake",1,4118.00,0.00,4118.00,857.489
+2024-09-17 00:00:00.0,"La Florida","Local","Pastel Trozo","Torta Trozo",102011,"Trozo Tor Smores",1,3361.00,0.00,3361.00,856.942
+2024-09-17 00:00:00.0,"Los Militares","Local","Pastel Trozo","Torta Trozo",102011,"Trozo Tor Smores",2,6722.00,0.00,6722.00,1718.176
+2024-09-17 00:00:00.0,"Maipu","Local","Pastel Trozo","Torta Trozo",102011,"Trozo Tor Smores",2,6722.00,0.00,6722.00,1716.014
+2024-09-17 00:00:00.0,"Providencia","Local","Pastel Trozo","Torta Trozo",102011,"Trozo Tor Smores",5,16805.00,0.00,16805.00,4293.844
+2024-09-17 00:00:00.0,"Nunoa","Local","Pastel Trozo","Torta Trozo",102011,"Trozo Tor Smores",2,6722.00,0.00,6722.00,1716.48
+2024-09-17 00:00:00.0,"Lastarria","Local","Pastel Trozo","Torta Trozo",102011,"Trozo Tor Smores",2,6722.00,0.00,6722.00,1717.054
+2024-09-17 00:00:00.0,"Chicureo","Local","Pastel Trozo","Torta Trozo",102011,"Trozo Tor Smores",4,13444.00,0.00,13444.00,3431.772
+2024-09-17 00:00:00.0,"San Miguel ","Local","Pastel Trozo","Torta Trozo",102011,"Trozo Tor Smores",1,3361.00,0.00,3361.00,857.771
+2024-09-17 00:00:00.0,"La Florida","Uber","Pastel Trozo","Torta Trozo",102011,"Trozo Tor Smores",1,4118.00,0.00,4118.00,856.942
+2024-09-17 00:00:00.0,"Los Militares","Uber","Pastel Trozo","Torta Trozo",102011,"Trozo Tor Smores",3,12354.00,0.00,12354.00,2577.263
+2024-09-17 00:00:00.0,"Pocuro","Uber","Pastel Trozo","Torta Trozo",102011,"Trozo Tor Smores",1,4118.00,0.00,4118.00,857.116
+2024-09-17 00:00:00.0,"Lastarria","Uber","Pastel Trozo","Torta Trozo",102011,"Trozo Tor Smores",1,4118.00,0.00,4118.00,858.527
+2024-09-17 00:00:00.0,"San Miguel ","Uber","Pastel Trozo","Torta Trozo",102011,"Trozo Tor Smores",1,4118.00,0.00,4118.00,857.771
+2024-09-17 00:00:00.0,"Maipu","PedidosYa","Pastel Trozo","Torta Trozo",102011,"Trozo Tor Smores",1,4118.00,0.00,4118.00,858.007
+2024-09-17 00:00:00.0,"San Miguel ","PedidosYa","Pastel Trozo","Torta Trozo",102011,"Trozo Tor Smores",1,4118.00,-411.80,3706.20,857.771
+2024-09-17 00:00:00.0,"La Florida","Local","Pastel Trozo","Torta Trozo",102012,"Trozo Tor Celebration",4,13444.00,0.00,13444.00,3947.381
+2024-09-17 00:00:00.0,"Maipu","Local","Pastel Trozo","Torta Trozo",102012,"Trozo Tor Celebration",2,6722.00,0.00,6722.00,1976.499
+2024-09-17 00:00:00.0,"Pocuro","Local","Pastel Trozo","Torta Trozo",102012,"Trozo Tor Celebration",1,3361.00,0.00,3361.00,987.304
+2024-09-17 00:00:00.0,"Providencia","Local","Pastel Trozo","Torta Trozo",102012,"Trozo Tor Celebration",3,10083.00,0.00,10083.00,2968.941
+2024-09-17 00:00:00.0,"Tabancura","Local","Pastel Trozo","Torta Trozo",102012,"Trozo Tor Celebration",1,3361.00,0.00,3361.00,987.215
+2024-09-17 00:00:00.0,"Nunoa","Local","Pastel Trozo","Torta Trozo",102012,"Trozo Tor Celebration",2,6722.00,0.00,6722.00,1974.535
+2024-09-17 00:00:00.0,"Penalolen","Local","Pastel Trozo","Torta Trozo",102012,"Trozo Tor Celebration",2,6722.00,0.00,6722.00,1979.372
+2024-09-17 00:00:00.0,"Lastarria","Local","Pastel Trozo","Torta Trozo",102012,"Trozo Tor Celebration",1,3361.00,0.00,3361.00,988.45
+2024-09-17 00:00:00.0,"Chicureo","Local","Pastel Trozo","Torta Trozo",102012,"Trozo Tor Celebration",1,3361.00,0.00,3361.00,987.637
+2024-09-17 00:00:00.0,"San Miguel ","Local","Pastel Trozo","Torta Trozo",102012,"Trozo Tor Celebration",1,3361.00,0.00,3361.00,988.365
+2024-09-17 00:00:00.0,"La Florida","Uber","Pastel Trozo","Torta Trozo",102012,"Trozo Tor Celebration",1,4118.00,0.00,4118.00,986.845
+2024-09-17 00:00:00.0,"Maipu","Uber","Pastel Trozo","Torta Trozo",102012,"Trozo Tor Celebration",1,4118.00,0.00,4118.00,988.25
+2024-09-17 00:00:00.0,"Pocuro","Uber","Pastel Trozo","Torta Trozo",102012,"Trozo Tor Celebration",1,4118.00,0.00,4118.00,987.304
+2024-09-17 00:00:00.0,"Providencia","Uber","Pastel Trozo","Torta Trozo",102012,"Trozo Tor Celebration",1,4118.00,0.00,4118.00,989.647
+2024-09-17 00:00:00.0,"Lastarria","Uber","Pastel Trozo","Torta Trozo",102012,"Trozo Tor Celebration",1,4118.00,0.00,4118.00,988.45
+2024-09-17 00:00:00.0,"Chicureo","Uber","Pastel Trozo","Torta Trozo",102012,"Trozo Tor Celebration",1,0.00,0.00,0.00,987.637
+2024-09-17 00:00:00.0,"San Miguel ","Rappi","Pastel Trozo","Torta Trozo",102012,"Trozo Tor Celebration",1,4118.00,0.00,4118.00,988.365
+2024-09-17 00:00:00.0,"Nunoa","PedidosYa","Pastel Trozo","Torta Trozo",102012,"Trozo Tor Celebration",1,4118.00,-411.80,3706.20,987.268
+2024-09-17 00:00:00.0,"La Florida","Local","Pastel Trozo","Pie Trozo",103001,"Trozo Lemon Pie",4,13444.00,0.00,13444.00,3745.619
+2024-09-17 00:00:00.0,"La Reina","Local","Pastel Trozo","Pie Trozo",103001,"Trozo Lemon Pie",1,0.00,0.00,0.00,937.043
+2024-09-17 00:00:00.0,"Los Militares","Local","Pastel Trozo","Pie Trozo",103001,"Trozo Lemon Pie",5,16805.00,0.00,16805.00,4685.887
+2024-09-17 00:00:00.0,"Maipu","Local","Pastel Trozo","Pie Trozo",103001,"Trozo Lemon Pie",2,6722.00,0.00,6722.00,1873.021
+2024-09-17 00:00:00.0,"Pocuro","Local","Pastel Trozo","Pie Trozo",103001,"Trozo Lemon Pie",1,3361.00,0.00,3361.00,936.215
+2024-09-17 00:00:00.0,"Providencia","Local","Pastel Trozo","Pie Trozo",103001,"Trozo Lemon Pie",5,16805.00,0.00,16805.00,4685.648
+2024-09-17 00:00:00.0,"Tabancura","Local","Pastel Trozo","Pie Trozo",103001,"Trozo Lemon Pie",3,10083.00,0.00,10083.00,2815.44
+2024-09-17 00:00:00.0,"Nunoa","Local","Pastel Trozo","Pie Trozo",103001,"Trozo Lemon Pie",6,20166.00,0.00,20166.00,5620.458
+2024-09-17 00:00:00.0,"Penalolen","Local","Pastel Trozo","Pie Trozo",103001,"Trozo Lemon Pie",2,6722.00,0.00,6722.00,1873.541
+2024-09-17 00:00:00.0,"Lastarria","Local","Pastel Trozo","Pie Trozo",103001,"Trozo Lemon Pie",2,6722.00,0.00,6722.00,1873.862
+2024-09-17 00:00:00.0,"Chicureo","Local","Pastel Trozo","Pie Trozo",103001,"Trozo Lemon Pie",5,16805.00,0.00,16805.00,4701.819
+2024-09-17 00:00:00.0,"San Miguel ","Local","Pastel Trozo","Pie Trozo",103001,"Trozo Lemon Pie",2,6722.00,0.00,6722.00,1877.717
+2024-09-17 00:00:00.0,"La Florida","Uber","Pastel Trozo","Pie Trozo",103001,"Trozo Lemon Pie",1,4118.00,0.00,4118.00,936.405
+2024-09-17 00:00:00.0,"La Reina","Uber","Pastel Trozo","Pie Trozo",103001,"Trozo Lemon Pie",1,4118.00,0.00,4118.00,937.043
+2024-09-17 00:00:00.0,"Los Militares","Uber","Pastel Trozo","Pie Trozo",103001,"Trozo Lemon Pie",4,16472.00,0.00,16472.00,3748.709
+2024-09-17 00:00:00.0,"Maipu","Uber","Pastel Trozo","Pie Trozo",103001,"Trozo Lemon Pie",3,12354.00,0.00,12354.00,2809.531
+2024-09-17 00:00:00.0,"Pocuro","Uber","Pastel Trozo","Pie Trozo",103001,"Trozo Lemon Pie",9,37062.00,0.00,37062.00,8425.931
+2024-09-17 00:00:00.0,"Providencia","Uber","Pastel Trozo","Pie Trozo",103001,"Trozo Lemon Pie",1,4118.00,0.00,4118.00,937.13
+2024-09-17 00:00:00.0,"Tabancura","Uber","Pastel Trozo","Pie Trozo",103001,"Trozo Lemon Pie",4,16472.00,0.00,16472.00,3753.92
+2024-09-17 00:00:00.0,"Nunoa","Uber","Pastel Trozo","Pie Trozo",103001,"Trozo Lemon Pie",2,8236.00,0.00,8236.00,1873.486
+2024-09-17 00:00:00.0,"Penalolen","Uber","Pastel Trozo","Pie Trozo",103001,"Trozo Lemon Pie",4,16472.00,0.00,16472.00,3747.081
+2024-09-17 00:00:00.0,"Chicureo","Uber","Pastel Trozo","Pie Trozo",103001,"Trozo Lemon Pie",2,8236.00,0.00,8236.00,1880.728
+2024-09-17 00:00:00.0,"San Miguel ","Uber","Pastel Trozo","Pie Trozo",103001,"Trozo Lemon Pie",5,20590.00,0.00,20590.00,4694.293
+2024-09-17 00:00:00.0,"La Florida","Rappi","Pastel Trozo","Pie Trozo",103001,"Trozo Lemon Pie",1,4118.00,0.00,4118.00,936.405
+2024-09-17 00:00:00.0,"Pocuro","Rappi","Pastel Trozo","Pie Trozo",103001,"Trozo Lemon Pie",2,8236.00,0.00,8236.00,1872.429
+2024-09-17 00:00:00.0,"Providencia","Rappi","Pastel Trozo","Pie Trozo",103001,"Trozo Lemon Pie",1,4118.00,0.00,4118.00,937.13
+2024-09-17 00:00:00.0,"Maipu","PedidosYa","Pastel Trozo","Pie Trozo",103001,"Trozo Lemon Pie",1,4118.00,0.00,4118.00,936.51
+2024-09-17 00:00:00.0,"Tabancura","PedidosYa","Pastel Trozo","Pie Trozo",103001,"Trozo Lemon Pie",1,4118.00,0.00,4118.00,938.48
+2024-09-17 00:00:00.0,"Nunoa","PedidosYa","Pastel Trozo","Pie Trozo",103001,"Trozo Lemon Pie",1,4118.00,0.00,4118.00,936.743
+2024-09-17 00:00:00.0,"Chicureo","PedidosYa","Pastel Trozo","Pie Trozo",103001,"Trozo Lemon Pie",1,4118.00,0.00,4118.00,940.364
+2024-09-17 00:00:00.0,"San Miguel ","PedidosYa","Pastel Trozo","Pie Trozo",103001,"Trozo Lemon Pie",1,4118.00,0.00,4118.00,938.859
+2024-09-17 00:00:00.0,"Chicureo","Good Meal","Pastel Trozo","Pie Trozo",103001,"Trozo Lemon Pie",1,0.00,0.00,0.00,940.364
+2024-09-17 00:00:00.0,"Lastarria","Justo","Pastel Trozo","Pie Trozo",103001,"Trozo Lemon Pie",1,4118.00,0.00,4118.00,936.931
+2024-09-17 00:00:00.0,"La Florida","Local","Pastel Trozo","Pie Trozo",103003,"Trozo Apple Pie",2,6722.00,0.00,6722.00,1691.858
+2024-09-17 00:00:00.0,"Los Militares","Local","Pastel Trozo","Pie Trozo",103003,"Trozo Apple Pie",5,16805.00,0.00,16805.00,4233.293
+2024-09-17 00:00:00.0,"Pocuro","Local","Pastel Trozo","Pie Trozo",103003,"Trozo Apple Pie",1,3361.00,0.00,3361.00,845.847
+2024-09-17 00:00:00.0,"Providencia","Local","Pastel Trozo","Pie Trozo",103003,"Trozo Apple Pie",3,10083.00,0.00,10083.00,2539.586
+2024-09-17 00:00:00.0,"Tabancura","Local","Pastel Trozo","Pie Trozo",103003,"Trozo Apple Pie",2,6722.00,0.00,6722.00,1696.016
+2024-09-17 00:00:00.0,"Nunoa","Local","Pastel Trozo","Pie Trozo",103003,"Trozo Apple Pie",8,26888.00,0.00,26888.00,6770.24
+2024-09-17 00:00:00.0,"Penalolen","Local","Pastel Trozo","Pie Trozo",103003,"Trozo Apple Pie",2,6722.00,0.00,6722.00,1692.621
+2024-09-17 00:00:00.0,"Lastarria","Local","Pastel Trozo","Pie Trozo",103003,"Trozo Apple Pie",4,13444.00,0.00,13444.00,3386.034
+2024-09-17 00:00:00.0,"Chicureo","Local","Pastel Trozo","Pie Trozo",103003,"Trozo Apple Pie",4,13444.00,0.00,13444.00,3399.804
+2024-09-17 00:00:00.0,"San Miguel ","Local","Pastel Trozo","Pie Trozo",103003,"Trozo Apple Pie",1,3361.00,0.00,3361.00,848.473
+2024-09-17 00:00:00.0,"Los Militares","Uber","Pastel Trozo","Pie Trozo",103003,"Trozo Apple Pie",4,12354.00,0.00,12354.00,3386.634
+2024-09-17 00:00:00.0,"Maipu","Uber","Pastel Trozo","Pie Trozo",103003,"Trozo Apple Pie",1,4118.00,0.00,4118.00,846.192
+2024-09-17 00:00:00.0,"Pocuro","Uber","Pastel Trozo","Pie Trozo",103003,"Trozo Apple Pie",2,8236.00,0.00,8236.00,1691.694
+2024-09-17 00:00:00.0,"Tabancura","Uber","Pastel Trozo","Pie Trozo",103003,"Trozo Apple Pie",2,8236.00,0.00,8236.00,1696.016
+2024-09-17 00:00:00.0,"Penalolen","Uber","Pastel Trozo","Pie Trozo",103003,"Trozo Apple Pie",1,4118.00,0.00,4118.00,846.31
+2024-09-17 00:00:00.0,"Lastarria","Uber","Pastel Trozo","Pie Trozo",103003,"Trozo Apple Pie",2,8236.00,0.00,8236.00,1693.017
+2024-09-17 00:00:00.0,"San Miguel ","Uber","Pastel Trozo","Pie Trozo",103003,"Trozo Apple Pie",2,8236.00,0.00,8236.00,1696.945
+2024-09-17 00:00:00.0,"La Reina","Rappi","Pastel Trozo","Pie Trozo",103003,"Trozo Apple Pie",4,16472.00,0.00,16472.00,3385.768
+2024-09-17 00:00:00.0,"Los Militares","Rappi","Pastel Trozo","Pie Trozo",103003,"Trozo Apple Pie",1,4118.00,0.00,4118.00,846.659
+2024-09-17 00:00:00.0,"Providencia","Rappi","Pastel Trozo","Pie Trozo",103003,"Trozo Apple Pie",1,4118.00,0.00,4118.00,846.529
+2024-09-17 00:00:00.0,"San Miguel ","Rappi","Pastel Trozo","Pie Trozo",103003,"Trozo Apple Pie",1,4118.00,0.00,4118.00,848.473
+2024-09-17 00:00:00.0,"La Florida","PedidosYa","Pastel Trozo","Pie Trozo",103003,"Trozo Apple Pie",1,4118.00,0.00,4118.00,845.929
+2024-09-17 00:00:00.0,"Tabancura","PedidosYa","Pastel Trozo","Pie Trozo",103003,"Trozo Apple Pie",1,4118.00,0.00,4118.00,848.008
+2024-09-17 00:00:00.0,"Nunoa","PedidosYa","Pastel Trozo","Pie Trozo",103003,"Trozo Apple Pie",1,4118.00,0.00,4118.00,846.28
+2024-09-17 00:00:00.0,"Penalolen","PedidosYa","Pastel Trozo","Pie Trozo",103003,"Trozo Apple Pie",1,4118.00,0.00,4118.00,846.31
+2024-09-17 00:00:00.0,"Lastarria","PedidosYa","Pastel Trozo","Pie Trozo",103003,"Trozo Apple Pie",1,4118.00,0.00,4118.00,846.508
+2024-09-17 00:00:00.0,"Nunoa","Justo","Pastel Trozo","Pie Trozo",103003,"Trozo Apple Pie",1,4118.00,0.00,4118.00,846.28
+2024-09-17 00:00:00.0,"La Florida","Local","Pastel Trozo","Pie Trozo",103005,"Trozo Nutella Pie",2,6722.00,0.00,6722.00,2244.665
+2024-09-17 00:00:00.0,"Los Militares","Local","Pastel Trozo","Pie Trozo",103005,"Trozo Nutella Pie",6,20166.00,0.00,20166.00,6738.636
+2024-09-17 00:00:00.0,"Pocuro","Local","Pastel Trozo","Pie Trozo",103005,"Trozo Nutella Pie",1,3361.00,0.00,3361.00,1122.143
+2024-09-17 00:00:00.0,"Providencia","Local","Pastel Trozo","Pie Trozo",103005,"Trozo Nutella Pie",6,20166.00,-1008.00,19158.00,6738.345
+2024-09-17 00:00:00.0,"Tabancura","Local","Pastel Trozo","Pie Trozo",103005,"Trozo Nutella Pie",1,3361.00,0.00,3361.00,1124.409
+2024-09-17 00:00:00.0,"Nunoa","Local","Pastel Trozo","Pie Trozo",103005,"Trozo Nutella Pie",7,23527.00,0.00,23527.00,7858.698
+2024-09-17 00:00:00.0,"Penalolen","Local","Pastel Trozo","Pie Trozo",103005,"Trozo Nutella Pie",1,3361.00,0.00,3361.00,1122.699
+2024-09-17 00:00:00.0,"Lastarria","Local","Pastel Trozo","Pie Trozo",103005,"Trozo Nutella Pie",4,13444.00,0.00,13444.00,4491.439
+2024-09-17 00:00:00.0,"Chicureo","Local","Pastel Trozo","Pie Trozo",103005,"Trozo Nutella Pie",2,6722.00,0.00,6722.00,2252.583
+2024-09-17 00:00:00.0,"La Florida","Uber","Pastel Trozo","Pie Trozo",103005,"Trozo Nutella Pie",3,12354.00,0.00,12354.00,3366.997
+2024-09-17 00:00:00.0,"Los Militares","Uber","Pastel Trozo","Pie Trozo",103005,"Trozo Nutella Pie",3,12354.00,0.00,12354.00,3369.318
+2024-09-17 00:00:00.0,"Maipu","Uber","Pastel Trozo","Pie Trozo",103005,"Trozo Nutella Pie",2,8236.00,0.00,8236.00,2244.876
+2024-09-17 00:00:00.0,"Pocuro","Uber","Pastel Trozo","Pie Trozo",103005,"Trozo Nutella Pie",1,4118.00,0.00,4118.00,1122.143
+2024-09-17 00:00:00.0,"Providencia","Uber","Pastel Trozo","Pie Trozo",103005,"Trozo Nutella Pie",2,8236.00,0.00,8236.00,2246.115
+2024-09-17 00:00:00.0,"Tabancura","Uber","Pastel Trozo","Pie Trozo",103005,"Trozo Nutella Pie",1,4118.00,0.00,4118.00,1124.409
+2024-09-17 00:00:00.0,"Nunoa","Uber","Pastel Trozo","Pie Trozo",103005,"Trozo Nutella Pie",4,16472.00,0.00,16472.00,4490.685
+2024-09-17 00:00:00.0,"Lastarria","Uber","Pastel Trozo","Pie Trozo",103005,"Trozo Nutella Pie",1,4118.00,0.00,4118.00,1122.86
+2024-09-17 00:00:00.0,"Providencia","Rappi","Pastel Trozo","Pie Trozo",103005,"Trozo Nutella Pie",2,8236.00,0.00,8236.00,2246.115
+2024-09-17 00:00:00.0,"Lastarria","Rappi","Pastel Trozo","Pie Trozo",103005,"Trozo Nutella Pie",1,4118.00,0.00,4118.00,1122.86
+2024-09-17 00:00:00.0,"Los Militares","PedidosYa","Pastel Trozo","Pie Trozo",103005,"Trozo Nutella Pie",3,12354.00,0.00,12354.00,3369.318
+2024-09-17 00:00:00.0,"Maipu","PedidosYa","Pastel Trozo","Pie Trozo",103005,"Trozo Nutella Pie",1,4118.00,0.00,4118.00,1122.438
+2024-09-17 00:00:00.0,"Providencia","PedidosYa","Pastel Trozo","Pie Trozo",103005,"Trozo Nutella Pie",1,4118.00,0.00,4118.00,1123.058
+2024-09-17 00:00:00.0,"Tabancura","PedidosYa","Pastel Trozo","Pie Trozo",103005,"Trozo Nutella Pie",1,4118.00,0.00,4118.00,1124.409
+2024-09-17 00:00:00.0,"Nunoa","PedidosYa","Pastel Trozo","Pie Trozo",103005,"Trozo Nutella Pie",1,4118.00,0.00,4118.00,1122.671
+2024-09-17 00:00:00.0,"San Miguel ","PedidosYa","Pastel Trozo","Pie Trozo",103005,"Trozo Nutella Pie",1,4118.00,0.00,4118.00,1124.787
+2024-09-17 00:00:00.0,"Nunoa","Rappi Turbo","Pastel Trozo","Pie Trozo",103005,"Trozo Nutella Pie",1,4118.00,0.00,4118.00,1122.671
+2024-09-17 00:00:00.0,"La Florida","Local","Pastel Mediano","Cheesecake Mediano",201001,"Mediano Ch NY Berries",1,17647.00,0.00,17647.00,5922.579
+2024-09-17 00:00:00.0,"Los Militares","Local","Pastel Mediano","Cheesecake Mediano",201001,"Mediano Ch NY Berries",5,88235.00,0.00,88235.00,31068.094
+2024-09-17 00:00:00.0,"Pocuro","Local","Pastel Mediano","Cheesecake Mediano",201001,"Mediano Ch NY Berries",2,35294.00,0.00,35294.00,12001.566
+2024-09-17 00:00:00.0,"Providencia","Local","Pastel Mediano","Cheesecake Mediano",201001,"Mediano Ch NY Berries",1,17647.00,0.00,17647.00,5923.511
+2024-09-17 00:00:00.0,"Tabancura","Local","Pastel Mediano","Cheesecake Mediano",201001,"Mediano Ch NY Berries",3,52941.00,0.00,52941.00,18418.463
+2024-09-17 00:00:00.0,"Nunoa","Local","Pastel Mediano","Cheesecake Mediano",201001,"Mediano Ch NY Berries",2,35294.00,0.00,35294.00,11574.522
+2024-09-17 00:00:00.0,"Penalolen","Local","Pastel Mediano","Cheesecake Mediano",201001,"Mediano Ch NY Berries",2,35294.00,0.00,35294.00,12285.894
+2024-09-17 00:00:00.0,"Lastarria","Local","Pastel Mediano","Cheesecake Mediano",201001,"Mediano Ch NY Berries",2,35294.00,0.00,35294.00,12048.364
+2024-09-17 00:00:00.0,"Chicureo","Local","Pastel Mediano","Cheesecake Mediano",201001,"Mediano Ch NY Berries",2,35294.00,0.00,35294.00,12347.883
+2024-09-17 00:00:00.0,"San Miguel ","Local","Pastel Mediano","Cheesecake Mediano",201001,"Mediano Ch NY Berries",1,17647.00,0.00,17647.00,4899.91
+2024-09-17 00:00:00.0,"La Florida","Uber","Pastel Mediano","Cheesecake Mediano",201001,"Mediano Ch NY Berries",1,19244.00,0.00,19244.00,5922.579
+2024-09-17 00:00:00.0,"La Reina","Uber","Pastel Mediano","Cheesecake Mediano",201001,"Mediano Ch NY Berries",1,19244.00,0.00,19244.00,6107.088
+2024-09-17 00:00:00.0,"Los Militares","Uber","Pastel Mediano","Cheesecake Mediano",201001,"Mediano Ch NY Berries",2,38488.00,0.00,38488.00,12427.237
+2024-09-17 00:00:00.0,"Pocuro","Uber","Pastel Mediano","Cheesecake Mediano",201001,"Mediano Ch NY Berries",2,38488.00,0.00,38488.00,12001.566
+2024-09-17 00:00:00.0,"Providencia","Uber","Pastel Mediano","Cheesecake Mediano",201001,"Mediano Ch NY Berries",1,19244.00,0.00,19244.00,5923.511
+2024-09-17 00:00:00.0,"Tabancura","Uber","Pastel Mediano","Cheesecake Mediano",201001,"Mediano Ch NY Berries",2,38488.00,0.00,38488.00,12278.975
+2024-09-17 00:00:00.0,"Nunoa","Uber","Pastel Mediano","Cheesecake Mediano",201001,"Mediano Ch NY Berries",2,38488.00,0.00,38488.00,11574.522
+2024-09-17 00:00:00.0,"Penalolen","Uber","Pastel Mediano","Cheesecake Mediano",201001,"Mediano Ch NY Berries",1,19244.00,0.00,19244.00,6142.947
+2024-09-17 00:00:00.0,"Nunoa","PedidosYa","Pastel Mediano","Cheesecake Mediano",201001,"Mediano Ch NY Berries",1,19244.00,0.00,19244.00,5787.261
+2024-09-17 00:00:00.0,"Tabancura","Justo","Pastel Mediano","Cheesecake Mediano",201001,"Mediano Ch NY Berries",1,19244.00,0.00,19244.00,6139.488
+2024-09-17 00:00:00.0,"Lastarria","Justo","Pastel Mediano","Cheesecake Mediano",201001,"Mediano Ch NY Berries",1,19244.00,0.00,19244.00,6024.182
+2024-09-17 00:00:00.0,"La Florida","Local","Pastel Mediano","Cheesecake Mediano",201002,"Mediano Ch NY Maracuya",1,17647.00,0.00,17647.00,6137.759
+2024-09-17 00:00:00.0,"La Reina","Local","Pastel Mediano","Cheesecake Mediano",201002,"Mediano Ch NY Maracuya",1,17647.00,0.00,17647.00,6311.023
+2024-09-17 00:00:00.0,"Los Militares","Local","Pastel Mediano","Cheesecake Mediano",201002,"Mediano Ch NY Maracuya",4,70588.00,0.00,70588.00,25745.867
+2024-09-17 00:00:00.0,"Pocuro","Local","Pastel Mediano","Cheesecake Mediano",201002,"Mediano Ch NY Maracuya",2,35294.00,0.00,35294.00,12441.313
+2024-09-17 00:00:00.0,"Nunoa","Local","Pastel Mediano","Cheesecake Mediano",201002,"Mediano Ch NY Maracuya",2,35294.00,0.00,35294.00,12023.383
+2024-09-17 00:00:00.0,"Lastarria","Local","Pastel Mediano","Cheesecake Mediano",201002,"Mediano Ch NY Maracuya",1,17647.00,0.00,17647.00,6249.017
+2024-09-17 00:00:00.0,"Chicureo","Local","Pastel Mediano","Cheesecake Mediano",201002,"Mediano Ch NY Maracuya",1,17647.00,0.00,17647.00,6397.558
+2024-09-17 00:00:00.0,"San Miguel ","Local","Pastel Mediano","Cheesecake Mediano",201002,"Mediano Ch NY Maracuya",1,17647.00,0.00,17647.00,5115.153
+2024-09-17 00:00:00.0,"Nunoa","Uber","Pastel Mediano","Cheesecake Mediano",201002,"Mediano Ch NY Maracuya",2,38488.00,0.00,38488.00,12023.383
+2024-09-17 00:00:00.0,"Chicureo","Rappi","Pastel Mediano","Cheesecake Mediano",201002,"Mediano Ch NY Maracuya",1,19244.00,0.00,19244.00,6397.558
+2024-09-17 00:00:00.0,"San Miguel ","Rappi","Pastel Mediano","Cheesecake Mediano",201002,"Mediano Ch NY Maracuya",1,19244.00,0.00,19244.00,5115.153
+2024-09-17 00:00:00.0,"Lastarria","Justo","Pastel Mediano","Cheesecake Mediano",201002,"Mediano Ch NY Maracuya",1,19244.00,0.00,19244.00,6249.017
+2024-09-17 00:00:00.0,"La Florida","Local","Pastel Mediano","Cheesecake Mediano",201006,"Mediano Ch Oreo",2,36974.00,0.00,36974.00,13493.504
+2024-09-17 00:00:00.0,"La Reina","Local","Pastel Mediano","Cheesecake Mediano",201006,"Mediano Ch Oreo",2,36974.00,0.00,36974.00,13541.672
+2024-09-17 00:00:00.0,"Los Militares","Local","Pastel Mediano","Cheesecake Mediano",201006,"Mediano Ch Oreo",3,55461.00,0.00,55461.00,20335.015
+2024-09-17 00:00:00.0,"Maipu","Local","Pastel Mediano","Cheesecake Mediano",201006,"Mediano Ch Oreo",1,18487.00,0.00,18487.00,6794.826
+2024-09-17 00:00:00.0,"Nunoa","Local","Pastel Mediano","Cheesecake Mediano",201006,"Mediano Ch Oreo",7,129409.00,0.00,129409.00,47377.536
+2024-09-17 00:00:00.0,"Penalolen","Local","Pastel Mediano","Cheesecake Mediano",201006,"Mediano Ch Oreo",1,18487.00,0.00,18487.00,6772.94
+2024-09-17 00:00:00.0,"Chicureo","Local","Pastel Mediano","Cheesecake Mediano",201006,"Mediano Ch Oreo",2,36974.00,0.00,36974.00,13546.173
+2024-09-17 00:00:00.0,"San Miguel ","Local","Pastel Mediano","Cheesecake Mediano",201006,"Mediano Ch Oreo",1,18487.00,0.00,18487.00,6751.366
+2024-09-17 00:00:00.0,"La Florida","Uber","Pastel Mediano","Cheesecake Mediano",201006,"Mediano Ch Oreo",1,20084.00,0.00,20084.00,6746.752
+2024-09-17 00:00:00.0,"La Reina","Uber","Pastel Mediano","Cheesecake Mediano",201006,"Mediano Ch Oreo",1,20084.00,0.00,20084.00,6770.836
+2024-09-17 00:00:00.0,"Los Militares","Uber","Pastel Mediano","Cheesecake Mediano",201006,"Mediano Ch Oreo",4,80336.00,0.00,80336.00,27113.354
+2024-09-17 00:00:00.0,"Pocuro","Uber","Pastel Mediano","Cheesecake Mediano",201006,"Mediano Ch Oreo",1,20084.00,0.00,20084.00,6766.58
+2024-09-17 00:00:00.0,"Tabancura","Uber","Pastel Mediano","Cheesecake Mediano",201006,"Mediano Ch Oreo",1,20084.00,0.00,20084.00,6750.503
+2024-09-17 00:00:00.0,"Nunoa","Uber","Pastel Mediano","Cheesecake Mediano",201006,"Mediano Ch Oreo",1,20084.00,0.00,20084.00,6768.219
+2024-09-17 00:00:00.0,"Lastarria","Uber","Pastel Mediano","Cheesecake Mediano",201006,"Mediano Ch Oreo",1,20084.00,0.00,20084.00,6771.194
+2024-09-17 00:00:00.0,"Chicureo","Uber","Pastel Mediano","Cheesecake Mediano",201006,"Mediano Ch Oreo",2,40168.00,0.00,40168.00,13546.173
+2024-09-17 00:00:00.0,"La Reina","Rappi","Pastel Mediano","Cheesecake Mediano",201006,"Mediano Ch Oreo",1,20084.00,0.00,20084.00,6770.836
+2024-09-17 00:00:00.0,"Los Militares","Rappi","Pastel Mediano","Cheesecake Mediano",201006,"Mediano Ch Oreo",2,40168.00,0.00,40168.00,13556.677
+2024-09-17 00:00:00.0,"Pocuro","Rappi","Pastel Mediano","Cheesecake Mediano",201006,"Mediano Ch Oreo",2,40168.00,0.00,40168.00,13533.161
+2024-09-17 00:00:00.0,"La Florida","PedidosYa","Pastel Mediano","Cheesecake Mediano",201006,"Mediano Ch Oreo",1,20084.00,0.00,20084.00,6746.752
+2024-09-17 00:00:00.0,"Tabancura","PedidosYa","Pastel Mediano","Cheesecake Mediano",201006,"Mediano Ch Oreo",1,20084.00,0.00,20084.00,6750.503
+2024-09-17 00:00:00.0,"Nunoa","PedidosYa","Pastel Mediano","Cheesecake Mediano",201006,"Mediano Ch Oreo",1,20084.00,0.00,20084.00,6768.219
+2024-09-17 00:00:00.0,"Lastarria","PedidosYa","Pastel Mediano","Cheesecake Mediano",201006,"Mediano Ch Oreo",1,20084.00,0.00,20084.00,6771.194
+2024-09-17 00:00:00.0,"Los Militares","Justo","Pastel Mediano","Cheesecake Mediano",201006,"Mediano Ch Oreo",1,20084.00,0.00,20084.00,6778.338
+2024-09-17 00:00:00.0,"Nunoa","Justo","Pastel Mediano","Cheesecake Mediano",201006,"Mediano Ch Oreo",3,60252.00,0.00,60252.00,20304.658
+2024-09-17 00:00:00.0,"Lastarria","Justo","Pastel Mediano","Cheesecake Mediano",201006,"Mediano Ch Oreo",2,40168.00,0.00,40168.00,13542.389
+2024-09-17 00:00:00.0,"La Florida","Local","Pastel Mediano","Cheesecake Mediano",201011,"Mediano Ch S/A NY Maracuya",1,18487.00,0.00,18487.00,6637.365
+2024-09-17 00:00:00.0,"Los Militares","Local","Pastel Mediano","Cheesecake Mediano",201011,"Mediano Ch S/A NY Maracuya",1,18487.00,0.00,18487.00,6570.88
+2024-09-17 00:00:00.0,"Maipu","Local","Pastel Mediano","Cheesecake Mediano",201011,"Mediano Ch S/A NY Maracuya",1,18487.00,0.00,18487.00,6549.724
+2024-09-17 00:00:00.0,"Pocuro","Local","Pastel Mediano","Cheesecake Mediano",201011,"Mediano Ch S/A NY Maracuya",1,18487.00,0.00,18487.00,6560.989
+2024-09-17 00:00:00.0,"Providencia","Local","Pastel Mediano","Cheesecake Mediano",201011,"Mediano Ch S/A NY Maracuya",1,18487.00,0.00,18487.00,6517.63
+2024-09-17 00:00:00.0,"Nunoa","Local","Pastel Mediano","Cheesecake Mediano",201011,"Mediano Ch S/A NY Maracuya",2,36974.00,0.00,36974.00,13399.936
+2024-09-17 00:00:00.0,"Lastarria","Local","Pastel Mediano","Cheesecake Mediano",201011,"Mediano Ch S/A NY Maracuya",1,18487.00,0.00,18487.00,6595.727
+2024-09-17 00:00:00.0,"Los Militares","Uber","Pastel Mediano","Cheesecake Mediano",201011,"Mediano Ch S/A NY Maracuya",1,20084.00,0.00,20084.00,6570.88
+2024-09-17 00:00:00.0,"Lastarria","Rappi","Pastel Mediano","Cheesecake Mediano",201011,"Mediano Ch S/A NY Maracuya",1,20084.00,0.00,20084.00,6595.727
+2024-09-17 00:00:00.0,"La Florida","Local","Pastel Mediano","Cheesecake Mediano",201014,"Mediano Ch White Raspberry",3,55461.00,0.00,55461.00,18073.999
+2024-09-17 00:00:00.0,"La Reina","Local","Pastel Mediano","Cheesecake Mediano",201014,"Mediano Ch White Raspberry",2,36974.00,0.00,36974.00,12096.227
+2024-09-17 00:00:00.0,"Los Militares","Local","Pastel Mediano","Cheesecake Mediano",201014,"Mediano Ch White Raspberry",2,36974.00,0.00,36974.00,12112.091
+2024-09-17 00:00:00.0,"Providencia","Local","Pastel Mediano","Cheesecake Mediano",201014,"Mediano Ch White Raspberry",2,36974.00,0.00,36974.00,12067.651
+2024-09-17 00:00:00.0,"Tabancura","Local","Pastel Mediano","Cheesecake Mediano",201014,"Mediano Ch White Raspberry",3,55461.00,0.00,55461.00,18087.69
+2024-09-17 00:00:00.0,"Nunoa","Local","Pastel Mediano","Cheesecake Mediano",201014,"Mediano Ch White Raspberry",2,36974.00,0.00,36974.00,12094.578
+2024-09-17 00:00:00.0,"Lastarria","Local","Pastel Mediano","Cheesecake Mediano",201014,"Mediano Ch White Raspberry",1,18487.00,0.00,18487.00,6050.866
+2024-09-17 00:00:00.0,"Chicureo","Local","Pastel Mediano","Cheesecake Mediano",201014,"Mediano Ch White Raspberry",1,18487.00,0.00,18487.00,6050.522
+2024-09-17 00:00:00.0,"San Miguel ","Local","Pastel Mediano","Cheesecake Mediano",201014,"Mediano Ch White Raspberry",1,18487.00,0.00,18487.00,6031.234
+2024-09-17 00:00:00.0,"La Florida","Uber","Pastel Mediano","Cheesecake Mediano",201014,"Mediano Ch White Raspberry",2,40168.00,0.00,40168.00,12049.333
+2024-09-17 00:00:00.0,"Los Militares","Uber","Pastel Mediano","Cheesecake Mediano",201014,"Mediano Ch White Raspberry",2,40168.00,0.00,40168.00,12112.091
+2024-09-17 00:00:00.0,"Pocuro","Uber","Pastel Mediano","Cheesecake Mediano",201014,"Mediano Ch White Raspberry",2,40168.00,0.00,40168.00,12089.299
+2024-09-17 00:00:00.0,"Providencia","Uber","Pastel Mediano","Cheesecake Mediano",201014,"Mediano Ch White Raspberry",5,100420.00,0.00,100420.00,30169.128
+2024-09-17 00:00:00.0,"Nunoa","Uber","Pastel Mediano","Cheesecake Mediano",201014,"Mediano Ch White Raspberry",1,20084.00,0.00,20084.00,6047.289
+2024-09-17 00:00:00.0,"Lastarria","Uber","Pastel Mediano","Cheesecake Mediano",201014,"Mediano Ch White Raspberry",1,20084.00,0.00,20084.00,6050.866
+2024-09-17 00:00:00.0,"San Miguel ","Uber","Pastel Mediano","Cheesecake Mediano",201014,"Mediano Ch White Raspberry",1,20084.00,0.00,20084.00,6031.234
+2024-09-17 00:00:00.0,"La Florida","Rappi","Pastel Mediano","Cheesecake Mediano",201014,"Mediano Ch White Raspberry",1,20084.00,0.00,20084.00,6024.666
+2024-09-17 00:00:00.0,"Los Militares","Rappi","Pastel Mediano","Cheesecake Mediano",201014,"Mediano Ch White Raspberry",1,20084.00,0.00,20084.00,6056.045
+2024-09-17 00:00:00.0,"Nunoa","Rappi","Pastel Mediano","Cheesecake Mediano",201014,"Mediano Ch White Raspberry",1,20084.00,0.00,20084.00,6047.289
+2024-09-17 00:00:00.0,"La Reina","Justo","Pastel Mediano","Cheesecake Mediano",201014,"Mediano Ch White Raspberry",1,20084.00,0.00,20084.00,6048.114
+2024-09-17 00:00:00.0,"Los Militares","Local","Pastel Mediano","Torta Mediana",202001,"Mediana Tor Brownie Man y Framb",1,19748.00,0.00,19748.00,6197.694
+2024-09-17 00:00:00.0,"Pocuro","Local","Pastel Mediano","Torta Mediana",202001,"Mediana Tor Brownie Man y Framb",1,19748.00,0.00,19748.00,6186.03
+2024-09-17 00:00:00.0,"Tabancura","Local","Pastel Mediano","Torta Mediana",202001,"Mediana Tor Brownie Man y Framb",3,59244.00,0.00,59244.00,18512.003
+2024-09-17 00:00:00.0,"Nunoa","Local","Pastel Mediano","Torta Mediana",202001,"Mediana Tor Brownie Man y Framb",5,98740.00,0.00,98740.00,30942.739
+2024-09-17 00:00:00.0,"Lastarria","Local","Pastel Mediano","Torta Mediana",202001,"Mediana Tor Brownie Man y Framb",1,19748.00,0.00,19748.00,6192.248
+2024-09-17 00:00:00.0,"Chicureo","Local","Pastel Mediano","Torta Mediana",202001,"Mediana Tor Brownie Man y Framb",1,19748.00,0.00,19748.00,6192.372
+2024-09-17 00:00:00.0,"San Miguel ","Local","Pastel Mediano","Torta Mediana",202001,"Mediana Tor Brownie Man y Framb",1,19748.00,0.00,19748.00,6173.14
+2024-09-17 00:00:00.0,"La Florida","Uber","Pastel Mediano","Torta Mediana",202001,"Mediana Tor Brownie Man y Framb",1,21765.00,0.00,21765.00,6165.057
+2024-09-17 00:00:00.0,"La Reina","Uber","Pastel Mediano","Torta Mediana",202001,"Mediana Tor Brownie Man y Framb",1,21765.00,0.00,21765.00,6189.688
+2024-09-17 00:00:00.0,"Pocuro","Uber","Pastel Mediano","Torta Mediana",202001,"Mediana Tor Brownie Man y Framb",1,21765.00,0.00,21765.00,6186.03
+2024-09-17 00:00:00.0,"Providencia","Uber","Pastel Mediano","Torta Mediana",202001,"Mediana Tor Brownie Man y Framb",3,65295.00,0.00,65295.00,18521.491
+2024-09-17 00:00:00.0,"Tabancura","Uber","Pastel Mediano","Torta Mediana",202001,"Mediana Tor Brownie Man y Framb",1,21765.00,0.00,21765.00,6170.668
+2024-09-17 00:00:00.0,"Lastarria","Uber","Pastel Mediano","Torta Mediana",202001,"Mediana Tor Brownie Man y Framb",3,65295.00,0.00,65295.00,18576.743
+2024-09-17 00:00:00.0,"San Miguel ","Uber","Pastel Mediano","Torta Mediana",202001,"Mediana Tor Brownie Man y Framb",1,21765.00,0.00,21765.00,6173.14
+2024-09-17 00:00:00.0,"Pocuro","Rappi","Pastel Mediano","Torta Mediana",202001,"Mediana Tor Brownie Man y Framb",1,21765.00,0.00,21765.00,6186.03
+2024-09-17 00:00:00.0,"La Reina","Justo","Pastel Mediano","Torta Mediana",202001,"Mediana Tor Brownie Man y Framb",1,21765.00,0.00,21765.00,6189.688
+2024-09-17 00:00:00.0,"Los Militares","Justo","Pastel Mediano","Torta Mediana",202001,"Mediana Tor Brownie Man y Framb",2,43530.00,0.00,43530.00,12395.388
+2024-09-17 00:00:00.0,"Penalolen","Justo","Pastel Mediano","Torta Mediana",202001,"Mediana Tor Brownie Man y Framb",0,0.00,0.00,0.00,0.00
+2024-09-17 00:00:00.0,"Lastarria","Justo","Pastel Mediano","Torta Mediana",202001,"Mediana Tor Brownie Man y Framb",1,21765.00,0.00,21765.00,6192.248
+2024-09-17 00:00:00.0,"La Florida","Local","Pastel Mediano","Torta Mediana",202003,"Mediana Tor Dark Cake",3,56724.00,0.00,56724.00,16331.214
+2024-09-17 00:00:00.0,"La Reina","Local","Pastel Mediano","Torta Mediana",202003,"Mediana Tor Dark Cake",3,56724.00,0.00,56724.00,16447.663
+2024-09-17 00:00:00.0,"Los Militares","Local","Pastel Mediano","Torta Mediana",202003,"Mediana Tor Dark Cake",3,56724.00,0.00,56724.00,16308.68
+2024-09-17 00:00:00.0,"Maipu","Local","Pastel Mediano","Torta Mediana",202003,"Mediana Tor Dark Cake",2,37816.00,0.00,37816.00,11064.079
+2024-09-17 00:00:00.0,"Pocuro","Local","Pastel Mediano","Torta Mediana",202003,"Mediana Tor Dark Cake",2,37816.00,0.00,37816.00,10846.978
+2024-09-17 00:00:00.0,"Providencia","Local","Pastel Mediano","Torta Mediana",202003,"Mediana Tor Dark Cake",2,37816.00,0.00,37816.00,10828.034
+2024-09-17 00:00:00.0,"Tabancura","Local","Pastel Mediano","Torta Mediana",202003,"Mediana Tor Dark Cake",4,75632.00,0.00,75632.00,21668.936
+2024-09-17 00:00:00.0,"Nunoa","Local","Pastel Mediano","Torta Mediana",202003,"Mediana Tor Dark Cake",3,56724.00,0.00,56724.00,16409.401
+2024-09-17 00:00:00.0,"Penalolen","Local","Pastel Mediano","Torta Mediana",202003,"Mediana Tor Dark Cake",3,56724.00,0.00,56724.00,16399.651
+2024-09-17 00:00:00.0,"Lastarria","Local","Pastel Mediano","Torta Mediana",202003,"Mediana Tor Dark Cake",1,18908.00,0.00,18908.00,5450.231
+2024-09-17 00:00:00.0,"Chicureo","Local","Pastel Mediano","Torta Mediana",202003,"Mediana Tor Dark Cake",3,56724.00,0.00,56724.00,16292.113
+2024-09-17 00:00:00.0,"San Miguel ","Local","Pastel Mediano","Torta Mediana",202003,"Mediana Tor Dark Cake",1,18908.00,0.00,18908.00,5511.47
+2024-09-17 00:00:00.0,"Los Militares","Uber","Pastel Mediano","Torta Mediana",202003,"Mediana Tor Dark Cake",5,100420.00,0.00,100420.00,27181.134
+2024-09-17 00:00:00.0,"Maipu","Uber","Pastel Mediano","Torta Mediana",202003,"Mediana Tor Dark Cake",1,20084.00,0.00,20084.00,5532.039
+2024-09-17 00:00:00.0,"Pocuro","Uber","Pastel Mediano","Torta Mediana",202003,"Mediana Tor Dark Cake",3,60252.00,0.00,60252.00,16270.467
+2024-09-17 00:00:00.0,"Providencia","Uber","Pastel Mediano","Torta Mediana",202003,"Mediana Tor Dark Cake",3,60252.00,0.00,60252.00,16242.05
+2024-09-17 00:00:00.0,"Tabancura","Uber","Pastel Mediano","Torta Mediana",202003,"Mediana Tor Dark Cake",3,60252.00,0.00,60252.00,16251.702
+2024-09-17 00:00:00.0,"Nunoa","Uber","Pastel Mediano","Torta Mediana",202003,"Mediana Tor Dark Cake",3,60252.00,0.00,60252.00,16409.401
+2024-09-17 00:00:00.0,"Lastarria","Uber","Pastel Mediano","Torta Mediana",202003,"Mediana Tor Dark Cake",1,20084.00,0.00,20084.00,5450.231
+2024-09-17 00:00:00.0,"Tabancura","PedidosYa","Pastel Mediano","Torta Mediana",202003,"Mediana Tor Dark Cake",1,20084.00,0.00,20084.00,5417.234
+2024-09-17 00:00:00.0,"Nunoa","PedidosYa","Pastel Mediano","Torta Mediana",202003,"Mediana Tor Dark Cake",1,20084.00,0.00,20084.00,5469.80
+2024-09-17 00:00:00.0,"Lastarria","PedidosYa","Pastel Mediano","Torta Mediana",202003,"Mediana Tor Dark Cake",1,20084.00,0.00,20084.00,5450.231
+2024-09-17 00:00:00.0,"Los Militares","Justo","Pastel Mediano","Torta Mediana",202003,"Mediana Tor Dark Cake",2,40168.00,0.00,40168.00,10872.454
+2024-09-17 00:00:00.0,"Providencia","Justo","Pastel Mediano","Torta Mediana",202003,"Mediana Tor Dark Cake",1,20084.00,0.00,20084.00,5414.017
+2024-09-17 00:00:00.0,"Nunoa","Justo","Pastel Mediano","Torta Mediana",202003,"Mediana Tor Dark Cake",1,20084.00,0.00,20084.00,5469.80
+2024-09-17 00:00:00.0,"Penalolen","Justo","Pastel Mediano","Torta Mediana",202003,"Mediana Tor Dark Cake",1,20084.00,0.00,20084.00,5466.55
+2024-09-17 00:00:00.0,"La Florida","Local","Pastel Mediano","Torta Mediana",202004,"Mediana Tor Carrot Cake",1,18908.00,0.00,18908.00,5409.496
+2024-09-17 00:00:00.0,"La Reina","Local","Pastel Mediano","Torta Mediana",202004,"Mediana Tor Carrot Cake",6,113448.00,0.00,113448.00,32510.196
+2024-09-17 00:00:00.0,"Los Militares","Local","Pastel Mediano","Torta Mediana",202004,"Mediana Tor Carrot Cake",4,75632.00,0.00,75632.00,21763.158
+2024-09-17 00:00:00.0,"Pocuro","Local","Pastel Mediano","Torta Mediana",202004,"Mediana Tor Carrot Cake",2,37816.00,0.00,37816.00,10858.878
+2024-09-17 00:00:00.0,"Providencia","Local","Pastel Mediano","Torta Mediana",202004,"Mediana Tor Carrot Cake",5,94540.00,-5672.00,88868.00,27093.891
+2024-09-17 00:00:00.0,"Tabancura","Local","Pastel Mediano","Torta Mediana",202004,"Mediana Tor Carrot Cake",5,94540.00,0.00,94540.00,27070.344
+2024-09-17 00:00:00.0,"Nunoa","Local","Pastel Mediano","Torta Mediana",202004,"Mediana Tor Carrot Cake",3,56724.00,0.00,56724.00,16234.335
+2024-09-17 00:00:00.0,"Penalolen","Local","Pastel Mediano","Torta Mediana",202004,"Mediana Tor Carrot Cake",3,56724.00,0.00,56724.00,16304.429
+2024-09-17 00:00:00.0,"Lastarria","Local","Pastel Mediano","Torta Mediana",202004,"Mediana Tor Carrot Cake",1,18908.00,0.00,18908.00,5427.306
+2024-09-17 00:00:00.0,"Chicureo","Local","Pastel Mediano","Torta Mediana",202004,"Mediana Tor Carrot Cake",4,75632.00,0.00,75632.00,21740.998
+2024-09-17 00:00:00.0,"San Miguel ","Local","Pastel Mediano","Torta Mediana",202004,"Mediana Tor Carrot Cake",2,37816.00,0.00,37816.00,10831.925
+2024-09-17 00:00:00.0,"Los Militares","Uber","Pastel Mediano","Torta Mediana",202004,"Mediana Tor Carrot Cake",5,100420.00,0.00,100420.00,27203.948
+2024-09-17 00:00:00.0,"Pocuro","Uber","Pastel Mediano","Torta Mediana",202004,"Mediana Tor Carrot Cake",2,40168.00,0.00,40168.00,10858.878
+2024-09-17 00:00:00.0,"Tabancura","Uber","Pastel Mediano","Torta Mediana",202004,"Mediana Tor Carrot Cake",6,120504.00,0.00,120504.00,32484.413
+2024-09-17 00:00:00.0,"Nunoa","Uber","Pastel Mediano","Torta Mediana",202004,"Mediana Tor Carrot Cake",1,20084.00,0.00,20084.00,5411.445
+2024-09-17 00:00:00.0,"Lastarria","Uber","Pastel Mediano","Torta Mediana",202004,"Mediana Tor Carrot Cake",1,20084.00,0.00,20084.00,5427.306
+2024-09-17 00:00:00.0,"San Miguel ","Uber","Pastel Mediano","Torta Mediana",202004,"Mediana Tor Carrot Cake",2,40168.00,0.00,40168.00,10831.925
+2024-09-17 00:00:00.0,"Tabancura","Rappi","Pastel Mediano","Torta Mediana",202004,"Mediana Tor Carrot Cake",2,40168.00,0.00,40168.00,10828.138
+2024-09-17 00:00:00.0,"Los Militares","PedidosYa","Pastel Mediano","Torta Mediana",202004,"Mediana Tor Carrot Cake",1,20084.00,0.00,20084.00,5440.79
+2024-09-17 00:00:00.0,"Pocuro","Justo","Pastel Mediano","Torta Mediana",202004,"Mediana Tor Carrot Cake",3,60252.00,0.00,60252.00,16288.317
+2024-09-17 00:00:00.0,"Nunoa","Justo","Pastel Mediano","Torta Mediana",202004,"Mediana Tor Carrot Cake",2,40168.00,0.00,40168.00,10822.89
+2024-09-17 00:00:00.0,"Penalolen","Justo","Pastel Mediano","Torta Mediana",202004,"Mediana Tor Carrot Cake",1,20084.00,0.00,20084.00,5434.81
+2024-09-17 00:00:00.0,"Lastarria","Justo","Pastel Mediano","Torta Mediana",202004,"Mediana Tor Carrot Cake",3,60252.00,0.00,60252.00,16281.918
+2024-09-17 00:00:00.0,"San Miguel ","Justo","Pastel Mediano","Torta Mediana",202004,"Mediana Tor Carrot Cake",2,40168.00,0.00,40168.00,10831.925
+2024-09-17 00:00:00.0,"La Florida","Local","Pastel Mediano","Torta Mediana",202005,"Mediana Tor Red Velvet",1,18067.00,0.00,18067.00,4754.379
+2024-09-17 00:00:00.0,"La Reina","Local","Pastel Mediano","Torta Mediana",202005,"Mediana Tor Red Velvet",1,18067.00,0.00,18067.00,4786.778
+2024-09-17 00:00:00.0,"Los Militares","Local","Pastel Mediano","Torta Mediana",202005,"Mediana Tor Red Velvet",3,54201.00,0.00,54201.00,14385.607
+2024-09-17 00:00:00.0,"Maipu","Local","Pastel Mediano","Torta Mediana",202005,"Mediana Tor Red Velvet",3,54201.00,0.00,54201.00,14400.733
+2024-09-17 00:00:00.0,"Providencia","Local","Pastel Mediano","Torta Mediana",202005,"Mediana Tor Red Velvet",3,54201.00,0.00,54201.00,14315.062
+2024-09-17 00:00:00.0,"Nunoa","Local","Pastel Mediano","Torta Mediana",202005,"Mediana Tor Red Velvet",3,54201.00,0.00,54201.00,14358.428
+2024-09-17 00:00:00.0,"Penalolen","Local","Pastel Mediano","Torta Mediana",202005,"Mediana Tor Red Velvet",1,18067.00,0.00,18067.00,4789.182
+2024-09-17 00:00:00.0,"Lastarria","Local","Pastel Mediano","Torta Mediana",202005,"Mediana Tor Red Velvet",2,36134.00,0.00,36134.00,9580.202
+2024-09-17 00:00:00.0,"Chicureo","Local","Pastel Mediano","Torta Mediana",202005,"Mediana Tor Red Velvet",1,18067.00,0.00,18067.00,4789.986
+2024-09-17 00:00:00.0,"San Miguel ","Local","Pastel Mediano","Torta Mediana",202005,"Mediana Tor Red Velvet",2,36134.00,0.00,36134.00,9535.746
+2024-09-17 00:00:00.0,"La Reina","Uber","Pastel Mediano","Torta Mediana",202005,"Mediana Tor Red Velvet",1,19244.00,0.00,19244.00,4786.778
+2024-09-17 00:00:00.0,"Los Militares","Uber","Pastel Mediano","Torta Mediana",202005,"Mediana Tor Red Velvet",2,38488.00,0.00,38488.00,9590.404
+2024-09-17 00:00:00.0,"Providencia","Uber","Pastel Mediano","Torta Mediana",202005,"Mediana Tor Red Velvet",1,19244.00,0.00,19244.00,4771.687
+2024-09-17 00:00:00.0,"Nunoa","Uber","Pastel Mediano","Torta Mediana",202005,"Mediana Tor Red Velvet",3,57732.00,0.00,57732.00,14358.428
+2024-09-17 00:00:00.0,"San Miguel ","Rappi","Pastel Mediano","Torta Mediana",202005,"Mediana Tor Red Velvet",1,19244.00,0.00,19244.00,4767.873
+2024-09-17 00:00:00.0,"San Miguel ","PedidosYa","Pastel Mediano","Torta Mediana",202005,"Mediana Tor Red Velvet",1,19244.00,0.00,19244.00,4767.873
+2024-09-17 00:00:00.0,"Tabancura","Justo","Pastel Mediano","Torta Mediana",202005,"Mediana Tor Red Velvet",1,19244.00,0.00,19244.00,4767.246
+2024-09-17 00:00:00.0,"Nunoa","Justo","Pastel Mediano","Torta Mediana",202005,"Mediana Tor Red Velvet",1,19244.00,0.00,19244.00,4786.143
+2024-09-17 00:00:00.0,"La Florida","Local","Pastel Mediano","Torta Mediana",202007,"Mediana Tor S/A Carrot Cake",1,18067.00,0.00,18067.00,4585.812
+2024-09-17 00:00:00.0,"La Reina","Local","Pastel Mediano","Torta Mediana",202007,"Mediana Tor S/A Carrot Cake",4,72268.00,-5420.00,66848.00,18437.025
+2024-09-17 00:00:00.0,"Los Militares","Local","Pastel Mediano","Torta Mediana",202007,"Mediana Tor S/A Carrot Cake",3,54201.00,0.00,54201.00,13850.799
+2024-09-17 00:00:00.0,"Providencia","Local","Pastel Mediano","Torta Mediana",202007,"Mediana Tor S/A Carrot Cake",3,54201.00,0.00,54201.00,13783.915
+2024-09-17 00:00:00.0,"Tabancura","Local","Pastel Mediano","Torta Mediana",202007,"Mediana Tor S/A Carrot Cake",2,36134.00,0.00,36134.00,9180.456
+2024-09-17 00:00:00.0,"Nunoa","Local","Pastel Mediano","Torta Mediana",202007,"Mediana Tor S/A Carrot Cake",4,72268.00,0.00,72268.00,18432.372
+2024-09-17 00:00:00.0,"Penalolen","Local","Pastel Mediano","Torta Mediana",202007,"Mediana Tor S/A Carrot Cake",2,36134.00,0.00,36134.00,9221.438
+2024-09-17 00:00:00.0,"Chicureo","Local","Pastel Mediano","Torta Mediana",202007,"Mediana Tor S/A Carrot Cake",1,18067.00,0.00,18067.00,4611.261
+2024-09-17 00:00:00.0,"San Miguel ","Local","Pastel Mediano","Torta Mediana",202007,"Mediana Tor S/A Carrot Cake",4,72268.00,0.00,72268.00,18368.167
+2024-09-17 00:00:00.0,"La Florida","Uber","Pastel Mediano","Torta Mediana",202007,"Mediana Tor S/A Carrot Cake",1,20924.00,0.00,20924.00,4585.812
+2024-09-17 00:00:00.0,"Los Militares","Uber","Pastel Mediano","Torta Mediana",202007,"Mediana Tor S/A Carrot Cake",1,20924.00,0.00,20924.00,4616.933
+2024-09-17 00:00:00.0,"Maipu","Uber","Pastel Mediano","Torta Mediana",202007,"Mediana Tor S/A Carrot Cake",1,20924.00,0.00,20924.00,4632.444
+2024-09-17 00:00:00.0,"Pocuro","Uber","Pastel Mediano","Torta Mediana",202007,"Mediana Tor S/A Carrot Cake",1,20924.00,0.00,20924.00,4604.899
+2024-09-17 00:00:00.0,"Providencia","Uber","Pastel Mediano","Torta Mediana",202007,"Mediana Tor S/A Carrot Cake",1,20924.00,0.00,20924.00,4594.638
+2024-09-17 00:00:00.0,"Tabancura","Uber","Pastel Mediano","Torta Mediana",202007,"Mediana Tor S/A Carrot Cake",1,20924.00,0.00,20924.00,4590.228
+2024-09-17 00:00:00.0,"Nunoa","Uber","Pastel Mediano","Torta Mediana",202007,"Mediana Tor S/A Carrot Cake",1,20924.00,0.00,20924.00,4608.093
+2024-09-17 00:00:00.0,"San Miguel ","Uber","Pastel Mediano","Torta Mediana",202007,"Mediana Tor S/A Carrot Cake",1,20924.00,0.00,20924.00,4592.042
+2024-09-17 00:00:00.0,"Maipu","Justo","Pastel Mediano","Torta Mediana",202007,"Mediana Tor S/A Carrot Cake",1,20924.00,0.00,20924.00,4632.444
+2024-09-17 00:00:00.0,"Penalolen","Justo","Pastel Mediano","Torta Mediana",202007,"Mediana Tor S/A Carrot Cake",1,20924.00,0.00,20924.00,4610.719
+2024-09-17 00:00:00.0,"Lastarria","Justo","Pastel Mediano","Torta Mediana",202007,"Mediana Tor S/A Carrot Cake",2,41848.00,0.00,41848.00,9223.522
+2024-09-17 00:00:00.0,"La Florida","Local","Pastel Mediano","Torta Mediana",202008,"Mediana Tor Lemon Blueberry Cake",2,37816.00,0.00,37816.00,10523.175
+2024-09-17 00:00:00.0,"La Reina","Local","Pastel Mediano","Torta Mediana",202008,"Mediana Tor Lemon Blueberry Cake",1,18908.00,0.00,18908.00,5286.734
+2024-09-17 00:00:00.0,"Los Militares","Local","Pastel Mediano","Torta Mediana",202008,"Mediana Tor Lemon Blueberry Cake",1,18908.00,0.00,18908.00,5303.995
+2024-09-17 00:00:00.0,"Pocuro","Local","Pastel Mediano","Torta Mediana",202008,"Mediana Tor Lemon Blueberry Cake",1,18908.00,0.00,18908.00,5295.068
+2024-09-17 00:00:00.0,"Providencia","Local","Pastel Mediano","Torta Mediana",202008,"Mediana Tor Lemon Blueberry Cake",1,18908.00,0.00,18908.00,5285.809
+2024-09-17 00:00:00.0,"Tabancura","Local","Pastel Mediano","Torta Mediana",202008,"Mediana Tor Lemon Blueberry Cake",3,56724.00,0.00,56724.00,15812.572
+2024-09-17 00:00:00.0,"Nunoa","Local","Pastel Mediano","Torta Mediana",202008,"Mediana Tor Lemon Blueberry Cake",1,18908.00,0.00,18908.00,5286.314
+2024-09-17 00:00:00.0,"Penalolen","Local","Pastel Mediano","Torta Mediana",202008,"Mediana Tor Lemon Blueberry Cake",3,56724.00,0.00,56724.00,15892.389
+2024-09-17 00:00:00.0,"Lastarria","Local","Pastel Mediano","Torta Mediana",202008,"Mediana Tor Lemon Blueberry Cake",3,56724.00,0.00,56724.00,15875.662
+2024-09-17 00:00:00.0,"Chicureo","Local","Pastel Mediano","Torta Mediana",202008,"Mediana Tor Lemon Blueberry Cake",1,18908.00,0.00,18908.00,5286.428
+2024-09-17 00:00:00.0,"San Miguel ","Local","Pastel Mediano","Torta Mediana",202008,"Mediana Tor Lemon Blueberry Cake",2,37816.00,0.00,37816.00,10536.297
+2024-09-17 00:00:00.0,"La Florida","Uber","Pastel Mediano","Torta Mediana",202008,"Mediana Tor Lemon Blueberry Cake",1,20924.00,0.00,20924.00,5261.588
+2024-09-17 00:00:00.0,"Los Militares","Uber","Pastel Mediano","Torta Mediana",202008,"Mediana Tor Lemon Blueberry Cake",1,20924.00,0.00,20924.00,5303.995
+2024-09-17 00:00:00.0,"Maipu","Uber","Pastel Mediano","Torta Mediana",202008,"Mediana Tor Lemon Blueberry Cake",0,0.00,0.00,0.00,0.00
+2024-09-17 00:00:00.0,"Pocuro","Uber","Pastel Mediano","Torta Mediana",202008,"Mediana Tor Lemon Blueberry Cake",4,83696.00,0.00,83696.00,21180.272
+2024-09-17 00:00:00.0,"Nunoa","Uber","Pastel Mediano","Torta Mediana",202008,"Mediana Tor Lemon Blueberry Cake",1,20924.00,0.00,20924.00,5286.314
+2024-09-17 00:00:00.0,"Lastarria","Uber","Pastel Mediano","Torta Mediana",202008,"Mediana Tor Lemon Blueberry Cake",2,41848.00,0.00,41848.00,10583.775
+2024-09-17 00:00:00.0,"Los Militares","Rappi","Pastel Mediano","Torta Mediana",202008,"Mediana Tor Lemon Blueberry Cake",1,20924.00,0.00,20924.00,5303.995
+2024-09-17 00:00:00.0,"Pocuro","Rappi","Pastel Mediano","Torta Mediana",202008,"Mediana Tor Lemon Blueberry Cake",1,20924.00,0.00,20924.00,5295.068
+2024-09-17 00:00:00.0,"Providencia","Rappi","Pastel Mediano","Torta Mediana",202008,"Mediana Tor Lemon Blueberry Cake",1,20924.00,0.00,20924.00,5285.809
+2024-09-17 00:00:00.0,"Lastarria","PedidosYa","Pastel Mediano","Torta Mediana",202008,"Mediana Tor Lemon Blueberry Cake",1,20924.00,0.00,20924.00,5291.887
+2024-09-17 00:00:00.0,"Lastarria","Justo","Pastel Mediano","Torta Mediana",202008,"Mediana Tor Lemon Blueberry Cake",1,20924.00,0.00,20924.00,5291.887
+2024-09-17 00:00:00.0,"La Florida","Local","Pastel Mediano","Torta Mediana",202011,"Mediana Tor Smores",2,37816.00,0.00,37816.00,10783.768
+2024-09-17 00:00:00.0,"Los Militares","Local","Pastel Mediano","Torta Mediana",202011,"Mediana Tor Smores",2,37816.00,0.00,37816.00,10846.915
+2024-09-17 00:00:00.0,"Pocuro","Local","Pastel Mediano","Torta Mediana",202011,"Mediana Tor Smores",1,18908.00,0.00,18908.00,5412.172
+2024-09-17 00:00:00.0,"Providencia","Local","Pastel Mediano","Torta Mediana",202011,"Mediana Tor Smores",1,18908.00,-5672.00,13236.00,5400.525
+2024-09-17 00:00:00.0,"Tabancura","Local","Pastel Mediano","Torta Mediana",202011,"Mediana Tor Smores",1,18908.00,0.00,18908.00,5397.052
+2024-09-17 00:00:00.0,"Nunoa","Local","Pastel Mediano","Torta Mediana",202011,"Mediana Tor Smores",2,37816.00,-5672.00,32144.00,10830.209
+2024-09-17 00:00:00.0,"Lastarria","Local","Pastel Mediano","Torta Mediana",202011,"Mediana Tor Smores",1,18908.00,0.00,18908.00,5418.427
+2024-09-17 00:00:00.0,"Los Militares","Uber","Pastel Mediano","Torta Mediana",202011,"Mediana Tor Smores",1,20924.00,0.00,20924.00,5423.457
+2024-09-17 00:00:00.0,"Penalolen","Uber","Pastel Mediano","Torta Mediana",202011,"Mediana Tor Smores",1,20924.00,0.00,20924.00,5416.427
+2024-09-17 00:00:00.0,"Lastarria","Uber","Pastel Mediano","Torta Mediana",202011,"Mediana Tor Smores",1,20924.00,0.00,20924.00,5418.427
+2024-09-17 00:00:00.0,"San Miguel ","Uber","Pastel Mediano","Torta Mediana",202011,"Mediana Tor Smores",2,41848.00,0.00,41848.00,10797.759
+2024-09-17 00:00:00.0,"Penalolen","PedidosYa","Pastel Mediano","Torta Mediana",202011,"Mediana Tor Smores",1,20924.00,0.00,20924.00,5416.427
+2024-09-17 00:00:00.0,"Lastarria","PedidosYa","Pastel Mediano","Torta Mediana",202011,"Mediana Tor Smores",1,20924.00,0.00,20924.00,5418.427
+2024-09-17 00:00:00.0,"Nunoa","Justo","Pastel Mediano","Torta Mediana",202011,"Mediana Tor Smores",1,20924.00,0.00,20924.00,5415.105
+2024-09-17 00:00:00.0,"La Reina","Local","Pastel Mediano","Torta Mediana",202012,"Mediana Tor Celebration",1,18908.00,0.00,18908.00,5585.679
+2024-09-17 00:00:00.0,"Los Militares","Local","Pastel Mediano","Torta Mediana",202012,"Mediana Tor Celebration",2,37816.00,0.00,37816.00,11186.961
+2024-09-17 00:00:00.0,"Pocuro","Local","Pastel Mediano","Torta Mediana",202012,"Mediana Tor Celebration",1,18908.00,0.00,18908.00,5582.049
+2024-09-17 00:00:00.0,"Penalolen","Local","Pastel Mediano","Torta Mediana",202012,"Mediana Tor Celebration",1,18908.00,0.00,18908.00,5585.95
+2024-09-17 00:00:00.0,"Chicureo","Local","Pastel Mediano","Torta Mediana",202012,"Mediana Tor Celebration",1,18908.00,0.00,18908.00,5588.034
+2024-09-17 00:00:00.0,"Maipu","Uber","Pastel Mediano","Torta Mediana",202012,"Mediana Tor Celebration",2,40168.00,0.00,40168.00,11221.358
+2024-09-17 00:00:00.0,"Providencia","Uber","Pastel Mediano","Torta Mediana",202012,"Mediana Tor Celebration",1,20084.00,0.00,20084.00,5569.578
+2024-09-17 00:00:00.0,"Lastarria","Uber","Pastel Mediano","Torta Mediana",202012,"Mediana Tor Celebration",1,20084.00,0.00,20084.00,5587.672
+2024-09-17 00:00:00.0,"San Miguel ","Uber","Pastel Mediano","Torta Mediana",202012,"Mediana Tor Celebration",1,20084.00,0.00,20084.00,5568.831
+2024-09-17 00:00:00.0,"La Reina","Justo","Pastel Mediano","Torta Mediana",202012,"Mediana Tor Celebration",1,20084.00,0.00,20084.00,5585.679
+2024-09-17 00:00:00.0,"Chicureo","Local","Pastel Mediano","Pie Mediano",203001,"Mediano Nutella Pie",1,14202.00,0.00,14202.00,5341.993
+2024-09-17 00:00:00.0,"La Florida","Local","Pastel Mediano","Pie Mediano",203001,"Mediano Nutella Pie",2,28404.00,0.00,28404.00,10560.775
+2024-09-17 00:00:00.0,"Maipu","Local","Pastel Mediano","Pie Mediano",203001,"Mediano Nutella Pie",1,14202.00,0.00,14202.00,5351.752
+2024-09-17 00:00:00.0,"Nunoa","Local","Pastel Mediano","Pie Mediano",203001,"Mediano Nutella Pie",1,14202.00,0.00,14202.00,5323.625
+2024-09-17 00:00:00.0,"Tabancura","Local","Pastel Mediano","Pie Mediano",203001,"Mediano Nutella Pie",1,14202.00,0.00,14202.00,5330.674
+2024-09-17 00:00:00.0,"Lastarria","Uber","Pastel Mediano","Pie Mediano",203001,"Mediano Nutella Pie",2,33446.00,0.00,33446.00,10690.182
+2024-09-17 00:00:00.0,"Maipu","Uber","Pastel Mediano","Pie Mediano",203001,"Mediano Nutella Pie",1,16723.00,0.00,16723.00,5351.752
+2024-09-17 00:00:00.0,"Nunoa","Uber","Pastel Mediano","Pie Mediano",203001,"Mediano Nutella Pie",1,16723.00,0.00,16723.00,5323.625
+2024-09-17 00:00:00.0,"Pocuro","Uber","Pastel Mediano","Pie Mediano",203001,"Mediano Nutella Pie",2,33446.00,0.00,33446.00,10697.005
+2024-09-17 00:00:00.0,"Providencia","Uber","Pastel Mediano","Pie Mediano",203001,"Mediano Nutella Pie",2,33446.00,0.00,33446.00,10629.148
+2024-09-17 00:00:00.0,"Tabancura","Uber","Pastel Mediano","Pie Mediano",203001,"Mediano Nutella Pie",1,16723.00,0.00,16723.00,5330.674
+2024-09-17 00:00:00.0,"Los Militares","Rappi","Pastel Mediano","Pie Mediano",203001,"Mediano Nutella Pie",2,33446.00,0.00,33446.00,10719.787
+2024-09-17 00:00:00.0,"Nunoa","Justo","Pastel Mediano","Pie Mediano",203001,"Mediano Nutella Pie",1,16723.00,0.00,16723.00,5323.625
+2024-09-17 00:00:00.0,"Maipu","Local","Pastel Grande","Cheesecake Grande",301001,"Grande Ch NY Berries",1,26471.00,0.00,26471.00,9545.413
+2024-09-17 00:00:00.0,"Tabancura","Local","Pastel Grande","Cheesecake Grande",301001,"Grande Ch NY Berries",2,52942.00,0.00,52942.00,19454.977
+2024-09-17 00:00:00.0,"Nunoa","Local","Pastel Grande","Cheesecake Grande",301001,"Grande Ch NY Berries",2,52942.00,0.00,52942.00,19686.689
+2024-09-17 00:00:00.0,"Lastarria","Local","Pastel Grande","Cheesecake Grande",301001,"Grande Ch NY Berries",1,26471.00,0.00,26471.00,9825.494
+2024-09-17 00:00:00.0,"Los Militares","Local","Pastel Grande","Cheesecake Grande",301002,"Grande Ch NY Maracuya",1,26471.00,0.00,26471.00,10612.765
+2024-09-17 00:00:00.0,"San Miguel ","Local","Pastel Grande","Cheesecake Grande",301002,"Grande Ch NY Maracuya",1,26471.00,0.00,26471.00,10666.727
+2024-09-17 00:00:00.0,"La Florida","Local","Pastel Grande","Cheesecake Grande",301006,"Grande Ch Oreo",1,27311.00,0.00,27311.00,11469.12
+2024-09-17 00:00:00.0,"La Reina","Local","Pastel Grande","Cheesecake Grande",301006,"Grande Ch Oreo",1,27311.00,0.00,27311.00,11482.149
+2024-09-17 00:00:00.0,"Providencia","Local","Pastel Grande","Cheesecake Grande",301006,"Grande Ch Oreo",2,54622.00,0.00,54622.00,22950.488
+2024-09-17 00:00:00.0,"Nunoa","Local","Pastel Grande","Cheesecake Grande",301006,"Grande Ch Oreo",3,81933.00,0.00,81933.00,34405.129
+2024-09-17 00:00:00.0,"Lastarria","Local","Pastel Grande","Cheesecake Grande",301006,"Grande Ch Oreo",1,27311.00,0.00,27311.00,11475.08
+2024-09-17 00:00:00.0,"San Miguel ","Local","Pastel Grande","Cheesecake Grande",301006,"Grande Ch Oreo",2,54622.00,0.00,54622.00,22957.653
+2024-09-17 00:00:00.0,"La Florida","Local","Pastel Grande","Cheesecake Grande",301014,"Grande Ch White Raspberry",1,27311.00,0.00,27311.00,11184.796
+2024-09-17 00:00:00.0,"Nunoa","Local","Pastel Grande","Cheesecake Grande",301014,"Grande Ch White Raspberry",5,136555.00,0.00,136555.00,55920.262
+2024-09-17 00:00:00.0,"Chicureo","Local","Pastel Grande","Cheesecake Grande",301014,"Grande Ch White Raspberry",1,27311.00,0.00,27311.00,11184.939
+2024-09-17 00:00:00.0,"San Miguel ","Local","Pastel Grande","Cheesecake Grande",301014,"Grande Ch White Raspberry",1,27311.00,0.00,27311.00,11184.684
+2024-09-17 00:00:00.0,"Pocuro","Uber","Pastel Grande","Cheesecake Grande",301014,"Grande Ch White Raspberry",0,0.00,0.00,0.00,0.00
+2024-09-17 00:00:00.0,"Los Militares","Justo","Pastel Grande","Cheesecake Grande",301014,"Grande Ch White Raspberry",1,33529.00,0.00,33529.00,11183.912
+2024-09-17 00:00:00.0,"San Miguel ","Justo","Pastel Grande","Cheesecake Grande",301014,"Grande Ch White Raspberry",1,33529.00,0.00,33529.00,11184.684
+2024-09-17 00:00:00.0,"Maipu","Local","Pastel Grande","Torta Grande",302001,"Grande Tor Brownie Man y Framb",2,58824.00,0.00,58824.00,22372.166
+2024-09-17 00:00:00.0,"Nunoa","Local","Pastel Grande","Torta Grande",302001,"Grande Tor Brownie Man y Framb",1,29412.00,0.00,29412.00,11093.56
+2024-09-17 00:00:00.0,"Lastarria","Local","Pastel Grande","Torta Grande",302001,"Grande Tor Brownie Man y Framb",1,29412.00,0.00,29412.00,11094.064
+2024-09-17 00:00:00.0,"Chicureo","Local","Pastel Grande","Torta Grande",302001,"Grande Tor Brownie Man y Framb",1,29412.00,0.00,29412.00,11094.437
+2024-09-17 00:00:00.0,"San Miguel ","Local","Pastel Grande","Torta Grande",302001,"Grande Tor Brownie Man y Framb",1,29412.00,0.00,29412.00,11094.187
+2024-09-17 00:00:00.0,"La Florida","Local","Pastel Grande","Torta Grande",302003,"Grande Tor Dark Cake",1,27731.00,0.00,27731.00,9051.629
+2024-09-17 00:00:00.0,"La Reina","Local","Pastel Grande","Torta Grande",302003,"Grande Tor Dark Cake",1,27731.00,0.00,27731.00,9164.241
+2024-09-17 00:00:00.0,"Los Militares","Local","Pastel Grande","Torta Grande",302003,"Grande Tor Dark Cake",1,27731.00,0.00,27731.00,9055.831
+2024-09-17 00:00:00.0,"Nunoa","Local","Pastel Grande","Torta Grande",302003,"Grande Tor Dark Cake",1,27731.00,0.00,27731.00,9049.722
+2024-09-17 00:00:00.0,"Lastarria","Local","Pastel Grande","Torta Grande",302003,"Grande Tor Dark Cake",2,55462.00,0.00,55462.00,18121.444
+2024-09-17 00:00:00.0,"Chicureo","Local","Pastel Grande","Torta Grande",302003,"Grande Tor Dark Cake",1,27731.00,0.00,27731.00,9051.763
+2024-09-17 00:00:00.0,"San Miguel ","Local","Pastel Grande","Torta Grande",302003,"Grande Tor Dark Cake",3,83193.00,0.00,83193.00,27159.768
+2024-09-17 00:00:00.0,"Los Militares","Local","Pastel Grande","Torta Grande",302004,"Grande Tor Carrot Cake",1,27731.00,0.00,27731.00,8886.536
+2024-09-17 00:00:00.0,"Providencia","Local","Pastel Grande","Torta Grande",302004,"Grande Tor Carrot Cake",4,110924.00,0.00,110924.00,35551.165
+2024-09-17 00:00:00.0,"Tabancura","Local","Pastel Grande","Torta Grande",302004,"Grande Tor Carrot Cake",1,27731.00,0.00,27731.00,8886.976
+2024-09-17 00:00:00.0,"Nunoa","Local","Pastel Grande","Torta Grande",302004,"Grande Tor Carrot Cake",4,110924.00,0.00,110924.00,35546.019
+2024-09-17 00:00:00.0,"Penalolen","Local","Pastel Grande","Torta Grande",302004,"Grande Tor Carrot Cake",3,83193.00,-8319.00,74874.00,26661.151
+2024-09-17 00:00:00.0,"Lastarria","Local","Pastel Grande","Torta Grande",302004,"Grande Tor Carrot Cake",1,27731.00,0.00,27731.00,8886.99
+2024-09-17 00:00:00.0,"Chicureo","Local","Pastel Grande","Torta Grande",302004,"Grande Tor Carrot Cake",3,83193.00,0.00,83193.00,26662.544
+2024-09-17 00:00:00.0,"San Miguel ","Local","Pastel Grande","Torta Grande",302004,"Grande Tor Carrot Cake",4,110924.00,0.00,110924.00,35548.762
+2024-09-17 00:00:00.0,"Maipu","Local","Pastel Grande","Torta Grande",302005,"Grande Tor Red Velvet",1,26891.00,0.00,26891.00,8240.629
+2024-09-17 00:00:00.0,"Nunoa","Local","Pastel Grande","Torta Grande",302005,"Grande Tor Red Velvet",2,53782.00,0.00,53782.00,16476.222
+2024-09-17 00:00:00.0,"Penalolen","Local","Pastel Grande","Torta Grande",302005,"Grande Tor Red Velvet",1,26891.00,0.00,26891.00,8237.488
+2024-09-17 00:00:00.0,"Lastarria","Local","Pastel Grande","Torta Grande",302005,"Grande Tor Red Velvet",1,26891.00,0.00,26891.00,8240.879
+2024-09-17 00:00:00.0,"San Miguel ","Local","Pastel Grande","Torta Grande",302005,"Grande Tor Red Velvet",2,53782.00,0.00,53782.00,16482.003
+2024-09-17 00:00:00.0,"Penalolen","Local","Pastel Grande","Torta Grande",302007,"Grande Tor S/A Carrot Cake",1,26891.00,0.00,26891.00,7715.938
+2024-09-17 00:00:00.0,"Chicureo","Local","Pastel Grande","Torta Grande",302007,"Grande Tor S/A Carrot Cake",1,26891.00,0.00,26891.00,7716.14
+2024-09-17 00:00:00.0,"La Reina","Local","Pastel Grande","Torta Grande",302008,"Grande Tor Lemon Blueberry Cake",1,27731.00,0.00,27731.00,9078.265
+2024-09-17 00:00:00.0,"Los Militares","Local","Pastel Grande","Torta Grande",302008,"Grande Tor Lemon Blueberry Cake",1,27731.00,0.00,27731.00,9079.008
+2024-09-17 00:00:00.0,"Maipu","Local","Pastel Grande","Torta Grande",302008,"Grande Tor Lemon Blueberry Cake",2,55462.00,0.00,55462.00,18153.805
+2024-09-17 00:00:00.0,"Nunoa","Local","Pastel Grande","Torta Grande",302008,"Grande Tor Lemon Blueberry Cake",1,27731.00,0.00,27731.00,9073.867
+2024-09-17 00:00:00.0,"Lastarria","Local","Pastel Grande","Torta Grande",302008,"Grande Tor Lemon Blueberry Cake",2,55462.00,0.00,55462.00,18150.632
+2024-09-17 00:00:00.0,"Chicureo","Local","Pastel Grande","Torta Grande",302008,"Grande Tor Lemon Blueberry Cake",1,27731.00,0.00,27731.00,9077.388
+2024-09-17 00:00:00.0,"San Miguel ","Local","Pastel Grande","Torta Grande",302008,"Grande Tor Lemon Blueberry Cake",1,27731.00,0.00,27731.00,9074.493
+2024-09-17 00:00:00.0,"Lastarria","Local","Pastel Grande","Torta Grande",302010,"Grande Tor Smores",1,27731.00,0.00,27731.00,8996.146
+2024-09-17 00:00:00.0,"San Miguel ","Local","Pastel Grande","Torta Grande",302010,"Grande Tor Smores",1,27731.00,0.00,27731.00,8996.268
+2024-09-17 00:00:00.0,"Lastarria","Local","Pastel Grande","Torta Grande",302011,"Grande Tor Celebration",2,55462.00,0.00,55462.00,20641.033
+2024-09-17 00:00:00.0,"San Miguel ","Local","Pastel Grande","Torta Grande",302011,"Grande Tor Celebration",1,27731.00,0.00,27731.00,10356.178
+2024-09-17 00:00:00.0,"La Florida","Local","Pastel Grande","Pie Grande",303001,"Grande Pie Lemon",2,37816.00,-5672.00,32144.00,16238.658
+2024-09-17 00:00:00.0,"Los Militares","Local","Pastel Grande","Pie Grande",303001,"Grande Pie Lemon",4,75632.00,0.00,75632.00,32473.756
+2024-09-17 00:00:00.0,"Maipu","Local","Pastel Grande","Pie Grande",303001,"Grande Pie Lemon",1,18908.00,0.00,18908.00,8119.73
+2024-09-17 00:00:00.0,"Pocuro","Local","Pastel Grande","Pie Grande",303001,"Grande Pie Lemon",1,18908.00,0.00,18908.00,8118.915
+2024-09-17 00:00:00.0,"Providencia","Local","Pastel Grande","Pie Grande",303001,"Grande Pie Lemon",1,18908.00,0.00,18908.00,8119.559
+2024-09-17 00:00:00.0,"Tabancura","Local","Pastel Grande","Pie Grande",303001,"Grande Pie Lemon",1,18908.00,0.00,18908.00,8118.65
+2024-09-17 00:00:00.0,"Nunoa","Local","Pastel Grande","Pie Grande",303001,"Grande Pie Lemon",1,18908.00,0.00,18908.00,8118.586
+2024-09-17 00:00:00.0,"Penalolen","Local","Pastel Grande","Pie Grande",303001,"Grande Pie Lemon",1,18908.00,0.00,18908.00,8119.261
+2024-09-17 00:00:00.0,"La Reina","Uber","Pastel Grande","Pie Grande",303001,"Grande Pie Lemon",1,21765.00,0.00,21765.00,8119.203
+2024-09-17 00:00:00.0,"Pocuro","Uber","Pastel Grande","Pie Grande",303001,"Grande Pie Lemon",2,43530.00,0.00,43530.00,16237.829
+2024-09-17 00:00:00.0,"Providencia","Uber","Pastel Grande","Pie Grande",303001,"Grande Pie Lemon",2,43530.00,0.00,43530.00,16239.118
+2024-09-17 00:00:00.0,"Tabancura","Uber","Pastel Grande","Pie Grande",303001,"Grande Pie Lemon",1,21765.00,0.00,21765.00,8118.65
+2024-09-17 00:00:00.0,"Nunoa","Uber","Pastel Grande","Pie Grande",303001,"Grande Pie Lemon",1,21765.00,0.00,21765.00,8118.586
+2024-09-17 00:00:00.0,"Lastarria","Uber","Pastel Grande","Pie Grande",303001,"Grande Pie Lemon",1,21765.00,0.00,21765.00,8119.09
+2024-09-17 00:00:00.0,"Chicureo","Uber","Pastel Grande","Pie Grande",303001,"Grande Pie Lemon",1,21765.00,0.00,21765.00,8119.463
+2024-09-17 00:00:00.0,"La Florida","Rappi","Pastel Grande","Pie Grande",303001,"Grande Pie Lemon",1,21765.00,0.00,21765.00,8119.329
+2024-09-17 00:00:00.0,"La Florida","Justo","Pastel Grande","Pie Grande",303001,"Grande Pie Lemon",1,21765.00,0.00,21765.00,8119.329
+2024-09-17 00:00:00.0,"Pocuro","Justo","Pastel Grande","Pie Grande",303001,"Grande Pie Lemon",1,21765.00,0.00,21765.00,8118.915
+2024-09-17 00:00:00.0,"La Florida","Local","Pastel Grande","Pie Grande",303003,"Grande Pie Apple Crumble",2,37816.00,0.00,37816.00,14789.059
+2024-09-17 00:00:00.0,"La Reina","Local","Pastel Grande","Pie Grande",303003,"Grande Pie Apple Crumble",1,18908.00,0.00,18908.00,7396.651
+2024-09-17 00:00:00.0,"Los Militares","Local","Pastel Grande","Pie Grande",303003,"Grande Pie Apple Crumble",1,18908.00,0.00,18908.00,7394.199
+2024-09-17 00:00:00.0,"Pocuro","Local","Pastel Grande","Pie Grande",303003,"Grande Pie Apple Crumble",3,56724.00,0.00,56724.00,22189.093
+2024-09-17 00:00:00.0,"Providencia","Local","Pastel Grande","Pie Grande",303003,"Grande Pie Apple Crumble",1,18908.00,0.00,18908.00,7396.256
+2024-09-17 00:00:00.0,"Tabancura","Local","Pastel Grande","Pie Grande",303003,"Grande Pie Apple Crumble",2,37816.00,0.00,37816.00,14791.071
+2024-09-17 00:00:00.0,"Nunoa","Local","Pastel Grande","Pie Grande",303003,"Grande Pie Apple Crumble",1,18908.00,0.00,18908.00,7395.155
+2024-09-17 00:00:00.0,"Penalolen","Local","Pastel Grande","Pie Grande",303003,"Grande Pie Apple Crumble",1,18908.00,0.00,18908.00,7396.711
+2024-09-17 00:00:00.0,"Chicureo","Local","Pastel Grande","Pie Grande",303003,"Grande Pie Apple Crumble",1,18908.00,0.00,18908.00,7396.536
+2024-09-17 00:00:00.0,"San Miguel ","Local","Pastel Grande","Pie Grande",303003,"Grande Pie Apple Crumble",1,18908.00,0.00,18908.00,7395.173
+2024-09-17 00:00:00.0,"Los Militares","Uber","Pastel Grande","Pie Grande",303003,"Grande Pie Apple Crumble",1,21765.00,0.00,21765.00,7394.199
+2024-09-17 00:00:00.0,"Pocuro","Uber","Pastel Grande","Pie Grande",303003,"Grande Pie Apple Crumble",2,43530.00,0.00,43530.00,14792.728
+2024-09-17 00:00:00.0,"Providencia","Uber","Pastel Grande","Pie Grande",303003,"Grande Pie Apple Crumble",1,21765.00,0.00,21765.00,7396.256
+2024-09-17 00:00:00.0,"Tabancura","Uber","Pastel Grande","Pie Grande",303003,"Grande Pie Apple Crumble",1,21765.00,0.00,21765.00,7395.536
+2024-09-17 00:00:00.0,"Nunoa","Uber","Pastel Grande","Pie Grande",303003,"Grande Pie Apple Crumble",1,21765.00,0.00,21765.00,7395.155
+2024-09-17 00:00:00.0,"Lastarria","PedidosYa","Pastel Grande","Pie Grande",303003,"Grande Pie Apple Crumble",1,21765.00,0.00,21765.00,7396.539
+2024-09-17 00:00:00.0,"San Miguel ","PedidosYa","Pastel Grande","Pie Grande",303003,"Grande Pie Apple Crumble",1,21765.00,0.00,21765.00,7395.173
+2024-09-17 00:00:00.0,"La Reina","Justo","Pastel Grande","Pie Grande",303003,"Grande Pie Apple Crumble",0,0.00,0.00,0.00,0.00
+2024-09-17 00:00:00.0,"Los Militares","Local","Pastel Grande","Pie Grande",303005,"Grande Nutella Pie",1,22269.00,0.00,22269.00,9557.87
+2024-09-17 00:00:00.0,"Nunoa","Local","Pastel Grande","Pie Grande",303005,"Grande Nutella Pie",2,44538.00,0.00,44538.00,19116.026
+2024-09-17 00:00:00.0,"Penalolen","Local","Pastel Grande","Pie Grande",303005,"Grande Nutella Pie",1,22269.00,0.00,22269.00,9558.686
+2024-09-17 00:00:00.0,"Chicureo","Local","Pastel Grande","Pie Grande",303005,"Grande Nutella Pie",1,22269.00,0.00,22269.00,9558.872
+2024-09-17 00:00:00.0,"San Miguel ","Local","Pastel Grande","Pie Grande",303005,"Grande Nutella Pie",2,44538.00,0.00,44538.00,19117.286
+2024-09-17 00:00:00.0,"Nunoa","Uber","Pastel Grande","Pie Grande",303005,"Grande Nutella Pie",1,25630.00,0.00,25630.00,9558.013
+2024-09-17 00:00:00.0,"Lastarria","Uber","Pastel Grande","Pie Grande",303005,"Grande Nutella Pie",1,25630.00,0.00,25630.00,9558.513
+2024-09-17 00:00:00.0,"La Florida","Local","Delicias","Galletones",401001,"Cookie Triple Chocolate",2,2689.00,0.00,2689.00,1988.41
+2024-09-17 00:00:00.0,"La Reina","Local","Delicias","Galletones",401001,"Cookie Triple Chocolate",2,5378.00,0.00,5378.00,1994.797
+2024-09-17 00:00:00.0,"Los Militares","Local","Delicias","Galletones",401001,"Cookie Triple Chocolate",6,5378.00,0.00,5378.00,5978.292
+2024-09-17 00:00:00.0,"Maipu","Local","Delicias","Galletones",401001,"Cookie Triple Chocolate",5,13445.00,0.00,13445.00,4986.838
+2024-09-17 00:00:00.0,"Pocuro","Local","Delicias","Galletones",401001,"Cookie Triple Chocolate",1,2689.00,0.00,2689.00,995.494
+2024-09-17 00:00:00.0,"Providencia","Local","Delicias","Galletones",401001,"Cookie Triple Chocolate",5,5378.00,-807.00,4571.00,4997.015
+2024-09-17 00:00:00.0,"Tabancura","Local","Delicias","Galletones",401001,"Cookie Triple Chocolate",2,5378.00,0.00,5378.00,1981.313
+2024-09-17 00:00:00.0,"Nunoa","Local","Delicias","Galletones",401001,"Cookie Triple Chocolate",9,24201.00,0.00,24201.00,8958.223
+2024-09-17 00:00:00.0,"Penalolen","Local","Delicias","Galletones",401001,"Cookie Triple Chocolate",3,8067.00,0.00,8067.00,2991.717
+2024-09-17 00:00:00.0,"Lastarria","Local","Delicias","Galletones",401001,"Cookie Triple Chocolate",10,26890.00,0.00,26890.00,9993.187
+2024-09-17 00:00:00.0,"Chicureo","Local","Delicias","Galletones",401001,"Cookie Triple Chocolate",2,5378.00,0.00,5378.00,1997.496
+2024-09-17 00:00:00.0,"San Miguel ","Local","Delicias","Galletones",401001,"Cookie Triple Chocolate",9,16134.00,0.00,16134.00,8991.249
+2024-09-17 00:00:00.0,"La Florida","Uber","Delicias","Galletones",401001,"Cookie Triple Chocolate",4,2933.00,0.00,2933.00,3976.82
+2024-09-17 00:00:00.0,"Los Militares","Uber","Delicias","Galletones",401001,"Cookie Triple Chocolate",5,11732.00,0.00,11732.00,4981.91
+2024-09-17 00:00:00.0,"Maipu","Uber","Delicias","Galletones",401001,"Cookie Triple Chocolate",1,0.00,0.00,0.00,997.368
+2024-09-17 00:00:00.0,"Pocuro","Uber","Delicias","Galletones",401001,"Cookie Triple Chocolate",5,5866.00,0.00,5866.00,4977.47
+2024-09-17 00:00:00.0,"Tabancura","Uber","Delicias","Galletones",401001,"Cookie Triple Chocolate",11,23464.00,0.00,23464.00,10897.221
+2024-09-17 00:00:00.0,"Nunoa","Uber","Delicias","Galletones",401001,"Cookie Triple Chocolate",5,5866.00,0.00,5866.00,4976.791
+2024-09-17 00:00:00.0,"Lastarria","Uber","Delicias","Galletones",401001,"Cookie Triple Chocolate",1,0.00,0.00,0.00,999.319
+2024-09-17 00:00:00.0,"Chicureo","Uber","Delicias","Galletones",401001,"Cookie Triple Chocolate",1,0.00,0.00,0.00,998.748
+2024-09-17 00:00:00.0,"La Florida","Rappi","Delicias","Galletones",401001,"Cookie Triple Chocolate",1,0.00,0.00,0.00,994.205
+2024-09-17 00:00:00.0,"Providencia","Rappi","Delicias","Galletones",401001,"Cookie Triple Chocolate",1,2933.00,0.00,2933.00,999.403
+2024-09-17 00:00:00.0,"Tabancura","Rappi","Delicias","Galletones",401001,"Cookie Triple Chocolate",1,0.00,0.00,0.00,990.656
+2024-09-17 00:00:00.0,"La Florida","PedidosYa","Delicias","Galletones",401001,"Cookie Triple Chocolate",2,5866.00,0.00,5866.00,1988.41
+2024-09-17 00:00:00.0,"Maipu","PedidosYa","Delicias","Galletones",401001,"Cookie Triple Chocolate",0,0.00,0.00,0.00,0.00
+2024-09-17 00:00:00.0,"Lastarria","PedidosYa","Delicias","Galletones",401001,"Cookie Triple Chocolate",2,5866.00,0.00,5866.00,1998.637
+2024-09-17 00:00:00.0,"San Miguel ","PedidosYa","Delicias","Galletones",401001,"Cookie Triple Chocolate",1,2933.00,0.00,2933.00,999.028
+2024-09-17 00:00:00.0,"La Reina","Good Meal","Delicias","Galletones",401001,"Cookie Triple Chocolate",9,0.00,0.00,0.00,8976.589
+2024-09-17 00:00:00.0,"Lastarria","Justo","Delicias","Galletones",401001,"Cookie Triple Chocolate",1,2933.00,0.00,2933.00,999.319
+2024-09-17 00:00:00.0,"Nunoa","Rappi Turbo","Delicias","Galletones",401001,"Cookie Triple Chocolate",3,0.00,0.00,0.00,2986.074
+2024-09-17 00:00:00.0,"La Florida","Local","Delicias","Galletones",401002,"Cookie Chocolate Chip Walnut",6,8067.00,0.00,8067.00,4359.73
+2024-09-17 00:00:00.0,"La Reina","Local","Delicias","Galletones",401002,"Cookie Chocolate Chip Walnut",2,5378.00,0.00,5378.00,1451.447
+2024-09-17 00:00:00.0,"Los Militares","Local","Delicias","Galletones",401002,"Cookie Chocolate Chip Walnut",7,10756.00,0.00,10756.00,5098.908
+2024-09-17 00:00:00.0,"Maipu","Local","Delicias","Galletones",401002,"Cookie Chocolate Chip Walnut",3,8067.00,0.00,8067.00,2183.172
+2024-09-17 00:00:00.0,"Pocuro","Local","Delicias","Galletones",401002,"Cookie Chocolate Chip Walnut",1,0.00,0.00,0.00,728.346
+2024-09-17 00:00:00.0,"Providencia","Local","Delicias","Galletones",401002,"Cookie Chocolate Chip Walnut",13,29579.00,0.00,29579.00,9472.799
+2024-09-17 00:00:00.0,"Tabancura","Local","Delicias","Galletones",401002,"Cookie Chocolate Chip Walnut",2,5378.00,0.00,5378.00,1450.783
+2024-09-17 00:00:00.0,"Nunoa","Local","Delicias","Galletones",401002,"Cookie Chocolate Chip Walnut",5,13445.00,0.00,13445.00,3631.217
+2024-09-17 00:00:00.0,"Penalolen","Local","Delicias","Galletones",401002,"Cookie Chocolate Chip Walnut",1,2689.00,0.00,2689.00,727.233
+2024-09-17 00:00:00.0,"Lastarria","Local","Delicias","Galletones",401002,"Cookie Chocolate Chip Walnut",9,24201.00,0.00,24201.00,6564.161
+2024-09-17 00:00:00.0,"Chicureo","Local","Delicias","Galletones",401002,"Cookie Chocolate Chip Walnut",2,5378.00,0.00,5378.00,1454.955
+2024-09-17 00:00:00.0,"San Miguel ","Local","Delicias","Galletones",401002,"Cookie Chocolate Chip Walnut",3,5378.00,0.00,5378.00,2177.207
+2024-09-17 00:00:00.0,"La Florida","Uber","Delicias","Galletones",401002,"Cookie Chocolate Chip Walnut",5,2933.00,0.00,2933.00,3633.108
+2024-09-17 00:00:00.0,"Los Militares","Uber","Delicias","Galletones",401002,"Cookie Chocolate Chip Walnut",4,2933.00,0.00,2933.00,2913.662
+2024-09-17 00:00:00.0,"Pocuro","Uber","Delicias","Galletones",401002,"Cookie Chocolate Chip Walnut",9,14665.00,0.00,14665.00,6555.115
+2024-09-17 00:00:00.0,"Providencia","Uber","Delicias","Galletones",401002,"Cookie Chocolate Chip Walnut",1,2933.00,0.00,2933.00,728.677
+2024-09-17 00:00:00.0,"Tabancura","Uber","Delicias","Galletones",401002,"Cookie Chocolate Chip Walnut",8,23464.00,0.00,23464.00,5803.133
+2024-09-17 00:00:00.0,"Nunoa","Uber","Delicias","Galletones",401002,"Cookie Chocolate Chip Walnut",6,11732.00,0.00,11732.00,4357.46
+2024-09-17 00:00:00.0,"Lastarria","Uber","Delicias","Galletones",401002,"Cookie Chocolate Chip Walnut",4,5866.00,0.00,5866.00,2917.405
+2024-09-17 00:00:00.0,"San Miguel ","Uber","Delicias","Galletones",401002,"Cookie Chocolate Chip Walnut",3,0.00,0.00,0.00,2177.207
+2024-09-17 00:00:00.0,"Los Militares","Rappi","Delicias","Galletones",401002,"Cookie Chocolate Chip Walnut",3,8723.00,0.00,8723.00,2185.246
+2024-09-17 00:00:00.0,"Providencia","Rappi","Delicias","Galletones",401002,"Cookie Chocolate Chip Walnut",1,2933.00,0.00,2933.00,728.677
+2024-09-17 00:00:00.0,"Tabancura","Rappi","Delicias","Galletones",401002,"Cookie Chocolate Chip Walnut",1,0.00,0.00,0.00,725.392
+2024-09-17 00:00:00.0,"Nunoa","Rappi","Delicias","Galletones",401002,"Cookie Chocolate Chip Walnut",1,2933.00,0.00,2933.00,726.243
+2024-09-17 00:00:00.0,"Lastarria","PedidosYa","Delicias","Galletones",401002,"Cookie Chocolate Chip Walnut",3,8799.00,0.00,8799.00,2188.054
+2024-09-17 00:00:00.0,"San Miguel ","PedidosYa","Delicias","Galletones",401002,"Cookie Chocolate Chip Walnut",1,2933.00,0.00,2933.00,725.736
+2024-09-17 00:00:00.0,"La Reina","Good Meal","Delicias","Galletones",401002,"Cookie Chocolate Chip Walnut",12,0.00,0.00,0.00,8708.679
+2024-09-17 00:00:00.0,"Providencia","Justo","Delicias","Galletones",401002,"Cookie Chocolate Chip Walnut",2,5866.00,0.00,5866.00,1457.354
+2024-09-17 00:00:00.0,"Nunoa","Justo","Delicias","Galletones",401002,"Cookie Chocolate Chip Walnut",1,2933.00,0.00,2933.00,726.243
+2024-09-17 00:00:00.0,"Lastarria","Justo","Delicias","Galletones",401002,"Cookie Chocolate Chip Walnut",1,0.00,0.00,0.00,729.351
+2024-09-17 00:00:00.0,"Nunoa","Rappi Turbo","Delicias","Galletones",401002,"Cookie Chocolate Chip Walnut",3,0.00,0.00,0.00,2178.73
+2024-09-17 00:00:00.0,"La Florida","Local","Delicias","Galletones",401003,"Cookie Avena Cranberry",2,5378.00,0.00,5378.00,1238.302
+2024-09-17 00:00:00.0,"La Reina","Local","Delicias","Galletones",401003,"Cookie Avena Cranberry",1,0.00,0.00,0.00,619.474
+2024-09-17 00:00:00.0,"Los Militares","Local","Delicias","Galletones",401003,"Cookie Avena Cranberry",6,10756.00,0.00,10756.00,3727.008
+2024-09-17 00:00:00.0,"Maipu","Local","Delicias","Galletones",401003,"Cookie Avena Cranberry",2,2689.00,0.00,2689.00,1240.836
+2024-09-17 00:00:00.0,"Pocuro","Local","Delicias","Galletones",401003,"Cookie Avena Cranberry",4,2689.00,0.00,2689.00,2480.477
+2024-09-17 00:00:00.0,"Providencia","Local","Delicias","Galletones",401003,"Cookie Avena Cranberry",12,21512.00,0.00,21512.00,7451.011
+2024-09-17 00:00:00.0,"Tabancura","Local","Delicias","Galletones",401003,"Cookie Avena Cranberry",3,0.00,0.00,0.00,1854.064
+2024-09-17 00:00:00.0,"Nunoa","Local","Delicias","Galletones",401003,"Cookie Avena Cranberry",1,2689.00,0.00,2689.00,651.19
+2024-09-17 00:00:00.0,"Penalolen","Local","Delicias","Galletones",401003,"Cookie Avena Cranberry",2,5378.00,0.00,5378.00,1239.062
+2024-09-17 00:00:00.0,"Lastarria","Local","Delicias","Galletones",401003,"Cookie Avena Cranberry",4,10756.00,0.00,10756.00,2582.931
+2024-09-17 00:00:00.0,"Chicureo","Local","Delicias","Galletones",401003,"Cookie Avena Cranberry",2,5378.00,0.00,5378.00,1240.525
+2024-09-17 00:00:00.0,"San Miguel ","Local","Delicias","Galletones",401003,"Cookie Avena Cranberry",4,8067.00,0.00,8067.00,2485.35
+2024-09-17 00:00:00.0,"La Florida","Uber","Delicias","Galletones",401003,"Cookie Avena Cranberry",1,2933.00,0.00,2933.00,619.151
+2024-09-17 00:00:00.0,"Los Militares","Uber","Delicias","Galletones",401003,"Cookie Avena Cranberry",2,5866.00,0.00,5866.00,1242.336
+2024-09-17 00:00:00.0,"Pocuro","Uber","Delicias","Galletones",401003,"Cookie Avena Cranberry",2,0.00,0.00,0.00,1240.239
+2024-09-17 00:00:00.0,"Tabancura","Uber","Delicias","Galletones",401003,"Cookie Avena Cranberry",2,2933.00,0.00,2933.00,1236.043
+2024-09-17 00:00:00.0,"Nunoa","Uber","Delicias","Galletones",401003,"Cookie Avena Cranberry",2,0.00,0.00,0.00,1302.38
+2024-09-17 00:00:00.0,"Penalolen","Uber","Delicias","Galletones",401003,"Cookie Avena Cranberry",1,0.00,0.00,0.00,619.531
+2024-09-17 00:00:00.0,"La Florida","Rappi","Delicias","Galletones",401003,"Cookie Avena Cranberry",1,0.00,0.00,0.00,619.151
+2024-09-17 00:00:00.0,"Los Militares","Rappi","Delicias","Galletones",401003,"Cookie Avena Cranberry",3,0.00,0.00,0.00,1863.504
+2024-09-17 00:00:00.0,"Tabancura","Rappi","Delicias","Galletones",401003,"Cookie Avena Cranberry",1,0.00,0.00,0.00,618.021
+2024-09-17 00:00:00.0,"Nunoa","Rappi","Delicias","Galletones",401003,"Cookie Avena Cranberry",2,0.00,0.00,0.00,1302.38
+2024-09-17 00:00:00.0,"San Miguel ","PedidosYa","Delicias","Galletones",401003,"Cookie Avena Cranberry",1,2933.00,0.00,2933.00,621.337
+2024-09-17 00:00:00.0,"La Reina","Good Meal","Delicias","Galletones",401003,"Cookie Avena Cranberry",6,0.00,0.00,0.00,3716.843
+2024-09-17 00:00:00.0,"La Florida","Local","Delicias","Galletones",401007,"Cookie S/A Chocolate",1,2857.00,0.00,2857.00,988.849
+2024-09-17 00:00:00.0,"La Reina","Local","Delicias","Galletones",401007,"Cookie S/A Chocolate",1,2857.00,0.00,2857.00,988.754
+2024-09-17 00:00:00.0,"Pocuro","Local","Delicias","Galletones",401007,"Cookie S/A Chocolate",2,5714.00,0.00,5714.00,1978.776
+2024-09-17 00:00:00.0,"Providencia","Local","Delicias","Galletones",401007,"Cookie S/A Chocolate",6,17142.00,0.00,17142.00,5943.693
+2024-09-17 00:00:00.0,"Tabancura","Local","Delicias","Galletones",401007,"Cookie S/A Chocolate",2,5714.00,0.00,5714.00,1975.731
+2024-09-17 00:00:00.0,"Nunoa","Local","Delicias","Galletones",401007,"Cookie S/A Chocolate",7,19999.00,0.00,19999.00,6929.691
+2024-09-17 00:00:00.0,"Lastarria","Local","Delicias","Galletones",401007,"Cookie S/A Chocolate",2,5714.00,0.00,5714.00,1980.481
+2024-09-17 00:00:00.0,"Chicureo","Local","Delicias","Galletones",401007,"Cookie S/A Chocolate",1,2857.00,-857.00,2000.00,990.628
+2024-09-17 00:00:00.0,"San Miguel ","Local","Delicias","Galletones",401007,"Cookie S/A Chocolate",2,5714.00,0.00,5714.00,1981.217
+2024-09-17 00:00:00.0,"Maipu","Uber","Delicias","Galletones",401007,"Cookie S/A Chocolate",1,3101.00,0.00,3101.00,989.688
+2024-09-17 00:00:00.0,"Pocuro","Uber","Delicias","Galletones",401007,"Cookie S/A Chocolate",1,3101.00,0.00,3101.00,989.388
+2024-09-17 00:00:00.0,"Nunoa","Uber","Delicias","Galletones",401007,"Cookie S/A Chocolate",4,12404.00,0.00,12404.00,3959.824
+2024-09-17 00:00:00.0,"Penalolen","Uber","Delicias","Galletones",401007,"Cookie S/A Chocolate",1,3101.00,0.00,3101.00,988.801
+2024-09-17 00:00:00.0,"Lastarria","Uber","Delicias","Galletones",401007,"Cookie S/A Chocolate",1,3101.00,0.00,3101.00,990.241
+2024-09-17 00:00:00.0,"La Reina","Rappi","Delicias","Galletones",401007,"Cookie S/A Chocolate",2,6202.00,0.00,6202.00,1977.508
+2024-09-17 00:00:00.0,"Lastarria","Rappi","Delicias","Galletones",401007,"Cookie S/A Chocolate",2,6202.00,0.00,6202.00,1980.481
+2024-09-17 00:00:00.0,"Nunoa","PedidosYa","Delicias","Galletones",401007,"Cookie S/A Chocolate",1,3101.00,0.00,3101.00,989.956
+2024-09-17 00:00:00.0,"Lastarria","PedidosYa","Delicias","Galletones",401007,"Cookie S/A Chocolate",2,6202.00,0.00,6202.00,1980.481
+2024-09-17 00:00:00.0,"Pocuro","Justo","Delicias","Galletones",401007,"Cookie S/A Chocolate",5,15505.00,0.00,15505.00,4946.939
+2024-09-17 00:00:00.0,"Providencia","Justo","Delicias","Galletones",401007,"Cookie S/A Chocolate",4,12404.00,0.00,12404.00,3962.462
+2024-09-17 00:00:00.0,"Lastarria","Justo","Delicias","Galletones",401007,"Cookie S/A Chocolate",1,3101.00,0.00,3101.00,990.241
+2024-09-17 00:00:00.0,"La Florida","Local","Delicias","Brownies",402001,"Brownie con Dulce Leche",1,0.00,0.00,0.00,452.981
+2024-09-17 00:00:00.0,"La Reina","Local","Delicias","Brownies",402001,"Brownie con Dulce Leche",4,5547.00,0.00,5547.00,1813.779
+2024-09-17 00:00:00.0,"Los Militares","Local","Delicias","Brownies",402001,"Brownie con Dulce Leche",5,1849.00,0.00,1849.00,2279.616
+2024-09-17 00:00:00.0,"Maipu","Local","Delicias","Brownies",402001,"Brownie con Dulce Leche",3,5547.00,0.00,5547.00,1363.922
+2024-09-17 00:00:00.0,"Pocuro","Local","Delicias","Brownies",402001,"Brownie con Dulce Leche",3,3698.00,0.00,3698.00,1364.939
+2024-09-17 00:00:00.0,"Providencia","Local","Delicias","Brownies",402001,"Brownie con Dulce Leche",11,20339.00,0.00,20339.00,5009.208
+2024-09-17 00:00:00.0,"Tabancura","Local","Delicias","Brownies",402001,"Brownie con Dulce Leche",13,24037.00,0.00,24037.00,5885.069
+2024-09-17 00:00:00.0,"Nunoa","Local","Delicias","Brownies",402001,"Brownie con Dulce Leche",6,11094.00,0.00,11094.00,2731.887
+2024-09-17 00:00:00.0,"Lastarria","Local","Delicias","Brownies",402001,"Brownie con Dulce Leche",1,1849.00,0.00,1849.00,455.599
+2024-09-17 00:00:00.0,"Chicureo","Local","Delicias","Brownies",402001,"Brownie con Dulce Leche",1,1849.00,0.00,1849.00,454.491
+2024-09-17 00:00:00.0,"San Miguel ","Local","Delicias","Brownies",402001,"Brownie con Dulce Leche",3,1849.00,-555.00,1294.00,1366.922
+2024-09-17 00:00:00.0,"La Florida","Uber","Delicias","Brownies",402001,"Brownie con Dulce Leche",2,2101.00,0.00,2101.00,905.962
+2024-09-17 00:00:00.0,"La Reina","Uber","Delicias","Brownies",402001,"Brownie con Dulce Leche",2,4202.00,0.00,4202.00,906.889
+2024-09-17 00:00:00.0,"Los Militares","Uber","Delicias","Brownies",402001,"Brownie con Dulce Leche",7,6303.00,0.00,6303.00,3191.463
+2024-09-17 00:00:00.0,"Maipu","Uber","Delicias","Brownies",402001,"Brownie con Dulce Leche",2,2101.00,0.00,2101.00,909.282
+2024-09-17 00:00:00.0,"Pocuro","Uber","Delicias","Brownies",402001,"Brownie con Dulce Leche",7,14707.00,0.00,14707.00,3184.858
+2024-09-17 00:00:00.0,"Providencia","Uber","Delicias","Brownies",402001,"Brownie con Dulce Leche",1,2101.00,0.00,2101.00,455.383
+2024-09-17 00:00:00.0,"Tabancura","Uber","Delicias","Brownies",402001,"Brownie con Dulce Leche",3,4202.00,0.00,4202.00,1358.093
+2024-09-17 00:00:00.0,"Nunoa","Uber","Delicias","Brownies",402001,"Brownie con Dulce Leche",1,0.00,0.00,0.00,455.315
+2024-09-17 00:00:00.0,"Penalolen","Uber","Delicias","Brownies",402001,"Brownie con Dulce Leche",1,0.00,0.00,0.00,453.654
+2024-09-17 00:00:00.0,"Lastarria","Uber","Delicias","Brownies",402001,"Brownie con Dulce Leche",6,2101.00,0.00,2101.00,2733.593
+2024-09-17 00:00:00.0,"Chicureo","Uber","Delicias","Brownies",402001,"Brownie con Dulce Leche",1,0.00,0.00,0.00,454.491
+2024-09-17 00:00:00.0,"San Miguel ","Uber","Delicias","Brownies",402001,"Brownie con Dulce Leche",6,4202.00,0.00,4202.00,2733.844
+2024-09-17 00:00:00.0,"La Florida","Rappi","Delicias","Brownies",402001,"Brownie con Dulce Leche",2,0.00,0.00,0.00,905.962
+2024-09-17 00:00:00.0,"Providencia","Rappi","Delicias","Brownies",402001,"Brownie con Dulce Leche",1,2101.00,0.00,2101.00,455.383
+2024-09-17 00:00:00.0,"Tabancura","Rappi","Delicias","Brownies",402001,"Brownie con Dulce Leche",2,0.00,0.00,0.00,905.395
+2024-09-17 00:00:00.0,"Nunoa","Rappi","Delicias","Brownies",402001,"Brownie con Dulce Leche",5,0.00,0.00,0.00,2276.573
+2024-09-17 00:00:00.0,"La Florida","PedidosYa","Delicias","Brownies",402001,"Brownie con Dulce Leche",1,2101.00,0.00,2101.00,452.981
+2024-09-17 00:00:00.0,"La Reina","Justo","Delicias","Brownies",402001,"Brownie con Dulce Leche",12,25212.00,0.00,25212.00,5441.336
+2024-09-17 00:00:00.0,"Los Militares","Justo","Delicias","Brownies",402001,"Brownie con Dulce Leche",4,8404.00,0.00,8404.00,1823.693
+2024-09-17 00:00:00.0,"Lastarria","Justo","Delicias","Brownies",402001,"Brownie con Dulce Leche",2,2101.00,0.00,2101.00,911.198
+2024-09-17 00:00:00.0,"La Florida","Local","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",2,1849.00,0.00,1849.00,793.108
+2024-09-17 00:00:00.0,"La Reina","Local","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",3,3698.00,0.00,3698.00,1190.094
+2024-09-17 00:00:00.0,"Los Militares","Local","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",20,20339.00,0.00,20339.00,7974.718
+2024-09-17 00:00:00.0,"Maipu","Local","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",2,0.00,0.00,0.00,795.551
+2024-09-17 00:00:00.0,"Pocuro","Local","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",7,9245.00,0.00,9245.00,2782.751
+2024-09-17 00:00:00.0,"Providencia","Local","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",23,24037.00,0.00,24037.00,9159.923
+2024-09-17 00:00:00.0,"Tabancura","Local","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",6,3698.00,0.00,3698.00,2372.173
+2024-09-17 00:00:00.0,"Nunoa","Local","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",4,7396.00,0.00,7396.00,1591.70
+2024-09-17 00:00:00.0,"Penalolen","Local","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",2,3698.00,0.00,3698.00,793.566
+2024-09-17 00:00:00.0,"Lastarria","Local","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",4,7396.00,0.00,7396.00,1594.426
+2024-09-17 00:00:00.0,"Chicureo","Local","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",4,7396.00,0.00,7396.00,1590.314
+2024-09-17 00:00:00.0,"San Miguel ","Local","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",4,3698.00,0.00,3698.00,1595.854
+2024-09-17 00:00:00.0,"La Florida","Uber","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",4,2101.00,0.00,2101.00,1586.215
+2024-09-17 00:00:00.0,"La Reina","Uber","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",8,16808.00,0.00,16808.00,3173.584
+2024-09-17 00:00:00.0,"Los Militares","Uber","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",7,6303.00,0.00,6303.00,2791.151
+2024-09-17 00:00:00.0,"Maipu","Uber","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",1,0.00,0.00,0.00,397.776
+2024-09-17 00:00:00.0,"Pocuro","Uber","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",14,12606.00,0.00,12606.00,5565.503
+2024-09-17 00:00:00.0,"Providencia","Uber","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",2,4202.00,0.00,4202.00,796.515
+2024-09-17 00:00:00.0,"Tabancura","Uber","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",19,37818.00,0.00,37818.00,7511.882
+2024-09-17 00:00:00.0,"Nunoa","Uber","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",3,4202.00,0.00,4202.00,1193.775
+2024-09-17 00:00:00.0,"Penalolen","Uber","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",9,0.00,0.00,0.00,3571.045
+2024-09-17 00:00:00.0,"Lastarria","Uber","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",3,2101.00,0.00,2101.00,1195.82
+2024-09-17 00:00:00.0,"Chicureo","Uber","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",5,0.00,0.00,0.00,1987.892
+2024-09-17 00:00:00.0,"San Miguel ","Uber","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",7,6303.00,0.00,6303.00,2792.744
+2024-09-17 00:00:00.0,"La Florida","Rappi","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",1,0.00,0.00,0.00,396.554
+2024-09-17 00:00:00.0,"La Reina","Rappi","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",5,2101.00,0.00,2101.00,1983.49
+2024-09-17 00:00:00.0,"Los Militares","Rappi","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",4,0.00,0.00,0.00,1594.944
+2024-09-17 00:00:00.0,"Pocuro","Rappi","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",1,2101.00,0.00,2101.00,397.536
+2024-09-17 00:00:00.0,"Tabancura","Rappi","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",2,0.00,0.00,0.00,790.724
+2024-09-17 00:00:00.0,"Nunoa","Rappi","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",10,6303.00,0.00,6303.00,3979.25
+2024-09-17 00:00:00.0,"Lastarria","Rappi","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",4,0.00,0.00,0.00,1594.426
+2024-09-17 00:00:00.0,"La Florida","PedidosYa","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",1,2101.00,0.00,2101.00,396.554
+2024-09-17 00:00:00.0,"Maipu","PedidosYa","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",1,2101.00,0.00,2101.00,397.776
+2024-09-17 00:00:00.0,"Nunoa","PedidosYa","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",1,2101.00,0.00,2101.00,397.925
+2024-09-17 00:00:00.0,"Lastarria","PedidosYa","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",1,2101.00,0.00,2101.00,398.607
+2024-09-17 00:00:00.0,"San Miguel ","PedidosYa","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",2,4202.00,0.00,4202.00,797.927
+2024-09-17 00:00:00.0,"Chicureo","Good Meal","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",2,0.00,0.00,0.00,795.157
+2024-09-17 00:00:00.0,"La Florida","Justo","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",3,6303.00,0.00,6303.00,1189.662
+2024-09-17 00:00:00.0,"Pocuro","Justo","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",4,0.00,0.00,0.00,1590.144
+2024-09-17 00:00:00.0,"Providencia","Justo","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",4,8404.00,0.00,8404.00,1593.03
+2024-09-17 00:00:00.0,"Lastarria","Justo","Delicias","Brownies",402002,"Brownie Húmedo Tradicional",2,2101.00,0.00,2101.00,797.213
+2024-09-17 00:00:00.0,"La Florida","Local","Delicias","Queques",403001,"Troz Queque Zanahoria",1,2017.00,0.00,2017.00,293.335
+2024-09-17 00:00:00.0,"La Reina","Local","Delicias","Queques",403001,"Troz Queque Zanahoria",2,2017.00,0.00,2017.00,587.376
+2024-09-17 00:00:00.0,"Los Militares","Local","Delicias","Queques",403001,"Troz Queque Zanahoria",4,6051.00,0.00,6051.00,1176.317
+2024-09-17 00:00:00.0,"Maipu","Local","Delicias","Queques",403001,"Troz Queque Zanahoria",4,4034.00,0.00,4034.00,1174.47
+2024-09-17 00:00:00.0,"Pocuro","Local","Delicias","Queques",403001,"Troz Queque Zanahoria",1,2017.00,0.00,2017.00,293.126
+2024-09-17 00:00:00.0,"Providencia","Local","Delicias","Queques",403001,"Troz Queque Zanahoria",1,2017.00,0.00,2017.00,294.015
+2024-09-17 00:00:00.0,"Lastarria","Local","Delicias","Queques",403001,"Troz Queque Zanahoria",1,2017.00,0.00,2017.00,293.82
+2024-09-17 00:00:00.0,"Chicureo","Local","Delicias","Queques",403001,"Troz Queque Zanahoria",1,0.00,0.00,0.00,293.359
+2024-09-17 00:00:00.0,"San Miguel ","Local","Delicias","Queques",403001,"Troz Queque Zanahoria",1,2017.00,0.00,2017.00,293.92
+2024-09-17 00:00:00.0,"La Florida","Uber","Delicias","Queques",403001,"Troz Queque Zanahoria",1,0.00,0.00,0.00,293.335
+2024-09-17 00:00:00.0,"Los Militares","Uber","Delicias","Queques",403001,"Troz Queque Zanahoria",3,0.00,0.00,0.00,882.237
+2024-09-17 00:00:00.0,"Maipu","Uber","Delicias","Queques",403001,"Troz Queque Zanahoria",1,0.00,0.00,0.00,293.617
+2024-09-17 00:00:00.0,"Pocuro","Uber","Delicias","Queques",403001,"Troz Queque Zanahoria",2,4538.00,0.00,4538.00,586.252
+2024-09-17 00:00:00.0,"Tabancura","Uber","Delicias","Queques",403001,"Troz Queque Zanahoria",1,0.00,0.00,0.00,293.208
+2024-09-17 00:00:00.0,"Nunoa","Uber","Delicias","Queques",403001,"Troz Queque Zanahoria",1,0.00,0.00,0.00,293.639
+2024-09-17 00:00:00.0,"Penalolen","Uber","Delicias","Queques",403001,"Troz Queque Zanahoria",1,0.00,0.00,0.00,293.752
+2024-09-17 00:00:00.0,"Chicureo","Uber","Delicias","Queques",403001,"Troz Queque Zanahoria",1,0.00,0.00,0.00,293.359
+2024-09-17 00:00:00.0,"La Florida","Rappi","Delicias","Queques",403001,"Troz Queque Zanahoria",1,0.00,0.00,0.00,293.335
+2024-09-17 00:00:00.0,"Los Militares","Rappi","Delicias","Queques",403001,"Troz Queque Zanahoria",1,2269.00,0.00,2269.00,294.079
+2024-09-17 00:00:00.0,"Maipu","PedidosYa","Delicias","Queques",403001,"Troz Queque Zanahoria",0,0.00,0.00,0.00,0.00
+2024-09-17 00:00:00.0,"Nunoa","PedidosYa","Delicias","Queques",403001,"Troz Queque Zanahoria",1,2269.00,0.00,2269.00,293.639
+2024-09-17 00:00:00.0,"La Reina","Good Meal","Delicias","Queques",403001,"Troz Queque Zanahoria",9,0.00,0.00,0.00,2643.192
+2024-09-17 00:00:00.0,"Los Militares","Justo","Delicias","Queques",403001,"Troz Queque Zanahoria",0,0.00,0.00,0.00,0.00
+2024-09-17 00:00:00.0,"La Florida","Local","Delicias","Queques",403002,"Troz Queque Chocolate",3,4034.00,0.00,4034.00,1063.392
+2024-09-17 00:00:00.0,"La Reina","Local","Delicias","Queques",403002,"Troz Queque Chocolate",2,2017.00,0.00,2017.00,709.69
+2024-09-17 00:00:00.0,"Los Militares","Local","Delicias","Queques",403002,"Troz Queque Chocolate",2,4034.00,0.00,4034.00,710.425
+2024-09-17 00:00:00.0,"Maipu","Local","Delicias","Queques",403002,"Troz Queque Chocolate",2,4034.00,0.00,4034.00,709.145
+2024-09-17 00:00:00.0,"Pocuro","Local","Delicias","Queques",403002,"Troz Queque Chocolate",2,2017.00,0.00,2017.00,708.549
+2024-09-17 00:00:00.0,"Providencia","Local","Delicias","Queques",403002,"Troz Queque Chocolate",3,6051.00,0.00,6051.00,1065.559
+2024-09-17 00:00:00.0,"Tabancura","Local","Delicias","Queques",403002,"Troz Queque Chocolate",2,4034.00,0.00,4034.00,708.503
+2024-09-17 00:00:00.0,"Nunoa","Local","Delicias","Queques",403002,"Troz Queque Chocolate",4,8068.00,0.00,8068.00,1419.224
+2024-09-17 00:00:00.0,"Penalolen","Local","Delicias","Queques",403002,"Troz Queque Chocolate",1,2017.00,0.00,2017.00,354.831
+2024-09-17 00:00:00.0,"San Miguel ","Local","Delicias","Queques",403002,"Troz Queque Chocolate",2,4034.00,0.00,4034.00,710.169
+2024-09-17 00:00:00.0,"La Florida","Uber","Delicias","Queques",403002,"Troz Queque Chocolate",1,0.00,0.00,0.00,354.464
+2024-09-17 00:00:00.0,"Los Militares","Uber","Delicias","Queques",403002,"Troz Queque Chocolate",1,0.00,0.00,0.00,355.212
+2024-09-17 00:00:00.0,"Maipu","Uber","Delicias","Queques",403002,"Troz Queque Chocolate",1,0.00,0.00,0.00,354.572
+2024-09-17 00:00:00.0,"Pocuro","Uber","Delicias","Queques",403002,"Troz Queque Chocolate",1,2269.00,0.00,2269.00,354.275
+2024-09-17 00:00:00.0,"Providencia","Uber","Delicias","Queques",403002,"Troz Queque Chocolate",1,2269.00,0.00,2269.00,355.186
+2024-09-17 00:00:00.0,"Tabancura","Uber","Delicias","Queques",403002,"Troz Queque Chocolate",2,2269.00,0.00,2269.00,708.503
+2024-09-17 00:00:00.0,"Nunoa","Uber","Delicias","Queques",403002,"Troz Queque Chocolate",1,0.00,0.00,0.00,354.806
+2024-09-17 00:00:00.0,"Penalolen","Uber","Delicias","Queques",403002,"Troz Queque Chocolate",3,4538.00,0.00,4538.00,1064.493
+2024-09-17 00:00:00.0,"Lastarria","Uber","Delicias","Queques",403002,"Troz Queque Chocolate",2,0.00,0.00,0.00,709.985
+2024-09-17 00:00:00.0,"Chicureo","Uber","Delicias","Queques",403002,"Troz Queque Chocolate",1,0.00,0.00,0.00,354.543
+2024-09-17 00:00:00.0,"San Miguel ","Uber","Delicias","Queques",403002,"Troz Queque Chocolate",1,2269.00,0.00,2269.00,355.084
+2024-09-17 00:00:00.0,"La Florida","Rappi","Delicias","Queques",403002,"Troz Queque Chocolate",2,0.00,0.00,0.00,708.928
+2024-09-17 00:00:00.0,"Los Militares","Rappi","Delicias","Queques",403002,"Troz Queque Chocolate",1,2269.00,0.00,2269.00,355.212
+2024-09-17 00:00:00.0,"La Florida","PedidosYa","Delicias","Queques",403002,"Troz Queque Chocolate",2,4538.00,0.00,4538.00,708.928
+2024-09-17 00:00:00.0,"Maipu","PedidosYa","Delicias","Queques",403002,"Troz Queque Chocolate",0,0.00,0.00,0.00,0.00
+2024-09-17 00:00:00.0,"Chicureo","Good Meal","Delicias","Queques",403002,"Troz Queque Chocolate",2,0.00,0.00,0.00,709.086
+2024-09-17 00:00:00.0,"Lastarria","Justo","Delicias","Queques",403002,"Troz Queque Chocolate",2,0.00,0.00,0.00,709.985
+2024-09-17 00:00:00.0,"Los Militares","Local","Delicias","Queques",403003,"Ent Queque Zanahoria",1,11765.00,0.00,11765.00,2226.578
+2024-09-17 00:00:00.0,"Nunoa","Local","Delicias","Queques",403003,"Ent Queque Zanahoria",1,11765.00,-3529.00,8236.00,2229.334
+2024-09-17 00:00:00.0,"Penalolen","Local","Delicias","Queques",403003,"Ent Queque Zanahoria",1,11765.00,0.00,11765.00,2226.537
+2024-09-17 00:00:00.0,"Lastarria","Local","Delicias","Queques",403003,"Ent Queque Zanahoria",1,11765.00,0.00,11765.00,2226.297
+2024-09-17 00:00:00.0,"Providencia","Uber","Delicias","Queques",403003,"Ent Queque Zanahoria",1,13025.00,0.00,13025.00,2226.123
+2024-09-17 00:00:00.0,"Tabancura","Uber","Delicias","Queques",403003,"Ent Queque Zanahoria",1,13025.00,0.00,13025.00,2225.471
+2024-09-17 00:00:00.0,"La Florida","Rappi","Delicias","Queques",403003,"Ent Queque Zanahoria",1,13025.00,0.00,13025.00,2226.867
+2024-09-17 00:00:00.0,"Penalolen","Rappi","Delicias","Queques",403003,"Ent Queque Zanahoria",1,13025.00,0.00,13025.00,2226.537
+2024-09-17 00:00:00.0,"Pocuro","Justo","Delicias","Queques",403003,"Ent Queque Zanahoria",1,13025.00,0.00,13025.00,2224.701
+2024-09-17 00:00:00.0,"Lastarria","Justo","Delicias","Queques",403003,"Ent Queque Zanahoria",1,13025.00,0.00,13025.00,2226.297
+2024-09-17 00:00:00.0,"San Miguel ","Justo","Delicias","Queques",403003,"Ent Queque Zanahoria",1,13025.00,0.00,13025.00,2224.871
+2024-09-17 00:00:00.0,"Nunoa","Local","Delicias","Queques",403004,"Ent Queque Chocolate",3,35295.00,0.00,35295.00,8105.622
+2024-09-17 00:00:00.0,"Penalolen","Local","Delicias","Queques",403004,"Ent Queque Chocolate",1,11765.00,0.00,11765.00,2699.426
+2024-09-17 00:00:00.0,"Lastarria","Local","Delicias","Queques",403004,"Ent Queque Chocolate",1,11765.00,0.00,11765.00,2699.59
+2024-09-17 00:00:00.0,"Chicureo","Local","Delicias","Queques",403004,"Ent Queque Chocolate",1,11765.00,0.00,11765.00,2699.059
+2024-09-17 00:00:00.0,"Los Militares","Uber","Delicias","Queques",403004,"Ent Queque Chocolate",1,13025.00,0.00,13025.00,2699.724
+2024-09-17 00:00:00.0,"Pocuro","Uber","Delicias","Queques",403004,"Ent Queque Chocolate",1,13025.00,0.00,13025.00,2698.14
+2024-09-17 00:00:00.0,"Providencia","Uber","Delicias","Queques",403004,"Ent Queque Chocolate",1,13025.00,0.00,13025.00,2699.762
+2024-09-17 00:00:00.0,"Penalolen","Uber","Delicias","Queques",403004,"Ent Queque Chocolate",1,13025.00,0.00,13025.00,2699.426
+2024-09-17 00:00:00.0,"Lastarria","Uber","Delicias","Queques",403004,"Ent Queque Chocolate",1,13025.00,0.00,13025.00,2699.59
+2024-09-17 00:00:00.0,"Los Militares","Rappi","Delicias","Queques",403004,"Ent Queque Chocolate",1,13025.00,0.00,13025.00,2699.724
+2024-09-17 00:00:00.0,"Pocuro","Rappi","Delicias","Queques",403004,"Ent Queque Chocolate",1,13025.00,0.00,13025.00,2698.14
+2024-09-17 00:00:00.0,"Tabancura","Rappi","Delicias","Queques",403004,"Ent Queque Chocolate",1,13025.00,0.00,13025.00,2698.723
+2024-09-17 00:00:00.0,"Nunoa","PedidosYa","Delicias","Queques",403004,"Ent Queque Chocolate",1,13025.00,0.00,13025.00,2701.874
+2024-09-17 00:00:00.0,"La Florida","Local","Delicias","Queques",403007,"Troz Queque S/A Zanahoria ",3,4202.00,0.00,4202.00,1160.054
+2024-09-17 00:00:00.0,"Maipu","Local","Delicias","Queques",403007,"Troz Queque S/A Zanahoria ",4,8404.00,0.00,8404.00,1544.651
+2024-09-17 00:00:00.0,"Pocuro","Local","Delicias","Queques",403007,"Troz Queque S/A Zanahoria ",3,4202.00,0.00,4202.00,1166.561
+2024-09-17 00:00:00.0,"Providencia","Local","Delicias","Queques",403007,"Troz Queque S/A Zanahoria ",4,8404.00,0.00,8404.00,1546.85
+2024-09-17 00:00:00.0,"Tabancura","Local","Delicias","Queques",403007,"Troz Queque S/A Zanahoria ",1,2101.00,0.00,2101.00,388.099
+2024-09-17 00:00:00.0,"Nunoa","Local","Delicias","Queques",403007,"Troz Queque S/A Zanahoria ",3,6303.00,0.00,6303.00,1156.752
+2024-09-17 00:00:00.0,"Penalolen","Local","Delicias","Queques",403007,"Troz Queque S/A Zanahoria ",2,4202.00,0.00,4202.00,778.823
+2024-09-17 00:00:00.0,"Lastarria","Local","Delicias","Queques",403007,"Troz Queque S/A Zanahoria ",2,4202.00,0.00,4202.00,774.50
+2024-09-17 00:00:00.0,"Chicureo","Local","Delicias","Queques",403007,"Troz Queque S/A Zanahoria ",1,2101.00,0.00,2101.00,384.932
+2024-09-17 00:00:00.0,"San Miguel ","Local","Delicias","Queques",403007,"Troz Queque S/A Zanahoria ",3,6303.00,0.00,6303.00,1160.624
+2024-09-17 00:00:00.0,"La Florida","Uber","Delicias","Queques",403007,"Troz Queque S/A Zanahoria ",2,4706.00,0.00,4706.00,773.369
+2024-09-17 00:00:00.0,"La Reina","Uber","Delicias","Queques",403007,"Troz Queque S/A Zanahoria ",1,2353.00,0.00,2353.00,389.411
+2024-09-17 00:00:00.0,"Los Militares","Uber","Delicias","Queques",403007,"Troz Queque S/A Zanahoria ",9,21177.00,0.00,21177.00,3508.14
+2024-09-17 00:00:00.0,"Nunoa","Uber","Delicias","Queques",403007,"Troz Queque S/A Zanahoria ",1,2353.00,0.00,2353.00,385.584
+2024-09-17 00:00:00.0,"Penalolen","Uber","Delicias","Queques",403007,"Troz Queque S/A Zanahoria ",1,2353.00,0.00,2353.00,389.411
+2024-09-17 00:00:00.0,"Lastarria","Uber","Delicias","Queques",403007,"Troz Queque S/A Zanahoria ",4,7143.00,0.00,7143.00,1548.999
+2024-09-17 00:00:00.0,"San Miguel ","Uber","Delicias","Queques",403007,"Troz Queque S/A Zanahoria ",1,2353.00,0.00,2353.00,386.875
+2024-09-17 00:00:00.0,"Los Militares","Rappi","Delicias","Queques",403007,"Troz Queque S/A Zanahoria ",1,2353.00,0.00,2353.00,389.793
+2024-09-17 00:00:00.0,"Lastarria","Rappi","Delicias","Queques",403007,"Troz Queque S/A Zanahoria ",3,7059.00,0.00,7059.00,1161.75
+2024-09-17 00:00:00.0,"La Florida","Local","Delicias","Queques",403008,"Ent Queque S/A Zanahoria ",1,12185.00,0.00,12185.00,2909.133
+2024-09-17 00:00:00.0,"Los Militares","Local","Delicias","Queques",403008,"Ent Queque S/A Zanahoria ",1,12185.00,0.00,12185.00,2909.417
+2024-09-17 00:00:00.0,"Maipu","Local","Delicias","Queques",403008,"Ent Queque S/A Zanahoria ",2,24370.00,0.00,24370.00,5817.575
+2024-09-17 00:00:00.0,"Providencia","Local","Delicias","Queques",403008,"Ent Queque S/A Zanahoria ",1,12185.00,0.00,12185.00,2868.017
+2024-09-17 00:00:00.0,"Tabancura","Local","Delicias","Queques",403008,"Ent Queque S/A Zanahoria ",1,12185.00,0.00,12185.00,2867.094
+2024-09-17 00:00:00.0,"Nunoa","Local","Delicias","Queques",403008,"Ent Queque S/A Zanahoria ",2,24370.00,0.00,24370.00,5760.313
+2024-09-17 00:00:00.0,"Penalolen","Local","Delicias","Queques",403008,"Ent Queque S/A Zanahoria ",2,24370.00,0.00,24370.00,5818.098
+2024-09-17 00:00:00.0,"Lastarria","Local","Delicias","Queques",403008,"Ent Queque S/A Zanahoria ",2,24370.00,0.00,24370.00,5785.048
+2024-09-17 00:00:00.0,"Chicureo","Local","Delicias","Queques",403008,"Ent Queque S/A Zanahoria ",1,12185.00,0.00,12185.00,2888.922
+2024-09-17 00:00:00.0,"San Miguel ","Local","Delicias","Queques",403008,"Ent Queque S/A Zanahoria ",1,12185.00,0.00,12185.00,2887.077
+2024-09-17 00:00:00.0,"Chicureo","Uber","Delicias","Queques",403008,"Ent Queque S/A Zanahoria ",1,13445.00,0.00,13445.00,2888.922
+2024-09-17 00:00:00.0,"La Florida","Local","Delicias","Barras",404002,"Peanut Butter Bar",3,5547.00,0.00,5547.00,1655.746
+2024-09-17 00:00:00.0,"La Reina","Local","Delicias","Barras",404002,"Peanut Butter Bar",1,1849.00,0.00,1849.00,552.235
+2024-09-17 00:00:00.0,"Los Militares","Local","Delicias","Barras",404002,"Peanut Butter Bar",2,3698.00,0.00,3698.00,1103.859
+2024-09-17 00:00:00.0,"Maipu","Local","Delicias","Barras",404002,"Peanut Butter Bar",2,3698.00,0.00,3698.00,1103.855
+2024-09-17 00:00:00.0,"Providencia","Local","Delicias","Barras",404002,"Peanut Butter Bar",5,9245.00,0.00,9245.00,2761.793
+2024-09-17 00:00:00.0,"Tabancura","Local","Delicias","Barras",404002,"Peanut Butter Bar",9,16641.00,0.00,16641.00,4957.044
+2024-09-17 00:00:00.0,"Nunoa","Local","Delicias","Barras",404002,"Peanut Butter Bar",3,5547.00,0.00,5547.00,1654.861
+2024-09-17 00:00:00.0,"Penalolen","Local","Delicias","Barras",404002,"Peanut Butter Bar",2,3698.00,-555.00,3143.00,1104.588
+2024-09-17 00:00:00.0,"San Miguel ","Local","Delicias","Barras",404002,"Peanut Butter Bar",1,1849.00,0.00,1849.00,552.439
+2024-09-17 00:00:00.0,"La Reina","Uber","Delicias","Barras",404002,"Peanut Butter Bar",1,2185.00,0.00,2185.00,552.235
+2024-09-17 00:00:00.0,"Los Militares","Uber","Delicias","Barras",404002,"Peanut Butter Bar",1,2185.00,0.00,2185.00,551.929
+2024-09-17 00:00:00.0,"Maipu","Uber","Delicias","Barras",404002,"Peanut Butter Bar",2,4370.00,0.00,4370.00,1103.855
+2024-09-17 00:00:00.0,"Pocuro","Uber","Delicias","Barras",404002,"Peanut Butter Bar",7,15295.00,0.00,15295.00,3857.175
+2024-09-17 00:00:00.0,"Lastarria","Uber","Delicias","Barras",404002,"Peanut Butter Bar",1,2185.00,0.00,2185.00,551.732
+2024-09-17 00:00:00.0,"San Miguel ","Uber","Delicias","Barras",404002,"Peanut Butter Bar",1,2185.00,0.00,2185.00,552.439
+2024-09-17 00:00:00.0,"Los Militares","Rappi","Delicias","Barras",404002,"Peanut Butter Bar",1,2101.00,0.00,2101.00,551.929
+2024-09-17 00:00:00.0,"Nunoa","Rappi","Delicias","Barras",404002,"Peanut Butter Bar",1,2185.00,0.00,2185.00,551.62
+2024-09-17 00:00:00.0,"Los Militares","PedidosYa","Delicias","Barras",404002,"Peanut Butter Bar",1,2185.00,0.00,2185.00,551.929
+2024-09-17 00:00:00.0,"Lastarria","PedidosYa","Delicias","Barras",404002,"Peanut Butter Bar",4,8740.00,0.00,8740.00,2206.927
+2024-09-17 00:00:00.0,"Chicureo","PedidosYa","Delicias","Barras",404002,"Peanut Butter Bar",1,2185.00,0.00,2185.00,551.848
+2024-09-17 00:00:00.0,"San Miguel ","PedidosYa","Delicias","Barras",404002,"Peanut Butter Bar",2,4370.00,0.00,4370.00,1104.879
+2024-09-17 00:00:00.0,"Los Militares","Justo","Delicias","Barras",404002,"Peanut Butter Bar",1,2185.00,0.00,2185.00,551.929
+2024-09-17 00:00:00.0,"Lastarria","Justo","Delicias","Barras",404002,"Peanut Butter Bar",1,2185.00,0.00,2185.00,551.732
+2024-09-17 00:00:00.0,"Los Militares","Local","Delicias","Barras",404004,"Oreo Mix Bar",1,1849.00,0.00,1849.00,709.775
+2024-09-17 00:00:00.0,"Pocuro","Local","Delicias","Barras",404004,"Oreo Mix Bar",3,5547.00,-1664.00,3883.00,2154.297
+2024-09-17 00:00:00.0,"Tabancura","Local","Delicias","Barras",404004,"Oreo Mix Bar",1,1849.00,0.00,1849.00,714.232
+2024-09-17 00:00:00.0,"Nunoa","Local","Delicias","Barras",404004,"Oreo Mix Bar",2,3698.00,0.00,3698.00,1415.189
+2024-09-17 00:00:00.0,"San Miguel ","Local","Delicias","Barras",404004,"Oreo Mix Bar",3,5547.00,0.00,5547.00,2136.297
+2024-09-17 00:00:00.0,"La Florida","Uber","Delicias","Barras",404004,"Oreo Mix Bar",1,2185.00,0.00,2185.00,710.715
+2024-09-17 00:00:00.0,"La Reina","Uber","Delicias","Barras",404004,"Oreo Mix Bar",1,2185.00,0.00,2185.00,706.694
+2024-09-17 00:00:00.0,"Los Militares","Uber","Delicias","Barras",404004,"Oreo Mix Bar",1,2185.00,0.00,2185.00,709.775
+2024-09-17 00:00:00.0,"Pocuro","Uber","Delicias","Barras",404004,"Oreo Mix Bar",4,8740.00,0.00,8740.00,2872.396
+2024-09-17 00:00:00.0,"Tabancura","Uber","Delicias","Barras",404004,"Oreo Mix Bar",7,15295.00,0.00,15295.00,4999.626
+2024-09-17 00:00:00.0,"Lastarria","Uber","Delicias","Barras",404004,"Oreo Mix Bar",1,2185.00,0.00,2185.00,705.553
+2024-09-17 00:00:00.0,"San Miguel ","Uber","Delicias","Barras",404004,"Oreo Mix Bar",3,6555.00,0.00,6555.00,2136.297
+2024-09-17 00:00:00.0,"Los Militares","Rappi","Delicias","Barras",404004,"Oreo Mix Bar",1,2185.00,0.00,2185.00,709.775
+2024-09-17 00:00:00.0,"La Florida","PedidosYa","Delicias","Barras",404004,"Oreo Mix Bar",1,2185.00,0.00,2185.00,710.715
+2024-09-17 00:00:00.0,"La Reina","PedidosYa","Delicias","Barras",404004,"Oreo Mix Bar",2,4370.00,0.00,4370.00,1413.388
+2024-09-17 00:00:00.0,"San Miguel ","PedidosYa","Delicias","Barras",404004,"Oreo Mix Bar",1,2185.00,0.00,2185.00,712.099
+2024-09-17 00:00:00.0,"Lastarria","Justo","Delicias","Barras",404004,"Oreo Mix Bar",1,2185.00,0.00,2185.00,705.553
+2024-09-17 00:00:00.0,"Los Militares","Local","Delicias","Gift Box",405001,"Gift Box 4 Brownies",3,19917.00,0.00,19917.00,737.37
+2024-09-17 00:00:00.0,"Tabancura","Local","Delicias","Gift Box",405001,"Gift Box 4 Brownies",1,6639.00,0.00,6639.00,226.483
+2024-09-17 00:00:00.0,"Pocuro","Uber","Delicias","Gift Box",405001,"Gift Box 4 Brownies",2,15966.00,0.00,15966.00,431.705
+2024-09-17 00:00:00.0,"Penalolen","Uber","Delicias","Gift Box",405001,"Gift Box 4 Brownies",2,15966.00,0.00,15966.00,494.693
+2024-09-17 00:00:00.0,"Chicureo","Uber","Delicias","Gift Box",405001,"Gift Box 4 Brownies",1,7983.00,0.00,7983.00,216.861
+2024-09-17 00:00:00.0,"La Reina","Rappi","Delicias","Gift Box",405001,"Gift Box 4 Brownies",1,8403.00,0.00,8403.00,217.556
+2024-09-17 00:00:00.0,"Los Militares","Rappi","Delicias","Gift Box",405001,"Gift Box 4 Brownies",1,8403.00,0.00,8403.00,245.79
+2024-09-17 00:00:00.0,"Tabancura","Rappi","Delicias","Gift Box",405001,"Gift Box 4 Brownies",1,8403.00,0.00,8403.00,226.483
+2024-09-17 00:00:00.0,"Lastarria","Rappi","Delicias","Gift Box",405001,"Gift Box 4 Brownies",1,8403.00,0.00,8403.00,217.43
+2024-09-17 00:00:00.0,"Pocuro","Justo","Delicias","Gift Box",405001,"Gift Box 4 Brownies",1,7983.00,0.00,7983.00,215.853
+2024-09-17 00:00:00.0,"Providencia","Local","Delicias","Gift Box",405005,"Gift Box 8 Brownies",1,13025.00,-3907.00,9118.00,247.049
+2024-09-17 00:00:00.0,"San Miguel ","Uber","Delicias","Gift Box",405005,"Gift Box 8 Brownies",1,14706.00,0.00,14706.00,216.503
+2024-09-17 00:00:00.0,"Nunoa","Rappi","Delicias","Gift Box",405005,"Gift Box 8 Brownies",1,14706.00,0.00,14706.00,218.317
+2024-09-17 00:00:00.0,"La Florida","Local","Delicias","Gift Box",405007,"Gift Box Cookie Small",1,7479.00,0.00,7479.00,216.963
+2024-09-17 00:00:00.0,"Los Militares","Local","Delicias","Gift Box",405007,"Gift Box Cookie Small",1,7479.00,0.00,7479.00,245.79
+2024-09-17 00:00:00.0,"Pocuro","Local","Delicias","Gift Box",405007,"Gift Box Cookie Small",1,7479.00,0.00,7479.00,215.853
+2024-09-17 00:00:00.0,"Providencia","Local","Delicias","Gift Box",405007,"Gift Box Cookie Small",1,7479.00,0.00,7479.00,247.049
+2024-09-17 00:00:00.0,"Tabancura","Local","Delicias","Gift Box",405007,"Gift Box Cookie Small",1,7479.00,0.00,7479.00,226.483
+2024-09-17 00:00:00.0,"San Miguel ","Local","Delicias","Gift Box",405007,"Gift Box Cookie Small",1,7479.00,0.00,7479.00,216.503
+2024-09-17 00:00:00.0,"Pocuro","Uber","Delicias","Gift Box",405007,"Gift Box Cookie Small",1,8319.00,0.00,8319.00,215.853
+2024-09-17 00:00:00.0,"Tabancura","Uber","Delicias","Gift Box",405007,"Gift Box Cookie Small",1,8319.00,0.00,8319.00,226.483
+2024-09-17 00:00:00.0,"San Miguel ","Uber","Delicias","Gift Box",405007,"Gift Box Cookie Small",1,8319.00,0.00,8319.00,216.503
+2024-09-17 00:00:00.0,"Los Militares","Rappi","Delicias","Gift Box",405007,"Gift Box Cookie Small",1,8319.00,0.00,8319.00,245.79
+2024-09-17 00:00:00.0,"Tabancura","Rappi","Delicias","Gift Box",405007,"Gift Box Cookie Small",1,8319.00,0.00,8319.00,226.483
+2024-09-17 00:00:00.0,"Los Militares","Local","Delicias","Gift Box",405008,"Gift Box Cookie Large",1,14706.00,0.00,14706.00,245.79
+2024-09-17 00:00:00.0,"Providencia","Local","Delicias","Gift Box",405008,"Gift Box Cookie Large",1,14706.00,0.00,14706.00,247.049
+2024-09-17 00:00:00.0,"La Florida","Uber","Delicias","Gift Box",405008,"Gift Box Cookie Large",1,15882.00,0.00,15882.00,216.963
+2024-09-17 00:00:00.0,"Pocuro","Uber","Delicias","Gift Box",405008,"Gift Box Cookie Large",1,15882.00,0.00,15882.00,215.853
+2024-09-17 00:00:00.0,"Nunoa","Uber","Delicias","Gift Box",405008,"Gift Box Cookie Large",1,15882.00,0.00,15882.00,218.317
+2024-09-17 00:00:00.0,"Nunoa","Rappi Turbo","Delicias","Gift Box",405008,"Gift Box Cookie Large",1,15882.00,0.00,15882.00,218.317
+2024-09-17 00:00:00.0,"San Miguel ","Local","Delicias","Gift Box",405009,"Gift Box Chocolover",1,11681.00,0.00,11681.00,216.503
+2024-09-17 00:00:00.0,"Los Militares","Uber","Delicias","Gift Box",405009,"Gift Box Chocolover",1,12185.00,0.00,12185.00,245.79
+2024-09-17 00:00:00.0,"Lastarria","Uber","Delicias","Gift Box",405009,"Gift Box Chocolover",1,12185.00,0.00,12185.00,217.43
+2024-09-17 00:00:00.0,"Nunoa","Rappi","Delicias","Gift Box",405009,"Gift Box Chocolover",1,12185.00,0.00,12185.00,218.317
+2024-09-17 00:00:00.0,"La Florida","Local","Delicias","Gift Box",405012,"Gift Box Full Mix",1,13025.00,0.00,13025.00,460.558
+2024-09-17 00:00:00.0,"La Reina","Local","Delicias","Gift Box",405012,"Gift Box Full Mix",1,13025.00,0.00,13025.00,459.551
+2024-09-17 00:00:00.0,"Maipu","Local","Delicias","Gift Box",405012,"Gift Box Full Mix",1,13025.00,0.00,13025.00,459.018
+2024-09-17 00:00:00.0,"Pocuro","Local","Delicias","Gift Box",405012,"Gift Box Full Mix",1,13025.00,0.00,13025.00,458.731
+2024-09-17 00:00:00.0,"La Florida","Uber","Delicias","Gift Box",405012,"Gift Box Full Mix",1,14706.00,0.00,14706.00,460.558
+2024-09-17 00:00:00.0,"Los Militares","Uber","Delicias","Gift Box",405012,"Gift Box Full Mix",2,29412.00,0.00,29412.00,919.681
+2024-09-17 00:00:00.0,"Maipu","Uber","Delicias","Gift Box",405012,"Gift Box Full Mix",1,14706.00,0.00,14706.00,459.018
+2024-09-17 00:00:00.0,"Tabancura","Uber","Delicias","Gift Box",405012,"Gift Box Full Mix",1,14706.00,0.00,14706.00,459.656
+2024-09-17 00:00:00.0,"Nunoa","Uber","Delicias","Gift Box",405012,"Gift Box Full Mix",1,14706.00,0.00,14706.00,460.75
+2024-09-17 00:00:00.0,"Penalolen","Uber","Delicias","Gift Box",405012,"Gift Box Full Mix",1,14706.00,0.00,14706.00,461.122
+2024-09-17 00:00:00.0,"Lastarria","Uber","Delicias","Gift Box",405012,"Gift Box Full Mix",1,14706.00,0.00,14706.00,459.863
+2024-09-17 00:00:00.0,"Chicureo","Uber","Delicias","Gift Box",405012,"Gift Box Full Mix",1,14706.00,0.00,14706.00,459.018
+2024-09-17 00:00:00.0,"La Florida","Rappi","Delicias","Gift Box",405012,"Gift Box Full Mix",1,14706.00,0.00,14706.00,460.558
+2024-09-17 00:00:00.0,"Maipu","PedidosYa","Delicias","Gift Box",405012,"Gift Box Full Mix",0,0.00,0.00,0.00,0.00
+2024-09-17 00:00:00.0,"Lastarria","Justo","Delicias","Gift Box",405012,"Gift Box Full Mix",1,14706.00,0.00,14706.00,459.863
+2024-09-17 00:00:00.0,"Providencia","Local","Delicias","Gift Box",405018,"Helado & Brownies",1,8824.00,0.00,8824.00,0.00
+2024-09-17 00:00:00.0,"La Florida","Uber","Delicias","Gift Box",405018,"Helado & Brownies",1,9664.00,0.00,9664.00,0.00
+2024-09-17 00:00:00.0,"La Reina","Good Meal","Good Meal","Good Meal",407001,"Good Meal",8,39664.00,0.00,39664.00,0.00
+2024-09-17 00:00:00.0,"Chicureo","Good Meal","Good Meal","Good Meal",407001,"Good Meal",2,9916.00,0.00,9916.00,0.00
+2024-09-17 00:00:00.0,"Penalolen","Justo","Retail","Velas",501004,"Paquete Velas Estrellas",0,0.00,0.00,0.00,0.00
+2024-09-17 00:00:00.0,"La Florida","Local","Retail","Velas",501005,"Paquete Velas Colores",2,3362.00,0.00,3362.00,1380.00
+2024-09-17 00:00:00.0,"Penalolen","Local","Retail","Velas",501005,"Paquete Velas Colores",1,1681.00,0.00,1681.00,690.00
+2024-09-17 00:00:00.0,"La Florida","Uber","Retail","Velas",501005,"Paquete Velas Colores",1,2101.00,0.00,2101.00,690.00
+2024-09-17 00:00:00.0,"Pocuro","Uber","Retail","Velas",501005,"Paquete Velas Colores",2,4202.00,0.00,4202.00,1380.00
+2024-09-17 00:00:00.0,"Chicureo","Uber","Retail","Velas",501005,"Paquete Velas Colores",1,2101.00,0.00,2101.00,690.00
+2024-09-17 00:00:00.0,"Providencia","Local","Retail","Velas",501006,"Topper Torta Feliz Cumpleaños",1,1261.00,0.00,1261.00,544.00
+2024-09-17 00:00:00.0,"Tabancura","Local","Retail","Velas",501006,"Topper Torta Feliz Cumpleaños",1,1261.00,0.00,1261.00,544.00
+2024-09-17 00:00:00.0,"Penalolen","Local","Retail","Velas",501006,"Topper Torta Feliz Cumpleaños",1,1261.00,0.00,1261.00,544.00
+2024-09-17 00:00:00.0,"Lastarria","Local","Retail","Velas",501006,"Topper Torta Feliz Cumpleaños",1,1261.00,0.00,1261.00,544.00
+2024-09-17 00:00:00.0,"San Miguel ","Local","Retail","Velas",501006,"Topper Torta Feliz Cumpleaños",1,1261.00,0.00,1261.00,544.00
+2024-09-17 00:00:00.0,"Maipu","Uber","Retail","Velas",501006,"Topper Torta Feliz Cumpleaños",1,1681.00,0.00,1681.00,544.00
+2024-09-17 00:00:00.0,"Pocuro","Uber","Retail","Velas",501006,"Topper Torta Feliz Cumpleaños",1,1681.00,0.00,1681.00,544.00
+2024-09-17 00:00:00.0,"Tabancura","Uber","Retail","Velas",501006,"Topper Torta Feliz Cumpleaños",1,1681.00,0.00,1681.00,544.00
+2024-09-17 00:00:00.0,"Nunoa","Uber","Retail","Velas",501006,"Topper Torta Feliz Cumpleaños",3,5043.00,0.00,5043.00,1632.00
+2024-09-17 00:00:00.0,"Lastarria","Uber","Retail","Velas",501006,"Topper Torta Feliz Cumpleaños",1,1681.00,0.00,1681.00,544.00
+2024-09-17 00:00:00.0,"Los Militares","Justo","Retail","Velas",501006,"Topper Torta Feliz Cumpleaños",1,1681.00,0.00,1681.00,544.00
+2024-09-17 00:00:00.0,"Nunoa","Justo","Retail","Velas",501006,"Topper Torta Feliz Cumpleaños",1,1681.00,0.00,1681.00,544.00
+2024-09-17 00:00:00.0,"Lastarria","Justo","Retail","Velas",501006,"Topper Torta Feliz Cumpleaños",1,1681.00,0.00,1681.00,544.00
+2024-09-17 00:00:00.0,"La Florida","Local","Retail","Velas",501007,"Vela Feliz Cumpleaños",2,5882.00,0.00,5882.00,2544.00
+2024-09-17 00:00:00.0,"La Reina","Local","Retail","Velas",501007,"Vela Feliz Cumpleaños",1,2941.00,0.00,2941.00,1272.00
+2024-09-17 00:00:00.0,"Los Militares","Local","Retail","Velas",501007,"Vela Feliz Cumpleaños",1,2941.00,0.00,2941.00,1272.00
+2024-09-17 00:00:00.0,"Lastarria","Local","Retail","Velas",501007,"Vela Feliz Cumpleaños",1,2941.00,0.00,2941.00,112.50
+2024-09-17 00:00:00.0,"Chicureo","Local","Retail","Velas",501007,"Vela Feliz Cumpleaños",1,2941.00,0.00,2941.00,1272.00
+2024-09-17 00:00:00.0,"La Reina","Uber","Retail","Velas",501007,"Vela Feliz Cumpleaños",1,3782.00,0.00,3782.00,1272.00
+2024-09-17 00:00:00.0,"Providencia","Justo","Retail","Velas",501007,"Vela Feliz Cumpleaños",1,3782.00,0.00,3782.00,1272.00
+2024-09-17 00:00:00.0,"Tabancura","Local","Retail","Velas",501008,"Velas Glitter Plateadas Blancas",1,1681.00,0.00,1681.00,0.00
+2024-09-17 00:00:00.0,"Lastarria","Local","Retail","Velas",501008,"Velas Glitter Plateadas Blancas",1,1681.00,0.00,1681.00,0.00
+2024-09-17 00:00:00.0,"San Miguel ","Local","Retail","Velas",501009,"Velas Glitter Doradas Blancas",1,1681.00,0.00,1681.00,0.00
+2024-09-17 00:00:00.0,"Los Militares","Local","Retail","Velas",501010,"Velas Doradas",2,3362.00,0.00,3362.00,1424.00
+2024-09-17 00:00:00.0,"Tabancura","Local","Retail","Velas",501010,"Velas Doradas",1,1681.00,0.00,1681.00,690.00
+2024-09-17 00:00:00.0,"Nunoa","Local","Retail","Velas",501010,"Velas Doradas",2,3362.00,0.00,3362.00,1424.00
+2024-09-17 00:00:00.0,"Lastarria","Local","Retail","Velas",501010,"Velas Doradas",2,3362.00,0.00,3362.00,1380.00
+2024-09-17 00:00:00.0,"La Florida","Uber","Retail","Velas",501010,"Velas Doradas",1,2101.00,0.00,2101.00,712.00
+2024-09-17 00:00:00.0,"Maipu","Uber","Retail","Velas",501010,"Velas Doradas",4,8404.00,0.00,8404.00,2848.00
+2024-09-17 00:00:00.0,"Nunoa","Uber","Retail","Velas",501010,"Velas Doradas",1,2101.00,0.00,2101.00,712.00
+2024-09-17 00:00:00.0,"Lastarria","Uber","Retail","Velas",501010,"Velas Doradas",1,2101.00,0.00,2101.00,690.00
+2024-09-17 00:00:00.0,"San Miguel ","Uber","Retail","Velas",501010,"Velas Doradas",1,2101.00,0.00,2101.00,690.00
+2024-09-17 00:00:00.0,"La Florida","Justo","Retail","Velas",501010,"Velas Doradas",1,2101.00,0.00,2101.00,712.00
+2024-09-17 00:00:00.0,"Providencia","Justo","Retail","Velas",501010,"Velas Doradas",1,2101.00,0.00,2101.00,712.00
+2024-09-17 00:00:00.0,"Penalolen","Justo","Retail","Velas",501010,"Velas Doradas",1,2101.00,0.00,2101.00,712.00
+2024-09-17 00:00:00.0,"Los Militares","Uber","Retail","Velas",501011,"Velas Plateadas",1,2101.00,0.00,2101.00,712.00
+2024-09-17 00:00:00.0,"Providencia","Uber","Retail","Velas",501011,"Velas Plateadas",2,4202.00,0.00,4202.00,1424.00
+2024-09-17 00:00:00.0,"Tabancura","Uber","Retail","Velas",501011,"Velas Plateadas",1,2101.00,0.00,2101.00,119.728
+2024-09-17 00:00:00.0,"Lastarria","Uber","Retail","Velas",501011,"Velas Plateadas",1,2101.00,0.00,2101.00,113.994
+2024-09-17 00:00:00.0,"Los Militares","Justo","Retail","Velas",501011,"Velas Plateadas",1,2101.00,0.00,2101.00,712.00
+2024-09-17 00:00:00.0,"La Reina","Local","Retail","Café Bolsa",502002,"Café Grano 250 grs",1,9160.00,0.00,9160.00,5050.00
+2024-09-17 00:00:00.0,"San Miguel ","Uber","Retail","Café Bolsa",502002,"Café Grano 250 grs",1,10924.00,0.00,10924.00,5050.00
+2024-09-17 00:00:00.0,"Providencia","Local","Retail","Helado",505005,"Wild Berries Ice Cream 355mL",1,5378.00,0.00,5378.00,2294.96
+2024-09-17 00:00:00.0,"La Reina","Local","Retail","Helado",505008,"Banana Pudding 355mL",1,4202.00,0.00,4202.00,1415.682
+2024-09-17 00:00:00.0,"Nunoa","Local","Retail","Helado",505008,"Banana Pudding 355mL",2,8404.00,0.00,8404.00,2831.365
+2024-09-17 00:00:00.0,"La Reina","Uber","Retail","Helado",505008,"Banana Pudding 355mL",1,5042.00,0.00,5042.00,1415.682
+2024-09-17 00:00:00.0,"Providencia","Rappi","Retail","Helado",505008,"Banana Pudding 355mL",1,5042.00,0.00,5042.00,1415.181
+2024-09-17 00:00:00.0,"Maipu","PedidosYa","Retail","Helado",505008,"Banana Pudding 355mL",1,5042.00,0.00,5042.00,1415.682
+2024-09-17 00:00:00.0,"Nunoa","Local","Retail","Helado",505009,"Helado Frutos del Bosque 12oz",3,18909.00,0.00,18909.00,8931.51
+2024-09-17 00:00:00.0,"La Reina","Uber","Retail","Helado",505009,"Helado Frutos del Bosque 12oz",1,6714.00,0.00,6714.00,2968.462
+2024-09-17 00:00:00.0,"Pocuro","Justo","Retail","Helado",505009,"Helado Frutos del Bosque 12oz",1,6714.00,0.00,6714.00,2980.45
+2024-09-17 00:00:00.0,"La Reina","Local","Retail","Helado",505010,"Helado Chocolate & Brownie 12oz",1,6303.00,0.00,6303.00,3091.172
+2024-09-17 00:00:00.0,"Nunoa","Local","Retail","Helado",505010,"Helado Chocolate & Brownie 12oz",1,6303.00,0.00,6303.00,3077.17
+2024-09-17 00:00:00.0,"Penalolen","Local","Retail","Helado",505010,"Helado Chocolate & Brownie 12oz",1,6303.00,0.00,6303.00,3087.39
+2024-09-17 00:00:00.0,"Lastarria","Justo","Retail","Helado",505010,"Helado Chocolate & Brownie 12oz",1,6714.00,0.00,6714.00,3077.18
+2024-09-17 00:00:00.0,"La Reina","Local","Retail","Helado",505011,"Helado Vainilla Blanca 12oz",1,6303.00,0.00,6303.00,2991.18
+2024-09-17 00:00:00.0,"Providencia","Local","Retail","Helado",505011,"Helado Vainilla Blanca 12oz",1,0.00,0.00,0.00,2980.67
+2024-09-17 00:00:00.0,"Nunoa","Local","Retail","Helado",505011,"Helado Vainilla Blanca 12oz",4,25212.00,0.00,25212.00,11908.68
+2024-09-17 00:00:00.0,"Penalolen","Local","Retail","Helado",505011,"Helado Vainilla Blanca 12oz",1,6303.00,0.00,6303.00,2987.39
+2024-09-17 00:00:00.0,"Chicureo","Local","Retail","Helado",505011,"Helado Vainilla Blanca 12oz",1,6303.00,0.00,6303.00,3067.17
+2024-09-17 00:00:00.0,"La Florida","Uber","Retail","Helado",505011,"Helado Vainilla Blanca 12oz",1,0.00,0.00,0.00,3032.48
+2024-09-17 00:00:00.0,"La Reina","Uber","Retail","Helado",505012,"Helado Snicker Especial 12oz",1,6714.00,0.00,6714.00,3191.18
+2024-09-17 00:00:00.0,"Nunoa","Uber","Retail","Helado",505012,"Helado Snicker Especial 12oz",1,6714.00,0.00,6714.00,3177.17
+2024-09-17 00:00:00.0,"Lastarria","Uber","Retail","Helado",505012,"Helado Snicker Especial 12oz",1,6714.00,0.00,6714.00,3177.18
+2024-09-17 00:00:00.0,"Lastarria","Justo","Retail","Helado",505012,"Helado Snicker Especial 12oz",1,6714.00,0.00,6714.00,3177.18
+2024-09-17 00:00:00.0,"La Reina","Local","Retail","Helado",505013,"Helado Dulce de Leche Granizado ",1,6303.00,0.00,6303.00,3191.18
+2024-09-17 00:00:00.0,"Nunoa","Local","Retail","Helado",505013,"Helado Dulce de Leche Granizado ",1,6303.00,0.00,6303.00,3177.17
+2024-09-17 00:00:00.0,"San Miguel ","Local","Retail","Helado",505013,"Helado Dulce de Leche Granizado ",1,6303.00,0.00,6303.00,3187.39
+2024-09-17 00:00:00.0,"Tabancura","Uber","Retail","Helado",505013,"Helado Dulce de Leche Granizado ",1,6714.00,0.00,6714.00,3152.67
+2024-09-17 00:00:00.0,"Chicureo","Uber","Retail","Helado",505013,"Helado Dulce de Leche Granizado ",1,6714.00,0.00,6714.00,3267.17
+2024-09-17 00:00:00.0,"La Reina","Local","Retail","Helado",505014,"Helado Chocolate sin azúcar 12oz",1,6303.00,0.00,6303.00,3191.18
+2024-09-17 00:00:00.0,"Penalolen","Local","Retail","Helado",505014,"Helado Chocolate sin azúcar 12oz",1,6303.00,0.00,6303.00,3187.39
+2024-09-17 00:00:00.0,"San Miguel ","Local","Retail","Helado",505014,"Helado Chocolate sin azúcar 12oz",1,6303.00,0.00,6303.00,3187.39
+2024-09-17 00:00:00.0,"San Miguel ","Uber","Retail","Helado",505014,"Helado Chocolate sin azúcar 12oz",1,6714.00,0.00,6714.00,3187.39
+2024-09-17 00:00:00.0,"La Reina","Local","Retail","Accesorios",506001,"Bolsa Tela Factory Nine",1,1672.00,0.00,1672.00,1393.00
+2024-09-17 00:00:00.0,"Los Militares","PedidosYa","Retail","Accesorios",506001,"Bolsa Tela Factory Nine",1,2101.00,0.00,2101.00,1393.00
+2024-09-17 00:00:00.0,"Pocuro","Uber","Retail","Accesorios",506002,"Sticker Keep Calm",1,504.00,0.00,504.00,98.00
+2024-09-17 00:00:00.0,"La Florida","Local","Liquidos y Café","Café Mediano",601009,"Mediano Americano Marley",2,3698.00,0.00,3698.00,1372.054
+2024-09-17 00:00:00.0,"Pocuro","Local","Liquidos y Café","Café Mediano",601009,"Mediano Americano Marley",2,3698.00,0.00,3698.00,1377.281
+2024-09-17 00:00:00.0,"Providencia","Local","Liquidos y Café","Café Mediano",601009,"Mediano Americano Marley",4,7396.00,0.00,7396.00,2772.021
+2024-09-17 00:00:00.0,"Nunoa","Local","Liquidos y Café","Café Mediano",601009,"Mediano Americano Marley",1,1849.00,0.00,1849.00,691.747
+2024-09-17 00:00:00.0,"Penalolen","Local","Liquidos y Café","Café Mediano",601009,"Mediano Americano Marley",4,7396.00,0.00,7396.00,2761.913
+2024-09-17 00:00:00.0,"Lastarria","Local","Liquidos y Café","Café Mediano",601009,"Mediano Americano Marley",1,1849.00,0.00,1849.00,693.622
+2024-09-17 00:00:00.0,"Chicureo","Local","Liquidos y Café","Café Mediano",601009,"Mediano Americano Marley",2,3698.00,0.00,3698.00,1387.111
+2024-09-17 00:00:00.0,"San Miguel ","Local","Liquidos y Café","Café Mediano",601009,"Mediano Americano Marley",7,12943.00,0.00,12943.00,4817.272
+2024-09-17 00:00:00.0,"La Florida","Local","Liquidos y Café","Café Mediano",601010,"Mediano Mocaccino Tradicional",1,1849.00,0.00,1849.00,743.367
+2024-09-17 00:00:00.0,"La Reina","Local","Liquidos y Café","Café Mediano",601010,"Mediano Mocaccino Tradicional",1,1849.00,0.00,1849.00,749.785
+2024-09-17 00:00:00.0,"Providencia","Local","Liquidos y Café","Café Mediano",601010,"Mediano Mocaccino Tradicional",1,1849.00,0.00,1849.00,751.532
+2024-09-17 00:00:00.0,"Maipu","Local","Liquidos y Café","Café Mediano",601011,"Mediano Latte Marley",1,1849.00,0.00,1849.00,626.439
+2024-09-17 00:00:00.0,"Pocuro","Local","Liquidos y Café","Café Mediano",601011,"Mediano Latte Marley",1,1849.00,0.00,1849.00,630.792
+2024-09-17 00:00:00.0,"Providencia","Local","Liquidos y Café","Café Mediano",601011,"Mediano Latte Marley",3,5547.00,0.00,5547.00,1903.429
+2024-09-17 00:00:00.0,"Tabancura","Local","Liquidos y Café","Café Mediano",601011,"Mediano Latte Marley",1,1849.00,0.00,1849.00,632.295
+2024-09-17 00:00:00.0,"Nunoa","Local","Liquidos y Café","Café Mediano",601011,"Mediano Latte Marley",2,3698.00,0.00,3698.00,1265.846
+2024-09-17 00:00:00.0,"Chicureo","Local","Liquidos y Café","Café Mediano",601011,"Mediano Latte Marley",1,1849.00,0.00,1849.00,634.724
+2024-09-17 00:00:00.0,"San Miguel ","Local","Liquidos y Café","Café Mediano",601011,"Mediano Latte Marley",1,1849.00,0.00,1849.00,630.138
+2024-09-17 00:00:00.0,"La Reina","Local","Liquidos y Café","Café Mediano",601012,"Mediano Cortado Marley",2,3698.00,0.00,3698.00,1144.898
+2024-09-17 00:00:00.0,"Providencia","Local","Liquidos y Café","Café Mediano",601012,"Mediano Cortado Marley",1,1849.00,0.00,1849.00,574.481
+2024-09-17 00:00:00.0,"Nunoa","Local","Liquidos y Café","Café Mediano",601012,"Mediano Cortado Marley",1,1849.00,0.00,1849.00,573.021
+2024-09-17 00:00:00.0,"San Miguel ","Local","Liquidos y Café","Café Mediano",601012,"Mediano Cortado Marley",1,1849.00,0.00,1849.00,570.313
+2024-09-17 00:00:00.0,"Providencia","Local","Liquidos y Café","Café Mediano",601013,"Mediano Chocolate Fuerte Marley",1,1849.00,0.00,1849.00,678.069
+2024-09-17 00:00:00.0,"Chicureo","Local","Liquidos y Café","Café Mediano",601013,"Mediano Chocolate Fuerte Marley",1,1849.00,0.00,1849.00,678.417
+2024-09-17 00:00:00.0,"La Florida","Local","Liquidos y Café","Café Mediano",601014,"Mediano Chocolate con Leche Marl",1,1849.00,0.00,1849.00,666.731
+2024-09-17 00:00:00.0,"Penalolen","Local","Liquidos y Café","Café Mediano",601014,"Mediano Chocolate con Leche Marl",1,1849.00,0.00,1849.00,667.986
+2024-09-17 00:00:00.0,"Pocuro","Local","Liquidos y Café","Café Mediano",601015,"Mediano Chai Latte Marley",2,3698.00,0.00,3698.00,1285.458
+2024-09-17 00:00:00.0,"Providencia","Local","Liquidos y Café","Café Mediano",601015,"Mediano Chai Latte Marley",1,1849.00,0.00,1849.00,647.91
+2024-09-17 00:00:00.0,"Nunoa","Local","Liquidos y Café","Café Mediano",601015,"Mediano Chai Latte Marley",2,3698.00,0.00,3698.00,1287.713
+2024-09-17 00:00:00.0,"Lastarria","Local","Liquidos y Café","Café Mediano",601015,"Mediano Chai Latte Marley",1,1849.00,0.00,1849.00,647.921
+2024-09-17 00:00:00.0,"Chicureo","Local","Liquidos y Café","Café Mediano",601015,"Mediano Chai Latte Marley",4,7396.00,0.00,7396.00,2590.741
+2024-09-17 00:00:00.0,"San Miguel ","Local","Liquidos y Café","Café Mediano",601015,"Mediano Chai Latte Marley",2,3698.00,0.00,3698.00,1281.248
+2024-09-17 00:00:00.0,"Maipu","Local","Liquidos y Café","Café Mediano",601016,"Mediano Capuccino Vainilla Marle",1,1849.00,0.00,1849.00,776.754
+2024-09-17 00:00:00.0,"Pocuro","Local","Liquidos y Café","Café Mediano",601016,"Mediano Capuccino Vainilla Marle",2,3698.00,0.00,3698.00,1560.317
+2024-09-17 00:00:00.0,"Providencia","Local","Liquidos y Café","Café Mediano",601016,"Mediano Capuccino Vainilla Marle",1,1849.00,0.00,1849.00,783.489
+2024-09-17 00:00:00.0,"Nunoa","Local","Liquidos y Café","Café Mediano",601016,"Mediano Capuccino Vainilla Marle",2,3698.00,0.00,3698.00,1561.419
+2024-09-17 00:00:00.0,"Penalolen","Local","Liquidos y Café","Café Mediano",601016,"Mediano Capuccino Vainilla Marle",2,3698.00,0.00,3698.00,1557.725
+2024-09-17 00:00:00.0,"Lastarria","Local","Liquidos y Café","Café Mediano",601016,"Mediano Capuccino Vainilla Marle",1,1849.00,0.00,1849.00,784.76
+2024-09-17 00:00:00.0,"Chicureo","Local","Liquidos y Café","Café Mediano",601016,"Mediano Capuccino Vainilla Marle",4,7396.00,0.00,7396.00,3138.712
+2024-09-17 00:00:00.0,"San Miguel ","Local","Liquidos y Café","Café Mediano",601016,"Mediano Capuccino Vainilla Marle",1,1849.00,0.00,1849.00,772.212
+2024-09-17 00:00:00.0,"Los Militares","Local","Liquidos y Café","Café Mediano",601017,"Mediano Capuccino Tradicional Ma",1,1849.00,0.00,1849.00,686.336
+2024-09-17 00:00:00.0,"Maipu","Local","Liquidos y Café","Café Mediano",601017,"Mediano Capuccino Tradicional Ma",1,1849.00,0.00,1849.00,682.154
+2024-09-17 00:00:00.0,"Providencia","Local","Liquidos y Café","Café Mediano",601017,"Mediano Capuccino Tradicional Ma",3,5547.00,0.00,5547.00,2071.624
+2024-09-17 00:00:00.0,"Nunoa","Local","Liquidos y Café","Café Mediano",601017,"Mediano Capuccino Tradicional Ma",2,3698.00,0.00,3698.00,1377.801
+2024-09-17 00:00:00.0,"Lastarria","Local","Liquidos y Café","Café Mediano",601017,"Mediano Capuccino Tradicional Ma",2,3698.00,0.00,3698.00,1382.051
+2024-09-17 00:00:00.0,"Chicureo","Local","Liquidos y Café","Café Mediano",601017,"Mediano Capuccino Tradicional Ma",2,3698.00,0.00,3698.00,1381.691
+2024-09-17 00:00:00.0,"San Miguel ","Local","Liquidos y Café","Café Mediano",601017,"Mediano Capuccino Tradicional Ma",1,1849.00,0.00,1849.00,684.217
+2024-09-17 00:00:00.0,"La Florida","Local","Liquidos y Café","Café Mediano",601018,"Mediano Capuccino Canela Marley",1,1849.00,0.00,1849.00,737.999
+2024-09-17 00:00:00.0,"Maipu","Local","Liquidos y Café","Café Mediano",601018,"Mediano Capuccino Canela Marley",2,3698.00,0.00,3698.00,1470.388
+2024-09-17 00:00:00.0,"Providencia","Local","Liquidos y Café","Café Mediano",601018,"Mediano Capuccino Canela Marley",1,1849.00,0.00,1849.00,745.449
+2024-09-17 00:00:00.0,"Lastarria","Local","Liquidos y Café","Café Mediano",601018,"Mediano Capuccino Canela Marley",1,1849.00,0.00,1849.00,745.768
+2024-09-17 00:00:00.0,"Chicureo","Local","Liquidos y Café","Café Mediano",601018,"Mediano Capuccino Canela Marley",2,3698.00,0.00,3698.00,1491.206
+2024-09-17 00:00:00.0,"Providencia","PedidosYa","Liquidos y Café","Café Mediano",601018,"Mediano Capuccino Canela Marley",1,2437.00,0.00,2437.00,745.449
+2024-09-17 00:00:00.0,"Lastarria","Local","Liquidos y Café","Café Mediano",601019,"Mediano Té Hibiscus Flower Marle",1,1765.00,0.00,1765.00,632.961
+2024-09-17 00:00:00.0,"Lastarria","Local","Liquidos y Café","Café Mediano",601020,"Mediano Té English Breakfast Mar",1,1765.00,0.00,1765.00,632.961
+2024-09-17 00:00:00.0,"Pocuro","Local","Liquidos y Café","Café Mediano",601021,"Espresso Marley",1,1336.00,0.00,1336.00,366.726
+2024-09-17 00:00:00.0,"Penalolen","Local","Liquidos y Café","Café Mediano",601021,"Espresso Marley",2,2672.00,0.00,2672.00,733.605
+2024-09-17 00:00:00.0,"San Miguel ","Local","Liquidos y Café","Café Mediano",601021,"Espresso Marley",2,2672.00,0.00,2672.00,732.893
+2024-09-17 00:00:00.0,"Tabancura","Local","Liquidos y Café","Café Mediano",601022,"Espresso Doble Marley",1,1765.00,0.00,1765.00,630.36
+2024-09-17 00:00:00.0,"Lastarria","Local","Liquidos y Café","Café Mediano",601022,"Espresso Doble Marley",1,1765.00,0.00,1765.00,630.662
+2024-09-17 00:00:00.0,"Chicureo","Local","Liquidos y Café","Café Mediano",601022,"Espresso Doble Marley",1,1765.00,0.00,1765.00,630.661
+2024-09-17 00:00:00.0,"La Florida","Local","Liquidos y Café","Café Mediano",601024,"Mediano Mocaccino Vainilla",1,1849.00,0.00,1849.00,805.066
+2024-09-17 00:00:00.0,"Maipu","Local","Liquidos y Café","Café Mediano",601024,"Mediano Mocaccino Vainilla",1,1849.00,0.00,1849.00,804.016
+2024-09-17 00:00:00.0,"Penalolen","Local","Liquidos y Café","Café Mediano",601024,"Mediano Mocaccino Vainilla",1,1849.00,0.00,1849.00,806.132
+2024-09-17 00:00:00.0,"Providencia","Local","Liquidos y Café","Café Mediano",601025,"Mediano Mocaccino Vainilla",1,1849.00,0.00,1849.00,828.378
+2024-09-17 00:00:00.0,"Providencia","Local","Liquidos y Café","Café Grande",602007,"Grande Mocaccino Tradicional",1,2437.00,0.00,2437.00,1212.855
+2024-09-17 00:00:00.0,"Penalolen","Local","Liquidos y Café","Café Grande",602007,"Grande Mocaccino Tradicional",3,7311.00,0.00,7311.00,3618.737
+2024-09-17 00:00:00.0,"Chicureo","Local","Liquidos y Café","Café Grande",602007,"Grande Mocaccino Tradicional",1,2437.00,0.00,2437.00,1213.938
+2024-09-17 00:00:00.0,"Maipu","Local","Liquidos y Café","Café Grande",602008,"Grande Latte Marley",1,2437.00,0.00,2437.00,1018.634
+2024-09-17 00:00:00.0,"Providencia","Local","Liquidos y Café","Café Grande",602008,"Grande Latte Marley",1,2437.00,0.00,2437.00,1031.665
+2024-09-17 00:00:00.0,"Nunoa","Local","Liquidos y Café","Café Grande",602008,"Grande Latte Marley",1,2437.00,0.00,2437.00,1031.046
+2024-09-17 00:00:00.0,"Penalolen","Local","Liquidos y Café","Café Grande",602008,"Grande Latte Marley",1,2437.00,0.00,2437.00,1028.525
+2024-09-17 00:00:00.0,"Lastarria","Local","Liquidos y Café","Café Grande",602008,"Grande Latte Marley",1,2437.00,0.00,2437.00,1032.614
+2024-09-17 00:00:00.0,"Chicureo","Local","Liquidos y Café","Café Grande",602008,"Grande Latte Marley",1,2437.00,0.00,2437.00,1032.434
+2024-09-17 00:00:00.0,"La Florida","Local","Liquidos y Café","Café Grande",602009,"Grande Cortado Marley",1,2437.00,0.00,2437.00,928.067
+2024-09-17 00:00:00.0,"Los Militares","Local","Liquidos y Café","Café Grande",602009,"Grande Cortado Marley",1,2437.00,0.00,2437.00,933.208
+2024-09-17 00:00:00.0,"Pocuro","Local","Liquidos y Café","Café Grande",602009,"Grande Cortado Marley",1,2437.00,0.00,2437.00,933.013
+2024-09-17 00:00:00.0,"Providencia","Local","Liquidos y Café","Café Grande",602009,"Grande Cortado Marley",1,2437.00,0.00,2437.00,935.673
+2024-09-17 00:00:00.0,"Chicureo","Local","Liquidos y Café","Café Grande",602009,"Grande Cortado Marley",1,2437.00,0.00,2437.00,936.434
+2024-09-17 00:00:00.0,"La Florida","Local","Liquidos y Café","Café Grande",602011,"Grande Chocolate con Leche Marle",1,2437.00,0.00,2437.00,966.499
+2024-09-17 00:00:00.0,"La Florida","Rappi","Liquidos y Café","Café Grande",602011,"Grande Chocolate con Leche Marle",1,0.00,0.00,0.00,966.499
+2024-09-17 00:00:00.0,"San Miguel ","PedidosYa","Liquidos y Café","Café Grande",602011,"Grande Chocolate con Leche Marle",2,5546.00,0.00,5546.00,1909.264
+2024-09-17 00:00:00.0,"Los Militares","Local","Liquidos y Café","Café Grande",602012,"Grande Chai Latte Marley",1,0.00,0.00,0.00,964.757
+2024-09-17 00:00:00.0,"Maipu","Local","Liquidos y Café","Café Grande",602012,"Grande Chai Latte Marley",1,2437.00,0.00,2437.00,959.458
+2024-09-17 00:00:00.0,"Pocuro","Local","Liquidos y Café","Café Grande",602012,"Grande Chai Latte Marley",1,2437.00,0.00,2437.00,968.376
+2024-09-17 00:00:00.0,"Providencia","Local","Liquidos y Café","Café Grande",602012,"Grande Chai Latte Marley",1,2437.00,0.00,2437.00,973.054
+2024-09-17 00:00:00.0,"Nunoa","Local","Liquidos y Café","Café Grande",602012,"Grande Chai Latte Marley",3,7311.00,0.00,7311.00,2905.581
+2024-09-17 00:00:00.0,"Penalolen","Local","Liquidos y Café","Café Grande",602012,"Grande Chai Latte Marley",1,2437.00,0.00,2437.00,957.231
+2024-09-17 00:00:00.0,"Lastarria","Local","Liquidos y Café","Café Grande",602012,"Grande Chai Latte Marley",1,2437.00,0.00,2437.00,973.393
+2024-09-17 00:00:00.0,"Chicureo","Local","Liquidos y Café","Café Grande",602012,"Grande Chai Latte Marley",1,2437.00,0.00,2437.00,972.951
+2024-09-17 00:00:00.0,"Los Militares","Local","Liquidos y Café","Café Grande",602013,"Grande Capuccino Vainilla Marley",1,2437.00,0.00,2437.00,1251.806
+2024-09-17 00:00:00.0,"Maipu","Local","Liquidos y Café","Café Grande",602013,"Grande Capuccino Vainilla Marley",1,2437.00,0.00,2437.00,1243.464
+2024-09-17 00:00:00.0,"Pocuro","Local","Liquidos y Café","Café Grande",602013,"Grande Capuccino Vainilla Marley",5,12185.00,0.00,12185.00,6261.167
+2024-09-17 00:00:00.0,"Providencia","Local","Liquidos y Café","Café Grande",602013,"Grande Capuccino Vainilla Marley",3,7311.00,0.00,7311.00,3763.183
+2024-09-17 00:00:00.0,"Penalolen","Local","Liquidos y Café","Café Grande",602013,"Grande Capuccino Vainilla Marley",3,7311.00,0.00,7311.00,3745.101
+2024-09-17 00:00:00.0,"Lastarria","Local","Liquidos y Café","Café Grande",602013,"Grande Capuccino Vainilla Marley",1,2437.00,0.00,2437.00,1256.818
+2024-09-17 00:00:00.0,"Chicureo","Local","Liquidos y Café","Café Grande",602013,"Grande Capuccino Vainilla Marley",1,2437.00,0.00,2437.00,1256.612
+2024-09-17 00:00:00.0,"San Miguel ","Rappi","Liquidos y Café","Café Grande",602013,"Grande Capuccino Vainilla Marley",1,2773.00,0.00,2773.00,1236.456
+2024-09-17 00:00:00.0,"Los Militares","Local","Liquidos y Café","Café Grande",602014,"Grande Capuccino Tradicional Mar",1,0.00,0.00,0.00,1118.797
+2024-09-17 00:00:00.0,"Maipu","Local","Liquidos y Café","Café Grande",602014,"Grande Capuccino Tradicional Mar",3,7311.00,0.00,7311.00,3323.333
+2024-09-17 00:00:00.0,"Providencia","Local","Liquidos y Café","Café Grande",602014,"Grande Capuccino Tradicional Mar",1,2437.00,0.00,2437.00,1121.369
+2024-09-17 00:00:00.0,"Tabancura","Local","Liquidos y Café","Café Grande",602014,"Grande Capuccino Tradicional Mar",1,2437.00,0.00,2437.00,1120.129
+2024-09-17 00:00:00.0,"Penalolen","Local","Liquidos y Café","Café Grande",602014,"Grande Capuccino Tradicional Mar",1,2437.00,0.00,2437.00,1117.094
+2024-09-17 00:00:00.0,"San Miguel ","Local","Liquidos y Café","Café Grande",602014,"Grande Capuccino Tradicional Mar",1,2437.00,0.00,2437.00,1110.932
+2024-09-17 00:00:00.0,"Maipu","Uber","Liquidos y Café","Café Grande",602014,"Grande Capuccino Tradicional Mar",0,0.00,0.00,0.00,0.00
+2024-09-17 00:00:00.0,"La Florida","Local","Liquidos y Café","Café Grande",602015,"Grande Capuccino Canela Marley",1,2437.00,0.00,2437.00,1335.724
+2024-09-17 00:00:00.0,"Providencia","Local","Liquidos y Café","Café Grande",602015,"Grande Capuccino Canela Marley",2,4874.00,0.00,4874.00,2699.205
+2024-09-17 00:00:00.0,"Chicureo","Local","Liquidos y Café","Café Grande",602015,"Grande Capuccino Canela Marley",1,2437.00,0.00,2437.00,1350.191
+2024-09-17 00:00:00.0,"Lastarria","Uber","Liquidos y Café","Café Grande",602015,"Grande Capuccino Canela Marley",1,2773.00,0.00,2773.00,1350.569
+2024-09-17 00:00:00.0,"San Miguel ","PedidosYa","Liquidos y Café","Café Grande",602015,"Grande Capuccino Canela Marley",1,2773.00,0.00,2773.00,1337.671
+2024-09-17 00:00:00.0,"Maipu","Local","Liquidos y Café","Café Grande",602016,"Grande Americano Marley",1,2437.00,0.00,2437.00,710.86
+2024-09-17 00:00:00.0,"Providencia","Local","Liquidos y Café","Café Grande",602016,"Grande Americano Marley",1,2437.00,0.00,2437.00,719.691
+2024-09-17 00:00:00.0,"Penalolen","Local","Liquidos y Café","Café Grande",602016,"Grande Americano Marley",1,2437.00,0.00,2437.00,717.952
+2024-09-17 00:00:00.0,"Lastarria","Local","Liquidos y Café","Café Grande",602016,"Grande Americano Marley",2,4874.00,0.00,4874.00,1441.231
+2024-09-17 00:00:00.0,"Chicureo","Local","Liquidos y Café","Café Grande",602016,"Grande Americano Marley",1,2437.00,0.00,2437.00,720.435
+2024-09-17 00:00:00.0,"San Miguel ","Local","Liquidos y Café","Café Grande",602016,"Grande Americano Marley",1,2437.00,0.00,2437.00,713.318
+2024-09-17 00:00:00.0,"Maipu","Uber","Liquidos y Café","Café Grande",602016,"Grande Americano Marley",1,0.00,0.00,0.00,710.86
+2024-09-17 00:00:00.0,"Lastarria","Uber","Liquidos y Café","Café Grande",602016,"Grande Americano Marley",1,0.00,0.00,0.00,720.615
+2024-09-17 00:00:00.0,"Tabancura","Local","Liquidos y Café","Café Grande",602017,"Grande Chocolate Vainilla",2,4874.00,0.00,4874.00,1992.665
+2024-09-17 00:00:00.0,"La Florida","Local","Liquidos y Café","Café Grande",602018,"Grande Mocaccino Vainilla",1,2437.00,0.00,2437.00,1254.721
+2024-09-17 00:00:00.0,"Pocuro","Local","Liquidos y Café","Café Grande",602018,"Grande Mocaccino Vainilla",1,2437.00,0.00,2437.00,1263.753
+2024-09-17 00:00:00.0,"Penalolen","Local","Liquidos y Café","Café Grande",602018,"Grande Mocaccino Vainilla",2,4874.00,0.00,4874.00,2517.795
+2024-09-17 00:00:00.0,"Lastarria","Local","Liquidos y Café","Café Grande",602018,"Grande Mocaccino Vainilla",1,2437.00,0.00,2437.00,1268.039
+2024-09-17 00:00:00.0,"La Reina","Local","Liquidos y Café","Aguas y Bebidas",603005,"Agua Botella Sin Gas",1,1597.00,0.00,1597.00,533.333
+2024-09-17 00:00:00.0,"Los Militares","Local","Liquidos y Café","Aguas y Bebidas",603005,"Agua Botella Sin Gas",1,1597.00,0.00,1597.00,533.333
+2024-09-17 00:00:00.0,"Nunoa","Local","Liquidos y Café","Aguas y Bebidas",603005,"Agua Botella Sin Gas",1,1597.00,0.00,1597.00,533.333
+2024-09-17 00:00:00.0,"Lastarria","Local","Liquidos y Café","Aguas y Bebidas",603005,"Agua Botella Sin Gas",2,3194.00,0.00,3194.00,1066.667
+2024-09-17 00:00:00.0,"Los Militares","Local","Liquidos y Café","Aguas y Bebidas",603006,"Jugo Naranja Bless",1,2185.00,0.00,2185.00,1210.00
+2024-09-17 00:00:00.0,"Lastarria","Uber","Liquidos y Café","Aguas y Bebidas",603006,"Jugo Naranja Bless",1,0.00,0.00,0.00,1210.00
+2024-09-17 00:00:00.0,"La Florida","Rappi","Liquidos y Café","Aguas y Bebidas",603006,"Jugo Naranja Bless",1,0.00,0.00,0.00,1210.00
+2024-09-17 00:00:00.0,"Pocuro","Local","Liquidos y Café","Aguas y Bebidas",603007,"Jugo Maracuya Manzana Piña Bless",1,0.00,0.00,0.00,1154.925
+2024-09-17 00:00:00.0,"Providencia","Local","Liquidos y Café","Aguas y Bebidas",603007,"Jugo Maracuya Manzana Piña Bless",1,2185.00,0.00,2185.00,1155.00
+2024-09-17 00:00:00.0,"San Miguel ","Local","Liquidos y Café","Aguas y Bebidas",603007,"Jugo Maracuya Manzana Piña Bless",1,2185.00,0.00,2185.00,1155.00
+2024-09-17 00:00:00.0,"Nunoa","Local","Liquidos y Café","Aguas y Bebidas",603008,"Agua Botella Con Gas",1,1597.00,0.00,1597.00,533.333
+2024-09-17 00:00:00.0,"Penalolen","Local","Liquidos y Café","Aguas y Bebidas",603008,"Agua Botella Con Gas",1,1597.00,0.00,1597.00,533.333
+2024-09-17 00:00:00.0,"Chicureo","Local","Liquidos y Café","Aguas y Bebidas",603008,"Agua Botella Con Gas",3,4791.00,0.00,4791.00,1600.00
+2024-09-17 00:00:00.0,"San Miguel ","Local","Liquidos y Café","Aguas y Bebidas",603008,"Agua Botella Con Gas",1,1597.00,0.00,1597.00,533.333
+2024-09-17 00:00:00.0,"Pocuro","Local","Liquidos y Café","Aguas y Bebidas",603009,"Jugo Limón manzana y jengibre",1,2185.00,0.00,2185.00,1155.00
+2024-09-17 00:00:00.0,"Penalolen","Uber","Liquidos y Café","Aguas y Bebidas",603009,"Jugo Limón manzana y jengibre",1,2689.00,0.00,2689.00,1155.00
+2024-09-17 00:00:00.0,"Lastarria","Uber","Liquidos y Café","Aguas y Bebidas",603009,"Jugo Limón manzana y jengibre",1,0.00,0.00,0.00,1155.00
+2024-09-17 00:00:00.0,"Providencia","Local","Liquidos y Café","Aguas y Bebidas",603010,"Jugo Betarraga zanahoria y manza",1,2185.00,0.00,2185.00,1155.00
+2024-09-17 00:00:00.0,"Chicureo","Local","Liquidos y Café","Aguas y Bebidas",603010,"Jugo Betarraga zanahoria y manza",1,0.00,0.00,0.00,1155.00
+2024-09-17 00:00:00.0,"San Miguel ","Local","Liquidos y Café","Aguas y Bebidas",603010,"Jugo Betarraga zanahoria y manza",1,2185.00,0.00,2185.00,1155.00
+2024-09-17 00:00:00.0,"San Miguel ","Uber","Liquidos y Café","Aguas y Bebidas",603010,"Jugo Betarraga zanahoria y manza",2,5378.00,0.00,5378.00,2310.00
+2024-09-17 00:00:00.0,"Providencia","Local","Liquidos y Café","Aguas y Bebidas",603011,"Jugo Pepino manzana piña y jengi",2,4370.00,0.00,4370.00,2310.00
+2024-09-17 00:00:00.0,"Providencia","Uber","Liquidos y Café","Aguas y Bebidas",603011,"Jugo Pepino manzana piña y jengi",1,2689.00,0.00,2689.00,1155.00
+2024-09-17 00:00:00.0,"La Florida","Local","Retail","Desayuno",604001,"Bagel Pavo Cheddar",3,11346.00,0.00,11346.00,5703.28
+2024-09-17 00:00:00.0,"Los Militares","Local","Retail","Desayuno",604001,"Bagel Pavo Cheddar",1,3782.00,0.00,3782.00,1899.212
+2024-09-17 00:00:00.0,"Pocuro","Local","Retail","Desayuno",604001,"Bagel Pavo Cheddar",1,0.00,0.00,0.00,1859.17
+2024-09-17 00:00:00.0,"Providencia","Local","Retail","Desayuno",604001,"Bagel Pavo Cheddar",1,3782.00,0.00,3782.00,1891.429
+2024-09-17 00:00:00.0,"Chicureo","Local","Retail","Desayuno",604001,"Bagel Pavo Cheddar",1,0.00,0.00,0.00,1902.183
+2024-09-17 00:00:00.0,"Maipu","Uber","Retail","Desayuno",604001,"Bagel Pavo Cheddar",1,0.00,0.00,0.00,1900.208
+2024-09-17 00:00:00.0,"Pocuro","Uber","Retail","Desayuno",604001,"Bagel Pavo Cheddar",1,4193.00,0.00,4193.00,1859.17
+2024-09-17 00:00:00.0,"Tabancura","Uber","Retail","Desayuno",604001,"Bagel Pavo Cheddar",3,12579.00,0.00,12579.00,5492.227
+2024-09-17 00:00:00.0,"Lastarria","Uber","Retail","Desayuno",604001,"Bagel Pavo Cheddar",1,0.00,0.00,0.00,1897.139
+2024-09-17 00:00:00.0,"La Florida","Rappi","Retail","Desayuno",604001,"Bagel Pavo Cheddar",1,0.00,0.00,0.00,1901.093
+2024-09-17 00:00:00.0,"Los Militares","Local","Retail","Desayuno",604002,"Bagel Pulled Pork",1,4118.00,0.00,4118.00,2117.361
+2024-09-17 00:00:00.0,"Providencia","Local","Retail","Desayuno",604002,"Bagel Pulled Pork",1,4118.00,0.00,4118.00,2117.135
+2024-09-17 00:00:00.0,"Lastarria","Local","Retail","Desayuno",604002,"Bagel Pulled Pork",1,4118.00,0.00,4118.00,2117.383
+2024-09-17 00:00:00.0,"La Florida","Uber","Retail","Desayuno",604002,"Bagel Pulled Pork",1,4622.00,0.00,4622.00,2116.093
+2024-09-17 00:00:00.0,"Los Militares","Local","Retail","Desayuno",604006,"Croissant Jamón Queso",1,0.00,0.00,0.00,1742.361
+2024-09-17 00:00:00.0,"Providencia","Local","Retail","Desayuno",604006,"Croissant Jamón Queso",1,3782.00,0.00,3782.00,1742.135
+2024-09-17 00:00:00.0,"Penalolen","Local","Retail","Desayuno",604006,"Croissant Jamón Queso",1,3782.00,0.00,3782.00,1741.105
+2024-09-17 00:00:00.0,"Pocuro","Uber","Retail","Desayuno",604006,"Croissant Jamón Queso",2,8386.00,0.00,8386.00,3484.502
+2024-09-17 00:00:00.0,"Lastarria","Uber","Retail","Desayuno",604006,"Croissant Jamón Queso",1,0.00,0.00,0.00,1742.383
+2024-09-17 00:00:00.0,"Los Militares","Local","Retail","Desayuno",604007,"Bagel Integral Tomate Queso Alba",1,0.00,0.00,0.00,1842.361
+2024-09-17 00:00:00.0,"Tabancura","Local","Retail","Desayuno",604007,"Bagel Integral Tomate Queso Alba",1,3782.00,0.00,3782.00,1840.176
+2024-09-17 00:00:00.0,"Tabancura","Uber","Retail","Desayuno",604007,"Bagel Integral Tomate Queso Alba",1,4193.00,0.00,4193.00,1840.176
+2024-09-17 00:00:00.0,"La Florida","Rappi","Retail","Desayuno",604007,"Bagel Integral Tomate Queso Alba",1,0.00,0.00,0.00,1841.093
+2024-09-17 00:00:00.0,"Los Militares","Rappi","Retail","Desayuno",604007,"Bagel Integral Tomate Queso Alba",1,4193.00,0.00,4193.00,1842.361
+2024-09-17 00:00:00.0,"Maipu","Uber","Retail","Desayuno",605013,"Bagel & Café Grande",1,6639.00,0.00,6639.00,0.00
+2024-09-17 00:00:00.0,"Los Militares","Local","Retail","Desayuno",605015,"Desayuno X1",2,16638.00,0.00,16638.00,857.305
+2024-09-17 00:00:00.0,"Pocuro","Local","Retail","Desayuno",605015,"Desayuno X1",1,8319.00,0.00,8319.00,427.143
+2024-09-17 00:00:00.0,"Chicureo","Local","Retail","Desayuno",605015,"Desayuno X1",1,8319.00,0.00,8319.00,427.018
+2024-09-17 00:00:00.0,"Lastarria","Uber","Retail","Desayuno",605015,"Desayuno X1",1,9160.00,0.00,9160.00,428.675
+2024-09-17 00:00:00.0,"Lastarria","Uber","Retail","Desayuno",605016,"Desayuno Full X1",1,15706.00,0.00,15706.00,428.675
+2024-09-17 00:00:00.0,"La Florida","Rappi","Retail","Desayuno",605017,"Desayuno X2",1,17563.00,0.00,17563.00,428.558
+2024-09-17 00:00:00.0,"San Miguel ","Local","Retail","Chocolates",606001,"Estrella Choco Salted Caramel",1,7479.00,0.00,7479.00,2388.455
+2024-09-17 00:00:00.0,"La Reina","Rappi","Retail","Chocolates",606001,"Estrella Choco Salted Caramel",2,18320.00,0.00,18320.00,4888.00
+2024-09-17 00:00:00.0,"Los Militares","Rappi","Retail","Chocolates",606001,"Estrella Choco Salted Caramel",1,9160.00,0.00,9160.00,2397.541
+2024-09-17 00:00:00.0,"Nunoa","Local","Retail","Chocolates",606002,"Estrella Choco Sin Azucar Avella",1,8319.00,0.00,8319.00,3564.00
+2024-09-17 00:00:00.0,"Providencia","Uber","Retail","Chocolates",606002,"Estrella Choco Sin Azucar Avella",1,10000.00,0.00,10000.00,3564.00
+2024-09-17 00:00:00.0,"Lastarria","Uber","Retail","Chocolates",606002,"Estrella Choco Sin Azucar Avella",2,20000.00,0.00,20000.00,7128.00
+2024-09-17 00:00:00.0,"La Florida","Local","Delicias","Balls",607001,"Lemon Bomb",2,3698.00,0.00,3698.00,1573.435
+2024-09-17 00:00:00.0,"Lastarria","Local","Delicias","Balls",607001,"Lemon Bomb",6,11094.00,0.00,11094.00,4724.16
+2024-09-17 00:00:00.0,"Maipu","Local","Delicias","Balls",607001,"Lemon Bomb",3,5547.00,0.00,5547.00,2360.334
+2024-09-17 00:00:00.0,"Nunoa","Local","Delicias","Balls",607001,"Lemon Bomb",4,7396.00,0.00,7396.00,3128.608
+2024-09-17 00:00:00.0,"Penalolen","Local","Delicias","Balls",607001,"Lemon Bomb",3,5547.00,0.00,5547.00,2352.682
+2024-09-17 00:00:00.0,"Providencia","Local","Delicias","Balls",607001,"Lemon Bomb",6,11094.00,0.00,11094.00,4701.458
+2024-09-17 00:00:00.0,"Lastarria","Uber","Delicias","Balls",607001,"Lemon Bomb",5,10925.00,0.00,10925.00,3936.80
+2024-09-17 00:00:00.0,"Los Militares","Uber","Delicias","Balls",607001,"Lemon Bomb",4,8740.00,0.00,8740.00,3149.312
+2024-09-17 00:00:00.0,"Maipu","Uber","Delicias","Balls",607001,"Lemon Bomb",0,0.00,0.00,0.00,0.00
+2024-09-17 00:00:00.0,"Penalolen","Uber","Delicias","Balls",607001,"Lemon Bomb",3,6555.00,0.00,6555.00,2352.682
+2024-09-17 00:00:00.0,"Pocuro","Uber","Delicias","Balls",607001,"Lemon Bomb",5,10925.00,0.00,10925.00,3933.35
+2024-09-17 00:00:00.0,"San Miguel ","Uber","Delicias","Balls",607001,"Lemon Bomb",2,4370.00,0.00,4370.00,1575.133
+2024-09-17 00:00:00.0,"Tabancura","Uber","Delicias","Balls",607001,"Lemon Bomb",6,13110.00,0.00,13110.00,4718.293
+2024-09-17 00:00:00.0,"Providencia","Rappi","Delicias","Balls",607001,"Lemon Bomb",1,2185.00,0.00,2185.00,783.576
+2024-09-17 00:00:00.0,"Lastarria","PedidosYa","Delicias","Balls",607001,"Lemon Bomb",2,4370.00,0.00,4370.00,1574.72
+2024-09-17 00:00:00.0,"Nunoa","PedidosYa","Delicias","Balls",607001,"Lemon Bomb",2,4370.00,0.00,4370.00,1564.304
+2024-09-17 00:00:00.0,"San Miguel ","PedidosYa","Delicias","Balls",607001,"Lemon Bomb",1,2185.00,0.00,2185.00,787.567
+2024-09-17 00:00:00.0,"La Florida","Justo","Delicias","Balls",607001,"Lemon Bomb",3,6555.00,0.00,6555.00,2360.153
+2024-09-17 00:00:00.0,"Lastarria","Justo","Delicias","Balls",607001,"Lemon Bomb",1,2185.00,0.00,2185.00,787.36
+2024-09-17 00:00:00.0,"La Florida","Justo","Fletes","Flete Justo",999991,"Despacho Justo",3,6807.00,0.00,6807.00,0.00
+2024-09-17 00:00:00.0,"La Reina","Justo","Fletes","Flete Justo",999991,"Despacho Justo",4,11344.00,0.00,11344.00,0.00
+2024-09-17 00:00:00.0,"Lastarria","Justo","Fletes","Flete Justo",999991,"Despacho Justo",13,30253.00,0.00,30253.00,0.00
+2024-09-17 00:00:00.0,"Los Militares","Justo","Fletes","Flete Justo",999991,"Despacho Justo",7,15211.00,0.00,15211.00,0.00
+2024-09-17 00:00:00.0,"Maipu","Justo","Fletes","Flete Justo",999991,"Despacho Justo",1,2689.00,0.00,2689.00,0.00
+2024-09-17 00:00:00.0,"Nunoa","Justo","Fletes","Flete Justo",999991,"Despacho Justo",9,20841.00,0.00,20841.00,0.00
+2024-09-17 00:00:00.0,"Penalolen","Justo","Fletes","Flete Justo",999991,"Despacho Justo",3,8991.00,0.00,8991.00,0.00
+2024-09-17 00:00:00.0,"Pocuro","Justo","Fletes","Flete Justo",999991,"Despacho Justo",6,14034.00,0.00,14034.00,0.00
+2024-09-17 00:00:00.0,"Providencia","Justo","Fletes","Flete Justo",999991,"Despacho Justo",2,10000.00,0.00,10000.00,0.00
+2024-09-17 00:00:00.0,"San Miguel ","Justo","Fletes","Flete Justo",999991,"Despacho Justo",4,10000.00,0.00,10000.00,0.00
+2024-09-17 00:00:00.0,"Tabancura","Justo","Fletes","Flete Justo",999991,"Despacho Justo",2,7732.00,0.00,7732.00,0.00

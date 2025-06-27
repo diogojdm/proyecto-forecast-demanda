@@ -19,8 +19,8 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 # --- Google Sheets ---
 try:
-    RUTA_CREDENCIALES = os.environ.get("GOOGLE_APPLICATION_CREDENTIALS", 
-                                     "G:/Mi unidad/Proyecto_Data/1. pythonProject/Proyeccion_Demanda/forecast-459600-d8ffd029be68.json")
+    RUTA_CREDENCIALES = os.environ.get("GOOGLE_APPLICATION_CREDENTIALS",
+                                       "G:/Mi unidad/Proyecto_Data/1. pythonProject/Proyeccion_Demanda/forecast-459600-d8ffd029be68.json")
     SCOPE_GOOGLE = [
         "https://spreadsheets.google.com/feeds",
         "https://www.googleapis.com/auth/drive"
@@ -33,7 +33,7 @@ SPREADSHEET_NAME = "1. Forecast_Diario"
 OUTPUT_SHEET_NAME = "Demanda Diaria por Tienda"
 HOLIDAYS_SHEET_NAME = "Holidays"
 TEMP_SHEET_NAME = "TempHistorico"
-PROMO_SHEET_NAME = "Promociones" 
+PROMO_SHEET_NAME = "Promociones"
 
 # --- Archivos de Ventas ---
 # --- CAMBIO REALIZADO: Se usa una ruta relativa para que funcione en la nube ---
@@ -80,7 +80,8 @@ def autorizar_gsheets():
     except Exception as e:
         logging.error(f"❌ Error al autorizar con Google Sheets: {e}")
         raise
-        
+
+
 def cargar_y_procesar_ventas(carpeta_ventas):
     """Carga, concatena y preprocesa los archivos de ventas a nivel diario."""
     logging.info(f"Cargando archivos de ventas desde la carpeta: '{carpeta_ventas}'")
@@ -92,7 +93,8 @@ def cargar_y_procesar_ventas(carpeta_ventas):
 
         df = pd.concat((pd.read_csv(f, on_bad_lines='skip') for f in files), ignore_index=True)
     except FileNotFoundError:
-        logging.error(f"❌ No se encontró la carpeta de datos '{carpeta_ventas}'. Asegúrate de que exista en la raíz del proyecto.")
+        logging.error(
+            f"❌ No se encontró la carpeta de datos '{carpeta_ventas}'. Asegúrate de que exista en la raíz del proyecto.")
         return pd.DataFrame(), pd.DataFrame()
     except Exception as e:
         logging.error(f"Error al leer los archivos CSV: {e}")
@@ -100,14 +102,14 @@ def cargar_y_procesar_ventas(carpeta_ventas):
 
     df['Business Date'] = pd.to_datetime(df['Business Date'], errors='coerce')
     df.dropna(subset=['Business Date', 'Location Name', 'Family Group Name', 'Menu Item Number'], inplace=True)
-    
+
     mask = (
-        df['Major Group Name'].isin(GRUPOS_INCLUIDOS) & 
-        ~df['Order Type Name'].isin(ORDENES_EXCLUIDAS) &
-        ~df['Family Group Name'].isin(FAMILIas_EXCLUIDAS)
+            df['Major Group Name'].isin(GRUPOS_INCLUIDOS) &
+            ~df['Order Type Name'].isin(ORDENES_EXCLUIDAS) &
+            ~df['Family Group Name'].isin(FAMILIas_EXCLUIDAS)
     )
     df_filtered = df[mask].copy()
-    
+
     df_filtered['ds'] = df_filtered['Business Date']
 
     df_location_family_daily = (
@@ -117,19 +119,21 @@ def cargar_y_procesar_ventas(carpeta_ventas):
     logging.info("Ventas agregadas a nivel diario por Tienda y Family Group.")
 
     df_location_item_daily = (
-        df_filtered.groupby(['ds', 'Location Name', 'Major Group Name', 'Family Group Name', 'Menu Item Number', 'Menu Item Name'])
+        df_filtered.groupby(
+            ['ds', 'Location Name', 'Major Group Name', 'Family Group Name', 'Menu Item Number', 'Menu Item Name'])
         ['Sales Count'].sum().reset_index().rename(columns={'Sales Count': 'Venta Real'})
     )
     logging.info("Ventas agregadas a nivel diario por Tienda y Menu Item.")
-    
+
     return df_location_family_daily, df_location_item_daily
+
 
 def cargar_regresores_externos(spreadsheet):
     """Carga y combina las tablas de feriados, clima y promociones."""
     logging.info("Cargando variables externas (feriados, clima, promociones)...")
-    
+
     df_regressors_list = []
-    
+
     # Cargar Feriados, Días de Pago y Vacaciones
     try:
         holidays_ws = spreadsheet.worksheet(HOLIDAYS_SHEET_NAME)
@@ -147,7 +151,7 @@ def cargar_regresores_externos(spreadsheet):
         df_regressors_list.append(df_weather.drop(columns='fecha'))
     except Exception as e:
         logging.error(f"❌ No se pudo cargar la hoja '{TEMP_SHEET_NAME}': {e}")
-        
+
     # Cargar Promociones
     try:
         promo_ws = spreadsheet.worksheet(PROMO_SHEET_NAME)
@@ -156,11 +160,11 @@ def cargar_regresores_externos(spreadsheet):
         df_regressors_list.append(df_promos.drop(columns='fecha'))
     except Exception as e:
         logging.error(f"❌ No se pudo cargar la hoja '{PROMO_SHEET_NAME}': {e}")
-        
+
     if not df_regressors_list:
         logging.warning("⚠️ No se cargó ninguna tabla de variables externas.")
         return pd.DataFrame(), []
-    
+
     from functools import reduce
     df_regressors = reduce(lambda left, right: pd.merge(left, right, on='ds', how='outer'), df_regressors_list)
 
@@ -168,7 +172,7 @@ def cargar_regresores_externos(spreadsheet):
     cols_to_exclude = ['ds', 'temperatura_max_c']
     regressor_cols = [col for col in df_regressors.columns if col not in cols_to_exclude]
     logging.info(f"✅ Regresores externos cargados: {regressor_cols}")
-    
+
     return df_regressors, regressor_cols
 
 
@@ -182,26 +186,30 @@ def calcular_representatividad(df_location_item_daily):
     start_date = last_date - pd.Timedelta(days=DAYS_FOR_REPRESENTATIVENESS - 1)
     recent_sales = df_location_item_daily[df_location_item_daily['ds'] >= start_date]
 
-    item_sales = recent_sales.groupby(['Location Name', 'Family Group Name', 'Menu Item Number', 'Menu Item Name'])['Venta Real'].sum().reset_index()
-    family_sales = recent_sales.groupby(['Location Name', 'Family Group Name'])['Venta Real'].sum().reset_index().rename(columns={'Venta Real': 'Venta Total Familia'})
+    item_sales = recent_sales.groupby(['Location Name', 'Family Group Name', 'Menu Item Number', 'Menu Item Name'])[
+        'Venta Real'].sum().reset_index()
+    family_sales = recent_sales.groupby(['Location Name', 'Family Group Name'])[
+        'Venta Real'].sum().reset_index().rename(columns={'Venta Real': 'Venta Total Familia'})
 
     df_rep = pd.merge(item_sales, family_sales, on=['Location Name', 'Family Group Name'])
     df_rep['Representatividad_%'] = (df_rep['Venta Real'] / df_rep['Venta Total Familia']) * 100
     df_rep.fillna({'Representatividad_%': 0}, inplace=True)
-    
+
     return df_rep[['Location Name', 'Family Group Name', 'Menu Item Number', 'Menu Item Name', 'Representatividad_%']]
+
 
 def entrenar_y_pronosticar(df_model, df_regressors, regressor_cols):
     """Itera sobre cada combinación de Tienda-Familia, entrena un modelo Prophet o usa un promedio simple."""
     logging.info("Iniciando ciclo de entrenamiento y pronóstico diario por Tienda y Familia...")
     all_forecasts = []
-    
+
     # Crear carpeta para guardar los gráficos
     plots_dir = 'plots'
     if not os.path.exists(plots_dir):
         os.makedirs(plots_dir)
-    
-    for (location, major_group, family_group), group in df_model.groupby(['Location Name', 'Major Group Name', 'Family Group Name']):
+
+    for (location, major_group, family_group), group in df_model.groupby(
+            ['Location Name', 'Major Group Name', 'Family Group Name']):
         sales_history = group[group['Venta Real'] > 0]
         num_sales_days = len(sales_history)
 
@@ -218,46 +226,46 @@ def entrenar_y_pronosticar(df_model, df_regressors, regressor_cols):
             df_out['Peor Escenario'] = demand_avg
             df_out['Escenario Promedio'] = demand_avg
             df_out['Mejor Escenario'] = demand_avg
-        
+
         else:
             try:
                 df_prophet = group[['ds', 'Venta Real']].rename(columns={'Venta Real': 'y'})
-                
+
                 df_prophet = pd.merge(df_prophet, df_regressors, on='ds', how='left')
                 df_prophet[regressor_cols] = df_prophet[regressor_cols].fillna(0)
-                
+
                 if 'fuerza_promo_pastel_trozo' in df_prophet.columns and major_group != 'Pastel Trozo':
                     df_prophet['fuerza_promo_pastel_trozo'] = 0
 
                 max_sale = df_prophet['y'].max()
                 cap_limit = max_sale * 2.5
                 df_prophet['cap'] = cap_limit
-                
-                model = Prophet(growth='logistic', 
-                                seasonality_mode='additive', 
+
+                model = Prophet(growth='logistic',
+                                seasonality_mode='additive',
                                 yearly_seasonality=True,
-                                weekly_seasonality=True, 
-                                daily_seasonality=True, 
+                                weekly_seasonality=True,
+                                daily_seasonality=True,
                                 changepoint_prior_scale=0.05)
-                
+
                 for regressor in regressor_cols:
                     model.add_regressor(regressor)
-                
+
                 model.fit(df_prophet)
                 future = model.make_future_dataframe(periods=FORECAST_PERIOD_DAYS, freq='D')
                 future['cap'] = cap_limit
-                
+
                 future = pd.merge(future, df_regressors, on='ds', how='left')
                 future[regressor_cols] = future[regressor_cols].fillna(0)
-                
+
                 if 'fuerza_promo_pastel_trozo' in future.columns and major_group != 'Pastel Trozo':
                     future['fuerza_promo_pastel_trozo'] = 0
 
                 forecast = model.predict(future)
-                
+
                 # Se eliminó la lógica condicional de aquí. Ahora solo se calculan los 3 escenarios.
                 df_out = forecast[['ds', 'yhat', 'yhat_lower', 'yhat_upper']].rename(columns={'ds': 'Fecha'})
-                
+
                 df_out['Peor Escenario'] = np.maximum(0, df_out['yhat_lower']).round()
                 df_out['Escenario Promedio'] = np.maximum(0, df_out['yhat']).round()
                 df_out['Mejor Escenario'] = np.maximum(0, df_out['yhat_upper']).round()
@@ -268,23 +276,26 @@ def entrenar_y_pronosticar(df_model, df_regressors, regressor_cols):
                     fig = model.plot_components(forecast)
                     safe_location = "".join(c for c in location if c.isalnum() or c in (' ', '_')).rstrip()
                     safe_family = "".join(c for c in family_group if c.isalnum() or c in (' ', '_')).rstrip()
-                    plot_filename = os.path.join(plots_dir, f"componentes_{safe_location}_{safe_family}.png".replace(" ", "_"))
+                    plot_filename = os.path.join(plots_dir,
+                                                 f"componentes_{safe_location}_{safe_family}.png".replace(" ", "_"))
                     fig.savefig(plot_filename)
                     plt.close(fig)
                     logging.info(f"📈 Gráfico de componentes guardado en: {plot_filename}")
                 except Exception as plot_e:
-                    logging.error(f"❌ No se pudo generar el gráfico de componentes para '{location} - {family_group}': {plot_e}")
+                    logging.error(
+                        f"❌ No se pudo generar el gráfico de componentes para '{location} - {family_group}': {plot_e}")
 
             except Exception as e:
                 logging.error(f"❌ Falló el pronóstico para '{location} - {family_group}': {e}")
                 continue
-        
+
         df_out['Location Name'] = location
         df_out['Family Group Name'] = family_group
         df_out['Major Group Name'] = group['Major Group Name'].iloc[0]
         all_forecasts.append(df_out)
 
     return pd.concat(all_forecasts, ignore_index=True) if all_forecasts else pd.DataFrame()
+
 
 def exportar_resultados(df_forecast_family, df_item_hist, spreadsheet):
     """Desglosa el pronóstico de familia a item por tienda y lo exporta."""
@@ -299,21 +310,22 @@ def exportar_resultados(df_forecast_family, df_item_hist, spreadsheet):
 
     logging.info("Desglosando pronóstico de familia a item por tienda...")
     df_exploded = pd.merge(df_forecast_family, df_rep, on=['Location Name', 'Family Group Name'], how='left')
-    
+
     # Desglosar todos los escenarios primero
     df_exploded['Peor Escenario'] = (df_exploded['Peor Escenario'] * df_exploded['Representatividad_%'] / 100).round()
-    df_exploded['Escenario Promedio'] = (df_exploded['Escenario Promedio'] * df_exploded['Representatividad_%'] / 100).round()
+    df_exploded['Escenario Promedio'] = (
+                df_exploded['Escenario Promedio'] * df_exploded['Representatividad_%'] / 100).round()
     df_exploded['Mejor Escenario'] = (df_exploded['Mejor Escenario'] * df_exploded['Representatividad_%'] / 100).round()
 
     # Aplicar la lógica condicional al final, sobre los datos desglosados
     df_exploded['Demanda'] = np.where(
-        df_exploded['Fecha'].dt.weekday <= 3, # Lunes (0) a Jueves (3)
+        df_exploded['Fecha'].dt.weekday <= 3,  # Lunes (0) a Jueves (3)
         df_exploded['Escenario Promedio'],
         df_exploded['Mejor Escenario']
     )
-    
+
     df_export = pd.merge(
-        df_exploded, 
+        df_exploded,
         df_item_hist[['ds', 'Location Name', 'Menu Item Number', 'Venta Real']],
         left_on=['Fecha', 'Location Name', 'Menu Item Number'],
         right_on=['ds', 'Location Name', 'Menu Item Number'],
@@ -330,7 +342,7 @@ def exportar_resultados(df_forecast_family, df_item_hist, spreadsheet):
         'Demanda', 'Venta Real', 'Peor Escenario', 'Escenario Promedio', 'Mejor Escenario'
     ]
     df_export = df_export.reindex(columns=column_order)
-    
+
     try:
         worksheet = spreadsheet.worksheet(OUTPUT_SHEET_NAME)
         worksheet.clear()
@@ -344,6 +356,7 @@ def exportar_resultados(df_forecast_family, df_item_hist, spreadsheet):
     except Exception as e:
         logging.error(f"❌ Error al exportar a Google Sheets: {e}")
 
+
 # =============================================================================
 # ------------------------------ EJECUCIÓN PRINCIPAL --------------------------
 # =============================================================================
@@ -354,14 +367,14 @@ def main():
 
     client = autorizar_gsheets()
     spreadsheet = client.open(SPREADSHEET_NAME)
-    
+
     df_location_family_daily, df_location_item_daily = cargar_y_procesar_ventas(CARPETA_VENTAS)
     df_regressors, regressor_cols = cargar_regresores_externos(spreadsheet)
 
     if df_location_family_daily.empty:
         logging.error("El proceso no puede continuar sin datos de ventas.")
         return
-    
+
     if df_regressors.empty:
         logging.warning("⚠️ No se cargaron datos de regresores externos. El pronóstico no los considerará.")
 
@@ -370,6 +383,7 @@ def main():
     exportar_resultados(df_forecasts, df_location_item_daily, spreadsheet)
 
     logging.info("🏁 Proceso de pronóstico de demanda finalizado.")
+
 
 if __name__ == "__main__":
     main()
