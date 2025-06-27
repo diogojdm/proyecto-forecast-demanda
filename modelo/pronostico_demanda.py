@@ -82,15 +82,17 @@ def cargar_y_procesar_ventas(client, folder_id):
     """Carga y procesa todos los archivos CSV desde una carpeta de Google Drive."""
     logging.info(f"Buscando archivos de ventas en la carpeta de Google Drive ID: {folder_id}")
     try:
-        # --- CORRECCIÓN REALIZADA: Usar la sesión autenticada para llamar a la API de Drive v3 ---
+        # --- VERSIÓN CORREGIDA Y ROBUSTA ---
+        # Se usa la sesión autenticada del cliente gspread para llamar directamente a la API de Google Drive.
         drive_api_url = "https://www.googleapis.com/drive/v3/files"
 
-        # Query para buscar archivos CSV dentro de la carpeta, que no estén en la papelera
+        # Query para buscar archivos CSV dentro de la carpeta especificada, que no estén en la papelera.
         query = f"'{folder_id}' in parents and mimeType='text/csv' and trashed=false"
         params = {'q': query, 'fields': 'files(id, name)'}
 
+        # client.session es un objeto 'requests.Session' que ya tiene la autenticación.
         response = client.session.get(drive_api_url, params=params)
-        response.raise_for_status()  # Lanza un error si la respuesta no es 200
+        response.raise_for_status()  # Lanza un error si la respuesta no es 200 (ej. 403 Forbidden)
 
         files = response.json().get('files', [])
 
@@ -106,13 +108,14 @@ def cargar_y_procesar_ventas(client, folder_id):
             file_id = file.get('id')
             file_name = file.get('name')
             try:
-                # Descargar el contenido del archivo usando el endpoint de media de la API de Drive
+                # Descargar el contenido del archivo usando el endpoint de media de la API de Drive.
                 download_url = f"https://www.googleapis.com/drive/v3/files/{file_id}?alt=media"
                 download_response = client.session.get(download_url)
                 download_response.raise_for_status()
 
                 content = download_response.content.decode('utf-8')
 
+                # Usar io.StringIO para que pandas pueda leer el contenido de texto como si fuera un archivo físico.
                 df_temp = pd.read_csv(io.StringIO(content), on_bad_lines='skip')
                 all_dfs.append(df_temp)
                 logging.info(f"  > Archivo '{file_name}' procesado.")
