@@ -5,7 +5,7 @@ from prophet import Prophet
 import gspread
 from gspread_dataframe import set_with_dataframe
 from oauth2client.service_account import ServiceAccountCredentials
-from datetime import datetime
+from datetime import datetime, timedelta
 import logging
 import matplotlib.pyplot as plt
 import json
