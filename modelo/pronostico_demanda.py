@@ -8,7 +8,6 @@ from oauth2client.service_account import ServiceAccountCredentials
 from datetime import datetime
 import logging
 import matplotlib.pyplot as plt
-import json
 
 # --- Configuración de Logging ---
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -230,12 +229,11 @@ def entrenar_y_pronosticar(df_model, df_regressors, regressor_cols):
                 df_prophet = pd.merge(df_prophet, df_regressors, on='ds', how='left')
                 df_prophet[regressor_cols] = df_prophet[regressor_cols].fillna(0)
 
-                # Forzar a 0 las promociones que no aplican a esta categoría
                 if 'fuerza_promo_pastel_trozo' in df_prophet.columns and major_group != 'Pastel Trozo':
                     df_prophet['fuerza_promo_pastel_trozo'] = 0
 
                 max_sale = df_prophet['y'].max()
-                cap_limit = max_sale * 2.5  # Aumentar cap por efecto de regresores
+                cap_limit = max_sale * 2.5
                 df_prophet['cap'] = cap_limit
 
                 model = Prophet(growth='logistic',
@@ -260,27 +258,39 @@ def entrenar_y_pronosticar(df_model, df_regressors, regressor_cols):
 
                 forecast = model.predict(future)
 
-                # Generar y guardar gráfico de componentes
+                # --- CAMBIO REALIZADO: Lógica de Demanda por día de la semana ---
+                df_out = forecast[['ds', 'yhat', 'yhat_lower', 'yhat_upper']].rename(columns={'ds': 'Fecha'})
+
+                # Calcular todos los escenarios primero
+                peor_escenario = np.maximum(0, df_out['yhat_lower']).round()
+                escenario_promedio = np.maximum(0, df_out['yhat']).round()
+                mejor_escenario = np.maximum(0, df_out['yhat_upper']).round()
+
+                # Aplicar lógica condicional: Promedio (L-J), Mejor (V-D)
+                # Lunes (0) a Jueves (3)
+                df_out['Demanda'] = np.where(df_out['Fecha'].dt.weekday <= 3,
+                                             escenario_promedio,
+                                             mejor_escenario)
+
+                # Asignar los escenarios calculados para el reporte
+                df_out['Peor Escenario'] = peor_escenario
+                df_out['Escenario Promedio'] = escenario_promedio
+                df_out['Mejor Escenario'] = mejor_escenario
+
+                logging.info(f"✅ Pronóstico con Prophet generado para: '{location} - {family_group}'")
+
                 try:
                     fig = model.plot_components(forecast)
-                    # Limpiar nombre de archivo para que sea válido
                     safe_location = "".join(c for c in location if c.isalnum() or c in (' ', '_')).rstrip()
                     safe_family = "".join(c for c in family_group if c.isalnum() or c in (' ', '_')).rstrip()
-                    plot_filename = os.path.join(plots_dir,
+                    plot_filename = os.path.join('plots',
                                                  f"componentes_{safe_location}_{safe_family}.png".replace(" ", "_"))
                     fig.savefig(plot_filename)
-                    plt.close(fig)  # Liberar memoria
+                    plt.close(fig)
                     logging.info(f"📈 Gráfico de componentes guardado en: {plot_filename}")
                 except Exception as plot_e:
                     logging.error(
                         f"❌ No se pudo generar el gráfico de componentes para '{location} - {family_group}': {plot_e}")
-
-                df_out = forecast[['ds', 'yhat', 'yhat_lower', 'yhat_upper']].rename(columns={'ds': 'Fecha'})
-                df_out['Demanda'] = np.maximum(0, df_out['yhat_upper']).round()
-                df_out['Peor Escenario'] = np.maximum(0, df_out['yhat_lower']).round()
-                df_out['Escenario Promedio'] = np.maximum(0, df_out['yhat']).round()
-                df_out['Mejor Escenario'] = np.maximum(0, df_out['yhat_upper']).round()
-                logging.info(f"✅ Pronóstico con Prophet generado para: '{location} - {family_group}'")
 
             except Exception as e:
                 logging.error(f"❌ Falló el pronóstico para '{location} - {family_group}': {e}")
