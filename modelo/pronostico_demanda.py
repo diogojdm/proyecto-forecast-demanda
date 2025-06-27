@@ -37,7 +37,6 @@ TEMP_SHEET_NAME = "TempHistorico"
 PROMO_SHEET_NAME = "Promociones"
 
 # --- Google Drive para Ventas ---
-# Reemplaza 'TU_ID_DE_CARPETA_AQUI' con el ID real de tu carpeta de Google Drive.
 ID_CARPETA_VENTAS_DRIVE = "1Ydeg3dDQ_LtoxR_bcUXIvp7p5JxpotTG"
 
 # --- Parámetros del Modelo y Fechas ---
@@ -83,16 +82,13 @@ def cargar_y_procesar_ventas(client, folder_id):
     logging.info(f"Buscando archivos de ventas en la carpeta de Google Drive ID: {folder_id}")
     try:
         # --- VERSIÓN CORREGIDA Y ROBUSTA ---
-        # Se usa la sesión autenticada del cliente gspread para llamar directamente a la API de Google Drive.
         drive_api_url = "https://www.googleapis.com/drive/v3/files"
-
-        # Query para buscar archivos CSV dentro de la carpeta especificada, que no estén en la papelera.
         query = f"'{folder_id}' in parents and mimeType='text/csv' and trashed=false"
         params = {'q': query, 'fields': 'files(id, name)'}
 
-        # client.session es un objeto 'requests.Session' que ya tiene la autenticación.
-        response = client.session.get(drive_api_url, params=params)
-        response.raise_for_status()  # Lanza un error si la respuesta no es 200 (ej. 403 Forbidden)
+        # Se utiliza el método 'request' del cliente, que es más fundamental y estable.
+        response = client.request('get', drive_api_url, params=params)
+        response.raise_for_status()
 
         files = response.json().get('files', [])
 
@@ -108,14 +104,14 @@ def cargar_y_procesar_ventas(client, folder_id):
             file_id = file.get('id')
             file_name = file.get('name')
             try:
-                # Descargar el contenido del archivo usando el endpoint de media de la API de Drive.
                 download_url = f"https://www.googleapis.com/drive/v3/files/{file_id}?alt=media"
-                download_response = client.session.get(download_url)
+                # También se usa 'request' para la descarga del archivo.
+                download_response = client.request('get', download_url)
                 download_response.raise_for_status()
 
+                # El contenido se encuentra en el atributo '.content' de la respuesta.
                 content = download_response.content.decode('utf-8')
 
-                # Usar io.StringIO para que pandas pueda leer el contenido de texto como si fuera un archivo físico.
                 df_temp = pd.read_csv(io.StringIO(content), on_bad_lines='skip')
                 all_dfs.append(df_temp)
                 logging.info(f"  > Archivo '{file_name}' procesado.")
@@ -166,7 +162,6 @@ def cargar_regresores_externos(spreadsheet):
 
     df_regressors_list = []
 
-    # Cargar Feriados, Días de Pago y Vacaciones
     try:
         holidays_ws = spreadsheet.worksheet(HOLIDAYS_SHEET_NAME)
         df_holidays = pd.DataFrame(holidays_ws.get_all_records())
@@ -175,7 +170,6 @@ def cargar_regresores_externos(spreadsheet):
     except Exception as e:
         logging.error(f"❌ No se pudo cargar la hoja '{HOLIDAYS_SHEET_NAME}': {e}")
 
-    # Cargar Clima
     try:
         temp_ws = spreadsheet.worksheet(TEMP_SHEET_NAME)
         df_weather = pd.DataFrame(temp_ws.get_all_records())
@@ -184,7 +178,6 @@ def cargar_regresores_externos(spreadsheet):
     except Exception as e:
         logging.error(f"❌ No se pudo cargar la hoja '{TEMP_SHEET_NAME}': {e}")
 
-    # Cargar Promociones
     try:
         promo_ws = spreadsheet.worksheet(PROMO_SHEET_NAME)
         df_promos = pd.DataFrame(promo_ws.get_all_records())
@@ -200,7 +193,6 @@ def cargar_regresores_externos(spreadsheet):
     from functools import reduce
     df_regressors = reduce(lambda left, right: pd.merge(left, right, on='ds', how='outer'), df_regressors_list)
 
-    # Excluir columnas que no son regresores directos del modelo
     cols_to_exclude = ['ds', 'temperatura_max_c']
     regressor_cols = [col for col in df_regressors.columns if col not in cols_to_exclude]
     logging.info(f"✅ Regresores externos cargados: {regressor_cols}")
