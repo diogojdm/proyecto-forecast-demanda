@@ -9,6 +9,7 @@ from datetime import datetime
 import logging
 import matplotlib.pyplot as plt
 import json
+import io  # <--- LIBRERÍA AÑADIDA para leer datos en memoria
 
 # --- Configuración de Logging ---
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -35,10 +36,10 @@ HOLIDAYS_SHEET_NAME = "Holidays"
 TEMP_SHEET_NAME = "TempHistorico"
 PROMO_SHEET_NAME = "Promociones"
 
-# --- Archivos de Ventas ---
-# --- CAMBIO REALIZADO: Se usa una ruta relativa para que funcione en la nube ---
-# Ahora buscará una carpeta 'data' en la raíz del proyecto.
-CARPETA_VENTAS = "data"
+# --- CAMBIO REALIZADO: Configuración de Google Drive para Ventas ---
+# Reemplaza 'TU_ID_DE_CARPETA_AQUI' con el ID real de tu carpeta de Google Drive.
+# En la guía de texto te explico cómo obtenerlo.
+ID_CARPETA_VENTAS_DRIVE = "1Ydeg3dDQ_LtoxR_bcUXIvp7p5JxpotTG"
 
 # --- Parámetros del Modelo y Fechas ---
 FORECAST_PERIOD_DAYS = 14
@@ -59,45 +60,59 @@ FAMILIas_EXCLUIDAS = ['Gift Box']
 # =============================================================================
 
 def autorizar_gsheets():
-    """Autoriza el acceso a Google Sheets usando un secreto en GitHub Actions o un archivo local."""
+    """Autoriza el acceso a Google Sheets y Drive usando un secreto en GitHub Actions o un archivo local."""
     try:
-        # Intenta leer el secreto desde la variable de entorno de GitHub Actions
         gspread_creds_json = os.environ.get("GSPREAD_CREDENTIALS")
-
         if gspread_creds_json:
             logging.info("Usando credenciales desde GitHub Secrets.")
-            # Cargar las credenciales desde el string JSON
             creds_dict = json.loads(gspread_creds_json)
             creds = ServiceAccountCredentials.from_json_keyfile_dict(creds_dict, SCOPE_GOOGLE)
         else:
-            # Si no está en GitHub, busca el archivo local
             logging.info("Usando archivo de credenciales local.")
             creds = ServiceAccountCredentials.from_json_keyfile_name(RUTA_CREDENCIALES, SCOPE_GOOGLE)
 
         client = gspread.authorize(creds)
-        logging.info("✅ Autorización con Google Sheets exitosa.")
+        logging.info("✅ Autorización con Google exitosa.")
         return client
     except Exception as e:
-        logging.error(f"❌ Error al autorizar con Google Sheets: {e}")
+        logging.error(f"❌ Error al autorizar con Google: {e}")
         raise
 
 
-def cargar_y_procesar_ventas(carpeta_ventas):
-    """Carga, concatena y preprocesa los archivos de ventas a nivel diario."""
-    logging.info(f"Cargando archivos de ventas desde la carpeta: '{carpeta_ventas}'")
+def cargar_y_procesar_ventas(client, folder_id):
+    """Carga y procesa todos los archivos CSV desde una carpeta de Google Drive."""
+    logging.info(f"Buscando archivos de ventas en la carpeta de Google Drive ID: {folder_id}")
     try:
-        files = [os.path.join(carpeta_ventas, f) for f in os.listdir(carpeta_ventas) if f.endswith('.csv')]
-        if not files:
-            logging.error("No se encontraron archivos .csv en la carpeta especificada.")
+        # Usar la API de Drive v3 a través del cliente gspread para listar archivos
+        drive_files = client.drive.list_spreadsheet_files(q=f"'{folder_id}' in parents and mimeType='text/csv'")
+
+        if not drive_files:
+            logging.error(
+                f"No se encontraron archivos .csv en la carpeta de Google Drive. Verifica el ID y los permisos.")
             return pd.DataFrame(), pd.DataFrame()
 
-        df = pd.concat((pd.read_csv(f, on_bad_lines='skip') for f in files), ignore_index=True)
-    except FileNotFoundError:
-        logging.error(
-            f"❌ No se encontró la carpeta de datos '{carpeta_ventas}'. Asegúrate de que exista en la raíz del proyecto.")
-        return pd.DataFrame(), pd.DataFrame()
+        all_dfs = []
+        logging.info(f"Se encontraron {len(drive_files)} archivos CSV. Procesando...")
+
+        for file in drive_files:
+            try:
+                # Descargar el contenido del archivo en memoria
+                content = client.drive.get_media(file['id'])
+                # Usar io.StringIO para que pandas pueda leer el contenido como si fuera un archivo
+                df_temp = pd.read_csv(io.StringIO(content.decode('utf-8')), on_bad_lines='skip')
+                all_dfs.append(df_temp)
+                logging.info(f"  > Archivo '{file['name']}' procesado.")
+            except Exception as e:
+                logging.warning(f"  ⚠️ No se pudo procesar el archivo '{file.get('name', 'ID: ' + file['id'])}': {e}")
+
+        if not all_dfs:
+            logging.error("No se pudo leer ningún archivo CSV de los encontrados.")
+            return pd.DataFrame(), pd.DataFrame()
+
+        df = pd.concat(all_dfs, ignore_index=True)
+
     except Exception as e:
-        logging.error(f"Error al leer los archivos CSV: {e}")
+        logging.error(f"Error al acceder a la carpeta de Google Drive: {e}")
         return pd.DataFrame(), pd.DataFrame()
 
     df['Business Date'] = pd.to_datetime(df['Business Date'], errors='coerce')
@@ -203,7 +218,6 @@ def entrenar_y_pronosticar(df_model, df_regressors, regressor_cols):
     logging.info("Iniciando ciclo de entrenamiento y pronóstico diario por Tienda y Familia...")
     all_forecasts = []
 
-    # Crear carpeta para guardar los gráficos
     plots_dir = 'plots'
     if not os.path.exists(plots_dir):
         os.makedirs(plots_dir)
@@ -263,9 +277,7 @@ def entrenar_y_pronosticar(df_model, df_regressors, regressor_cols):
 
                 forecast = model.predict(future)
 
-                # Se eliminó la lógica condicional de aquí. Ahora solo se calculan los 3 escenarios.
                 df_out = forecast[['ds', 'yhat', 'yhat_lower', 'yhat_upper']].rename(columns={'ds': 'Fecha'})
-
                 df_out['Peor Escenario'] = np.maximum(0, df_out['yhat_lower']).round()
                 df_out['Escenario Promedio'] = np.maximum(0, df_out['yhat']).round()
                 df_out['Mejor Escenario'] = np.maximum(0, df_out['yhat_upper']).round()
@@ -311,13 +323,11 @@ def exportar_resultados(df_forecast_family, df_item_hist, spreadsheet):
     logging.info("Desglosando pronóstico de familia a item por tienda...")
     df_exploded = pd.merge(df_forecast_family, df_rep, on=['Location Name', 'Family Group Name'], how='left')
 
-    # Desglosar todos los escenarios primero
     df_exploded['Peor Escenario'] = (df_exploded['Peor Escenario'] * df_exploded['Representatividad_%'] / 100).round()
     df_exploded['Escenario Promedio'] = (
                 df_exploded['Escenario Promedio'] * df_exploded['Representatividad_%'] / 100).round()
     df_exploded['Mejor Escenario'] = (df_exploded['Mejor Escenario'] * df_exploded['Representatividad_%'] / 100).round()
 
-    # Aplicar la lógica condicional al final, sobre los datos desglosados
     df_exploded['Demanda'] = np.where(
         df_exploded['Fecha'].dt.weekday <= 3,  # Lunes (0) a Jueves (3)
         df_exploded['Escenario Promedio'],
@@ -368,7 +378,8 @@ def main():
     client = autorizar_gsheets()
     spreadsheet = client.open(SPREADSHEET_NAME)
 
-    df_location_family_daily, df_location_item_daily = cargar_y_procesar_ventas(CARPETA_VENTAS)
+    # Se pasa el cliente 'gspread' para poder acceder a Drive
+    df_location_family_daily, df_location_item_daily = cargar_y_procesar_ventas(client, ID_CARPETA_VENTAS_DRIVE)
     df_regressors, regressor_cols = cargar_regresores_externos(spreadsheet)
 
     if df_location_family_daily.empty:
