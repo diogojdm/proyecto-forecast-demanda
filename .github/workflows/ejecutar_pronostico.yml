@@ -10,9 +10,9 @@ on:
   schedule:
     # Formato CRON: Minuto Hora Día Mes DíaDeLaSemana
     # '0 10 * * *' se ejecuta todos los días a las 10:00 UTC.
-    # Esto corresponde a las 6:00 AM en Chile (UTC-4) durante el invierno.
+    # Esto corresponde a las 8:00 AM en Chile (UTC-4) durante el invierno.
     # Ajusta la hora según tus necesidades.
-    - cron: '0 10 * * *'
+    - cron: '0 12 * * *'
 
 # Define los trabajos (jobs) que se ejecutarán
 jobs:
