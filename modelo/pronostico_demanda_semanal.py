@@ -275,10 +275,10 @@ def main():
     logging.info("🚀 Iniciando el proceso de pronóstico de demanda semanal.")
 
     # ¡CAMBIO AQUÍ! Obtener credenciales de Google Sheets desde la variable de entorno
-    google_credentials_json = os.environ.get('GOOGLE_CREDENTIALS')
+    google_credentials_json = os.environ.get('GSPREAD_CREDENTIALS')
     if not google_credentials_json:
-        logging.error("❌ La variable de entorno GOOGLE_CREDENTIALS no está configurada.")
-        logging.error("Asegúrate de haber añadido el secreto GOOGLE_CREDENTIALS en tu repositorio de GitHub.")
+        logging.error("❌ La variable de entorno GSPREAD_CREDENTIALS no está configurada.")
+        logging.error("Asegúrate de haber añadido el secreto GSPREAD_CREDENTIALSS en tu repositorio de GitHub.")
         return
 
     try:
