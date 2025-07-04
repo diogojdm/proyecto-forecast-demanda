@@ -4,6 +4,9 @@ on:
   workflow_dispatch:
   schedule:
     # Ejecuta cada lunes a las 12:00 PM UTC, que corresponde a las 8:00 AM en Chile (UTC-4).
+    # ¡Importante! Ten en cuenta los cambios de horario de verano/invierno en Chile.
+    # Si Chile cambia a UTC-3 (horario de verano), 8 AM CL sería 11 AM UTC.
+    # Sin embargo, la ejecución en UTC es consistente.
     - cron: '0 12 * * MON'
 
 jobs:
@@ -24,9 +27,10 @@ jobs:
         python -m pip install --upgrade pip
         pip install pandas numpy prophet gspread gspread-dataframe oauth2client
 
-    - name: Run Demand Forecast Script
+    - name: Run Demand Forecast Script # ¡Aquí están los cambios!
       env:
-        GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
+        # ¡CAMBIO AQUÍ! Nombre del secreto actualizado a GSPREAD_CREDENTIALS
+        GSPREAD_CREDENTIALS: ${{ secrets.GSPREAD_CREDENTIALS }}
       run: |
-        # ¡CAMBIO AQUÍ! Añadimos la subcarpeta 'modelo/' al nombre del archivo
-        python modelo/pronostico_demanda_semanal.py
+        # ¡CAMBIO AQUÍ! Nombre del archivo actualizado a main.py
+        python main.py
