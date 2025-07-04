@@ -1,0 +1,35 @@
+name: Weekly Demand Forecast
+
+on:
+  workflow_dispatch: # Permite ejecutar el flujo de trabajo manualmente desde la pestaña 'Actions'
+  schedule:
+    # Ejecuta cada lunes a las 12:00 PM UTC (Hora Universal Coordinada).
+    # Ajusta '0 12 * * MON' si necesitas otra hora o día.
+    # Por ejemplo, para ejecutar cada domingo a las 00:00 (medianoche) UTC: '0 0 * * SUN'
+    - cron: '0 12 * * MON'
+
+jobs:
+  run_forecast:
+    runs-on: ubuntu-latest # Elige un sistema operativo para ejecutar el job
+
+    steps:
+    - name: Checkout repository # Paso para clonar tu repositorio
+      uses: actions/checkout@v4
+
+    - name: Set up Python # Configura el entorno de Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.9' # Puedes cambiar a la versión de Python que uses (ej. '3.10', '3.11')
+
+    - name: Install dependencies # Instala las librerías necesarias
+      run: |
+        python -m pip install --upgrade pip
+        pip install pandas numpy prophet gspread gspread-dataframe oauth2client
+
+    - name: Run Demand Forecast Script # Ejecuta tu script principal
+      env:
+        # Pasa el secreto de Google Credentials como una variable de entorno al script
+        GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
+      run: |
+        # Reemplaza 'tu_script_de_pronostico.py' con el nombre real de tu archivo Python
+        python tu_script_de_pronostico.py
